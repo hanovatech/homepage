@@ -1,0 +1,52 @@
+<title>
+  {{ if .IsHome }}
+    {{ .Title }}
+  {{ else }}
+    {{ .Title }} | {{ .Site.Title }} {{ if eq .Section "blog" }}Blog{{ end }}
+  {{ end }}
+</title>
+
+<!-- Meta Tags Start -->
+<meta charset="utf-8" />
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+{{ if eq .Section "blog" }}
+  <meta property="og:type" content="article">
+  <meta name="title" content="{{ .Title }} | {{ .Site.Title }} Blog">
+  <meta property="og:description" content="{{ .Description }}">
+  <meta property="og:image" content="{{ .Params.image }}" />
+{{ else }}
+  <meta property="og:type " content="website">
+  {{ if .IsHome }}
+    <meta name="title" content="{{ .Title }}">
+    <meta property="og:title" content="{{ .Title }}">
+  {{ else }}
+    <meta name="title" content="{{ .Title }} | {{ .Site.Title }}">
+    <meta property="og:title" content="{{ .Title }} | {{ .Site.Title }}">
+  {{ end }}
+  <meta property="og:description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+  <meta property="og:image" content="{{ .Site.BaseURL }}images/hanvoatech_logo.jpeg" />
+{{ end }}
+<meta property="og:image:width" content="1000" />
+<meta property="og:image:height" content="750" />
+<meta property="og:image:type" content="image/jpeg" />
+<meta property="og:url" content="{{ .Permalink }}">
+<meta property="og:site_name" content="{{ .Site.Title }} | {{ .Site.Params.slogan }}">
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:label1" content="Geschätzte Lesezeit" />
+<meta name="twitter:data1" content="3 Minuten" />
+<!-- Meta Tags End -->
+
+<link rel="icon" href="/favicons/32x32.jpg" sizes="32x32" />
+<link rel="icon" href="/favicons/192x192.jpg" sizes="192x192" />
+<link rel="apple-touch-icon" href="/favicons/180x180.jpg" />
+
+<!-- CSS Links Start -->
+{{ $styles := resources.Get "css/styles.scss" | toCSS | postCSS (dict "config" "./assets/css/postcss.config.js") }}
+{{ if .Site.IsServer }}
+  <link rel="stylesheet" href="{{ $styles.RelPermalink }}">
+{{ else }}
+  {{ $styles := $styles | minify | fingerprint | resources.PostProcess }}
+  <link rel="stylesheet" href="{{ $styles.Permalink }}" integrity="{{ $styles.Data.Integrity }}">
+{{ end }}
+<!-- CSS Links End -->
