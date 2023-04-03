@@ -24,7 +24,7 @@
                 <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clip-rule="evenodd" />
               </svg>
             </button>
-            {{ if .Params.iconList }}
+            {{ if eq .Params.iconList true }}
               <div class="header-flyout-menu opacity-0 invisible absolute -left-8 top-full z-10 mt-3 w-screen max-w-md overflow-hidden rounded-3xl bg-white shadow-lg ring-1 ring-gray-900/5 ease-in-out duration-200">
                 <div class="p-4">
                   {{ range .Params.childs }}
@@ -35,7 +35,7 @@
                         </svg>
                       </div>
                       <div class="flex-auto">
-                        <a href="{{ .pageRef }}" class="block font-semibold text-gray-900">
+                        <a href="{{ .url }}" class="block font-semibold text-gray-900">
                           {{ .name }}
                           <span class="absolute inset-0"></span>
                         </a>
@@ -48,7 +48,7 @@
             {{ else }}
               <div class="header-flyout-menu opacity-0 invisible absolute -left-8 top-full z-10 mt-3 w-56 rounded-xl bg-white p-2 shadow-lg ring-1 ring-gray-900/5">
                 {{ range .Params.childs }}
-                  <a href="{{ .pageRef }}" class="block rounded-lg px-3 py-2 text-sm font-semibold leading-6 text-gray-900 hover:bg-gray-50">{{ .name }}</a>
+                  <a href="{{ .url }}" class="block rounded-lg px-3 py-2 text-sm font-semibold leading-6 text-gray-900 hover:bg-gray-50">{{ .name }}</a>
                 {{ end }}
               </div>
             {{ end }}
@@ -94,12 +94,12 @@
                   </button>
                   <div class="hidden mt-2 space-y-2">
                     {{ range .Params.childs }}
-                      <a href="{{ .pageRef }}" class="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-gray-900 hover:bg-gray-50">{{ .name }}</a>
+                      <a href="{{ .url }}" class="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-gray-900 hover:bg-gray-50">{{ .name }}</a>
                     {{ end }}
                   </div>
                 </div>
               {{ else }}
-              <a href="{{ .URL }}" class="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">{{ .Name }}</a>
+                <a href="{{ .URL }}" class="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">{{ .Name }}</a>
               {{ end }}
             {{ end }}
           </div>
