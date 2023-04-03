@@ -1,3 +1,73 @@
+<!-- Header Start -->
+<script>
+  // Fixed Header Start
+  window.addEventListener("scroll", () => {
+    if (window.scrollY === 0) {
+      const headers = document.getElementsByTagName("header")
+      headers[0].classList.remove("fixed", "shadow-md")
+      if (headers.length > 1)
+        headers[1].remove()
+    } else {
+      const headers = document.getElementsByTagName("header")
+      if (headers.length === 1) {
+        const new_header = headers[0].cloneNode(true)
+        new_header.style.zIndex = -1
+        headers[0].classList.add("fixed", "shadow-md")
+        headers[0].after(new_header)
+      }
+    }
+  })
+  // Fixed Header End
+
+  // Toggle Mobile Menu Start
+  document.getElementById("header-open-button").addEventListener("click", () => {
+    document.getElementById("header-mobile-menu").classList.toggle("hidden")
+  })
+
+  document.getElementById("header-close-button").addEventListener("click", () => {
+    document.getElementById("header-mobile-menu").classList.toggle("hidden")
+  })
+  // Toggle Mobile Menu End
+
+  // Toggle Mobile Submenu Start
+  for (const button of document.getElementsByClassName("header-submenu-button")) {
+    button.addEventListener("click", event => {
+      const button = event.target.tagName === "BUTTON" ? event.target : getParentButton(event.target)
+      button.children[0].classList.toggle("rotate-180")
+      const submenu = button.nextElementSibling
+      submenu.classList.toggle("hidden")
+    })
+  }
+  // Toggle Mobile Submenu End
+
+  // Toggle Desktop Flyout Menu Start
+  function closeFlyoutMenus(event) {
+    if (!event.target.classList.contains("header-flyout-button")) {
+      for (const flyoutMenu of document.getElementsByClassName("header-flyout-menu")) {
+        flyoutMenu.style.opacity = 0
+        flyoutMenu.style.visibility = "hidden"
+      }
+    }
+  }
+
+  for (const button of document.getElementsByClassName("header-flyout-button")) {
+    button.addEventListener("click", event => {
+      const flyoutMenu = event.target.nextElementSibling
+      if (flyoutMenu.style.opacity != 1) {
+        flyoutMenu.style.opacity = 1
+        flyoutMenu.style.visibility = "visible"
+      } else {
+        flyoutMenu.style.opacity = 0
+        flyoutMenu.style.visibility = "hidden"
+      }
+    })
+  }
+
+  document.addEventListener("click", closeFlyoutMenus)
+  // Toggle Desktop Flyout Menu End
+</script>
+<!-- Header End -->
+
 <!-- Netlify Identity Widget Start -->
 <script>
   if (window.netlifyIdentity) {

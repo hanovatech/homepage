@@ -13,6 +13,20 @@ collections:
         fields:
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Description", name: "description", widget: "string", required: false }
+          - label: Hero Section
+            name: heroSection
+            widget: object
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Description", name: "title", widget: "string" }
+              - { label: "Image", name: "image", widget: "image" }
+          - label: Services Section
+            name: servicesSection
+            widget: object
+            fields:
+              - { label: "Heading", name: "heading", widget: "string" }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Description", name: "title", widget: "string" }
       - name: about
         label: Über uns
         file: "/content/about.md"
@@ -43,7 +57,6 @@ collections:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Description", name: "description", widget: "string", required: false }
       - { label: "Summary", name: "summary", widget: "string", required: false }
-      - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Body", name: "body", widget: "markdown" }
   - name: blog
     label: Blog
