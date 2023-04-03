@@ -12,6 +12,7 @@
       if (headers.length === 1) {
         const new_header = headers[0].cloneNode(true)
         new_header.style.zIndex = -1
+        new_header.style.opacity = 0
         headers[0].classList.add("fixed", "shadow-md")
         headers[0].after(new_header)
       }
@@ -32,7 +33,7 @@
   // Toggle Mobile Submenu Start
   for (const button of document.getElementsByClassName("header-submenu-button")) {
     button.addEventListener("click", event => {
-      const button = event.target.tagName === "BUTTON" ? event.target : getParentButton(event.target)
+      const button = event.target
       button.children[0].classList.toggle("rotate-180")
       const submenu = button.nextElementSibling
       submenu.classList.toggle("hidden")
@@ -81,3 +82,16 @@
   }
 </script>
 <!-- Netlify Identity Widget End -->
+
+<!-- Glide.js Start -->
+<script src="https://unpkg.com/@glidejs/glide@3.6.0/dist/glide.min.js"></script>
+<script>
+  if (document.getElementsByClassName("glide").length) {
+    new Glide('.glide').mount()
+    new Glide('.glide.autoplay', {
+      type: 'carousel',
+      autoplay: 6000
+    }).mount()
+  }
+</script>
+<!-- Glide.js End -->

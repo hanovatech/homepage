@@ -18,7 +18,7 @@ collections:
             widget: object
             fields:
               - { label: "Title", name: "title", widget: "string" }
-              - { label: "Description", name: "title", widget: "string" }
+              - { label: "Description", name: "description", widget: "string" }
               - { label: "Image", name: "image", widget: "image" }
           - label: Services Section
             name: servicesSection
@@ -26,7 +26,35 @@ collections:
             fields:
               - { label: "Heading", name: "heading", widget: "string" }
               - { label: "Title", name: "title", widget: "string" }
-              - { label: "Description", name: "title", widget: "string" }
+              - { label: "Description", name: "description", widget: "string" }
+              - label: Services
+                name: services
+                widget: list
+                fields:
+                  - { label: "Name", name: "name", widget: "string" }
+                  - { label: "Description", name: "description", widget: "string" }
+                  - { label: "Icon", name: "icon", widget: "string" }
+          - label: Team Section
+            name: teamSection
+            widget: object
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Description", name: "description", widget: "string" }
+              - label: Team
+                name: members
+                widget: list
+                fields:
+                  - { label: "Name", name: "name", widget: "string" }
+                  - { label: "Role", name: "role", widget: "string" }
+                  - { label: "Specialty", name: "specialty", widget: "string" }
+                  - { label: "Image", name: "image", widget: "image" }
+      - name: references
+        label: Referenzen
+        file: "/content/references.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Description", name: "description", widget: "string", required: false }
+          - { label: "Body", name: "body", widget: "markdown" }
       - name: about
         label: Über uns
         file: "/content/about.md"
@@ -34,9 +62,16 @@ collections:
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Description", name: "description", widget: "string", required: false }
           - { label: "Body", name: "body", widget: "markdown" }
-      - name: references
-        label: Referenzen
-        file: "/content/references.md"
+      - name: career
+        label: Karriere
+        file: "/content/career.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Description", name: "description", widget: "string", required: false }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - name: partners
+        label: Partner
+        file: "/content/partners.md"
         fields:
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Description", name: "description", widget: "string", required: false }
@@ -69,3 +104,55 @@ collections:
       - { label: "Publish Date", name: "date", widget: "datetime", required: false }
       - { label: "Featured Image", name: "thumbnail", widget: "image", required: false }
       - { label: "Body", name: "body", widget: "markdown" }
+  - name: settings
+    label: Settings
+    files:
+      - name: navigation
+        label: Navigation
+        file: config.yaml
+        fields:
+          - label: "Menu"
+            name: menu
+            widget: list
+            fields:
+              - label: Main
+                name: main
+                widget: list
+                fields:
+                  - { label: "Name", name: "name", widget: "string" }
+                  - { label: "Link", name: "pageRef", widget: "string" }
+                  - label: Params
+                    name: params
+                    widget: object
+                    fields:
+                      - { label: Icon List, name: "iconList", widget: "boolean" }
+                      - label: Sublinks
+                        name: childs
+                        widget: list
+                        fields:
+                          - { label: "Name", name: "name", widget: "string" }
+                          - { label: "Description", name: "description", widget: "string" }
+                          - { label: "Link", name: "pageRef", widget: "string" }
+                          - { label: "Icon", name: "icon", widget: "string" }
+              - label: Footer
+                name: footer
+                widget: list
+                fields:
+                  - { label: "Name", name: "name", widget: "string" }
+                  - label: Params
+                    name: params
+                    widget: object
+                    fields:
+                      - label: Links
+                        name: childs
+                        widget: list
+                        fields:
+                          - { label: "Name", name: "name", widget: "string" }
+                          - { label: "Link", name: "pageRef", widget: "string" }
+      - name: google
+        label: Google
+        file: /data/google.yaml
+        fields:
+          - { label: "Google Tag", name: "google_tag_key", widget: "string" }
+          - { label: "Google Maps Key", name: "google_maps_key", widget: "string" }
+          - { label: "Google Maps Query", name: "google_maps_query", widget: "string" }
