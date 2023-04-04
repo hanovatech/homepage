@@ -3,7 +3,7 @@ title: HanovaTech | Digitale Lösungen für Ihr Unternehmen
 description: Der Dienstleister für IT-Consulting, Managed Services, Software Solutions und Cybersecurity in Hannover. Ihr Partner für die Digitalisierung Ihres Unternehmens!
 heroSection:
   title: Digitale Lösungen für Ihr Unternehmen
-  description: Wir finden nachhaltige Lösungen für Ihre digitalen Herausforderungen. Damit Sie sich auf Ihre Arbeit konzentrieren können.
+  description: Wir finden nachhaltige Lösungen für Ihre digitalen Herausforderungen damit Sie sich auf Ihre Arbeit konzentrieren können.
   image: /images/uploads/illustration.png
 servicesSection:
   heading: Digitale Lösungen
@@ -23,6 +23,7 @@ servicesSection:
       description: Daten von A nach B. Mit Hilfe von individuell entwickelten Schnittstellen verbinden wir Ihre Systeme miteinander.
       icon: <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 7.5l3 2.25-3 2.25m4.5 0h3m-9 8.25h13.5A2.25 2.25 0 0021 18V6a2.25 2.25 0 00-2.25-2.25H5.25A2.25 2.25 0 003 6v12a2.25 2.25 0 002.25 2.25z"></path>
   carousel:
+    - http://via.placeholder.com/1200x400
     - /images/services/M365_Tools.png
     - http://via.placeholder.com/1200x400
 teamSection:
