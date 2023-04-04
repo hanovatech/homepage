@@ -13,10 +13,10 @@
 {{ if eq .Section "blog" }}
   <meta property="og:type" content="article">
   <meta name="title" content="{{ .Title }} | {{ .Site.Title }} Blog">
+  <meta property="description" content="{{ .Description }}">
   <meta property="og:description" content="{{ .Description }}">
   <meta property="og:image" content="{{ .Params.image }}" />
 {{ else }}
-  <meta property="og:type " content="website">
   {{ if .IsHome }}
     <meta name="title" content="{{ .Title }}">
     <meta property="og:title" content="{{ .Title }}">
@@ -24,6 +24,8 @@
     <meta name="title" content="{{ .Title }} | {{ .Site.Title }}">
     <meta property="og:title" content="{{ .Title }} | {{ .Site.Title }}">
   {{ end }}
+  <meta property="description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+  <meta property="og:type " content="website">
   <meta property="og:description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.description }}{{ end }}">
   <meta property="og:image" content="{{ .Site.BaseURL }}images/hanvoatech_logo.jpeg" />
 {{ end }}

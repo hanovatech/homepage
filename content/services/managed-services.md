@@ -3,10 +3,8 @@ title: Managed Services
 description: Durch unsere Managed Services können Sie sich ganz auf Ihren Geschäftsprozess konzentrieren, während wir uns um den Betrieb Ihrer IT-Infrastruktur kümmern.
 ---
 
-# Managed Services
-
-## Für eine zuverlässige IT-Infrastruktur
-Die IT-Infrastruktur bildet in vielen modernen Unternehmen die Basis für den alltäglichen Geschäftsbetrieb. Daher muss die IT ständig verfügbar sein und reibungslos funktionieren damit Sie sich auf Ihren Geschäftsprozess konzentrieren können. Hier kommen unsere Managed Services ins Spiel...
+# Managed Services für eine zuverlässige IT-Infrastruktur
+Die IT-Infrastruktur bildet in vielen modernen Unternehmen **die Basis für den alltäglichen Geschäftsbetrieb**. Daher muss die IT ständig verfügbar sein und reibungslos funktionieren damit Sie sich auf Ihren Geschäftsprozess konzentrieren können. Hier kommen unsere Managed Services ins Spiel...
 
 Durch unsere Managed Services bieten wir Ihnen die Überwachung, Wartung und den dauerhaften Betrieb Ihrer IT-Infrastruktur. Egal ob **Endgeräte (PCs und Laptops), Serversysteme oder Netzwerkgeräte, wir behalten Ihre Systeme im Auge**, um potenzielle Probleme frühzeitig zu erkennen und Sie vor Ausfällen zu schützen.
 
