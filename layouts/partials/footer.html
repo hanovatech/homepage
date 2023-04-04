@@ -10,7 +10,7 @@
               <ul role="list" class="mt-6 space-y-4">
                 {{ range .Params.childs }}
                   <li>
-                    <a href="{{ .pageRef }}" class="text-sm leading-6 text-white hover:text-gray-200 duration-200">
+                    <a href="{{ .url }}" class="text-sm leading-6 text-white hover:text-gray-200 duration-200">
                       {{ if isset . "image" }}
                         <img src="{{ .image }}" alt="{{ .name }}" width="200" />
                       {{ else }}

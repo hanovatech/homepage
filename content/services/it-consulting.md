@@ -1,6 +1,6 @@
 ---
 title: IT-Consulting
-description: Wir helfen Ihnen bei der Planung und Konzeption Ihrer IT-Infrastruktur damit Sie kurzfristige Verbesserungen erzielen und langfristig wettbewerbsfähig bleiben.
+description: Wir helfen Ihnen bei der Planung und Konzeption Ihrer IT-Infrastruktur zur Digitalisierung Ihres Unternehmens, um langfristig wettbewerbsfähig bleiben.
 ---
 
 # IT-Consulting zur Digitalisierung Ihres Unternehmens

@@ -1,12 +1,12 @@
 ---
 title: Managed Services
-description: Durch unsere Managed Services können Sie sich ganz auf Ihren Geschäftsprozess konzentrieren, während wir uns um den Betrieb Ihrer IT-Infrastruktur kümmern.
+description: Wir sorgen durch unsere Managed Services für die Zuverlässigkeit Ihrer IT-Infrastruktur damit Sie sich ganz auf Ihren Geschäftsprozess konzentrieren können.
 ---
 
 # Managed Services für eine zuverlässige IT-Infrastruktur
 Die IT-Infrastruktur bildet in vielen modernen Unternehmen **die Basis für den alltäglichen Geschäftsbetrieb**. Daher muss die IT ständig verfügbar sein und reibungslos funktionieren damit Sie sich auf Ihren Geschäftsprozess konzentrieren können. Hier kommen unsere Managed Services ins Spiel...
 
-Durch unsere Managed Services bieten wir Ihnen die Überwachung, Wartung und den dauerhaften Betrieb Ihrer IT-Infrastruktur. Egal ob **Endgeräte (PCs und Laptops), Serversysteme oder Netzwerkgeräte, wir behalten Ihre Systeme im Auge**, um potenzielle Probleme frühzeitig zu erkennen und Sie vor Ausfällen zu schützen.
+Durch unsere Managed Services bieten wir Ihnen die Überwachung, Wartung und den dauerhaften Betrieb Ihrer IT-Infrastruktur. Egal ob Endgeräte (PCs und Laptops), Serversysteme oder Netzwerkgeräte, **wir behalten Ihre Systeme im Auge**, um potenzielle Probleme frühzeitig zu erkennen und Sie vor Ausfällen zu schützen.
 
 ## Unsere Dienstleistungen
 Wir bieten Managed Services **für Unternehmen jeder Größe und in jeder Branche** an. Egal ob Handwerkbetrieb oder Einzelhandelskette, wir haben die passende Lösung für Sie parat.
@@ -27,9 +27,9 @@ Durch unsere Partner können wir Ihnen Lösungen für jeden Aspekt Ihrer IT-Infr
 - [Synaxon AG](https://synaxon.de/)
 - [Wortmann AG](https://www.wortmann.de/)
 
-![N-ABLE RMM](/images/services/NABLE_RMM.png)
+![N-ABLE Remote Monitoring and Management](/images/services/NABLE_RMM.png)
 
 ## Warum Managed Services?
-Durch unsere Managed Services können Sie sich auf Ihr Kerngeschäft konzentrieren ohne selbst die IT-Infrastruktur zu verwalten oder Gefahr zu laufen, langfristig Probleme mit dieser zu bekommen. Außerdem stehen wir Ihnen jederzeit für die Behebung Ihrer IT-Probleme und Herausforderungen beratend zur Seite.
+Durch unsere Managed Services **können Sie sich auf Ihr Kerngeschäft konzentrieren** ohne selbst die IT-Infrastruktur zu verwalten oder Gefahr zu laufen, langfristig Probleme mit dieser zu bekommen. Außerdem stehen wir Ihnen jederzeit für die Behebung Ihrer IT-Probleme und Herausforderungen beratend zur Seite.
 
 Sie haben Interesse an unseren Managed Services? Dann schreiben Sie uns eine Nachricht über unser [Kontaktformular](/contact).
