@@ -1,6 +1,5 @@
 main:
   - name: Services
-    weight: 1
     url: /services
     iconList: true
     childs:
@@ -21,10 +20,8 @@ main:
         url: /services/softwareentwicklung
         icon: <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 7.5l3 2.25-3 2.25m4.5 0h3m-9 8.25h13.5A2.25 2.25 0 0021 18V6a2.25 2.25 0 00-2.25-2.25H5.25A2.25 2.25 0 003 6v12a2.25 2.25 0 002.25 2.25z" />
   - name: Referenzen
-    weight: 2
     url: /references
   - name: Über uns
-    weight: 3
     childs:
       - name: Das Team
         url: /about
@@ -33,5 +30,32 @@ main:
       - name: Karriere
         url: /carrer
   - name: Blog
-    weight: 4
     url: /blog
+footer:
+  - name: Informationen
+    childs:
+      - name: Kontakt
+        url: /contact
+      - name: Blog
+        url: /blog
+  - name: Über uns
+    childs:
+      - name: Das Team
+        url: /about
+      - name: Karriere
+        url: /carrer
+  - name: Rechtliches
+    childs:
+      - name: Impressum
+        url: /impressum
+      - name: Datenschutz
+        url: /datenschutz
+      - name: AGB
+        url: /agb
+  - name: Partner
+    childs:
+      - name: Unsere Partner
+        url: /partners
+      - name: Allianz für Cyber-Sicherheit
+        url: https://www.allianz-fuer-cybersicherheit.de/Webs/ACS/DE/Ueber-uns/Teilnehmer/Liste-der-Teilnehmer/Functions/%C3%BCbersicht.html?nn=519278&cms_lv2=489890
+        image: /images/uploads/allianz-fuer-cybersecurity.svg
