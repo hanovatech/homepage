@@ -28,7 +28,7 @@ main:
       - name: Partner
         url: /partners
       - name: Karriere
-        url: /carrer
+        url: /career
   - name: Blog
     url: /blog
 footer:
@@ -43,7 +43,7 @@ footer:
       - name: Das Team
         url: /about
       - name: Karriere
-        url: /carrer
+        url: /career
   - name: Rechtliches
     childs:
       - name: Impressum
@@ -58,4 +58,4 @@ footer:
         url: /partners
       - name: Allianz für Cyber-Sicherheit
         url: https://www.allianz-fuer-cybersicherheit.de/Webs/ACS/DE/Ueber-uns/Teilnehmer/Liste-der-Teilnehmer/Functions/%C3%BCbersicht.html?nn=519278&cms_lv2=489890
-        image: /images/uploads/allianz-fuer-cybersecurity.svg
+        image: /uploads/allianz-fuer-cybersecurity.svg

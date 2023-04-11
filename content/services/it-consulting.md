@@ -1,6 +1,8 @@
 ---
 title: IT-Consulting
 description: Wir helfen Ihnen bei der Planung und Konzeption Ihrer IT-Infrastruktur zur Digitalisierung Ihres Unternehmens, um langfristig wettbewerbsfähig bleiben.
+image: /images/services/it-consulting.jpg
+weight: 1
 ---
 
 # IT-Consulting zur Digitalisierung Ihres Unternehmens
