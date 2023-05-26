@@ -1,7 +1,0 @@
----
-title: Partner
-description: 
----
-
-# Partner
-...

@@ -19,12 +19,10 @@ collections:
             fields:
               - { label: "Title", name: "title", widget: "string" }
               - { label: "Description", name: "description", widget: "string" }
-              - { label: "Image", name: "image", widget: "image" }
           - label: Services Section
             name: servicesSection
             widget: object
             fields:
-              - { label: "Heading", name: "heading", widget: "string" }
               - { label: "Title", name: "title", widget: "string" }
               - { label: "Description", name: "description", widget: "string" }
               - label: Services
@@ -96,7 +94,6 @@ collections:
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Description", name: "description", widget: "string", required: false }
-      - { label: "Summary", name: "summary", widget: "string", required: false }
       - { label: "Body", name: "body", widget: "markdown" }
   - name: blog
     label: Blog

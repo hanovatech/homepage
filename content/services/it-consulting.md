@@ -1,7 +1,7 @@
 ---
 title: IT-Consulting
 description: Wir helfen Ihnen bei der Planung und Konzeption Ihrer IT-Infrastruktur zur Digitalisierung Ihres Unternehmens, um langfristig wettbewerbsfähig bleiben.
-image: /images/services/it-consulting.jpg
+image: /uploads/services/it-consulting.jpg
 weight: 1
 ---
 
@@ -29,7 +29,7 @@ Wir stehen Ihnen bei der Digitalisierung Ihres Unternehmens nicht nur beratend z
 
 Die aktuell am meisten genutzte Möglichkeit zur Digitalisierung von Unternehmen ist Mircosoft 365. Durch 365 hat Microsoft die bestehende Office Produktfamilie, um neue sinnvolle Tools erweitert. Von Teams bis OneDrive bietet Microsoft 365 diverse Dienste zur einfachen und perfekt integrierten Digitalisierung Ihres Unternehmens.
 
-![Microsoft 365](/images/services/M365_Tools.png)
+![Microsoft 365](/uploads/services/M365_Tools.png)
 
 Profitieren Sie auch von unseren anderen Dienstleistungen:
 

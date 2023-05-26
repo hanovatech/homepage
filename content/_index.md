@@ -4,9 +4,7 @@ description: Der Dienstleister für IT-Consulting, Managed Services, Software So
 heroSection:
   title: Digitale Lösungen für Ihr Unternehmen
   description: Wir finden nachhaltige Lösungen für Ihre digitalen Herausforderungen damit Sie sich auf Ihre Arbeit konzentrieren können.
-  image: /images/uploads/illustration.png
 servicesSection:
-  heading: Digitale Lösungen
   title: Alles für Ihren digitalen Arbeitsplatz
   description: Gemeinsam entwickeln wir ein digitales Arbeitsumfeld, welches kurzfristige Verbesserungen und dauerhafte Zuverlässigkeit für Ihre Prozesse bietet.
   services:
@@ -23,9 +21,8 @@ servicesSection:
       description: Daten von A nach B. Mit Hilfe von individuell entwickelten Schnittstellen verbinden wir Ihre Systeme miteinander.
       icon: <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 7.5l3 2.25-3 2.25m4.5 0h3m-9 8.25h13.5A2.25 2.25 0 0021 18V6a2.25 2.25 0 00-2.25-2.25H5.25A2.25 2.25 0 003 6v12a2.25 2.25 0 002.25 2.25z"></path>
   carousel:
-    - /images/services/NABLE_RMM.png
-    - /images/services/M365_Tools.png
-    - http://via.placeholder.com/1200x400
+    - /uploads/services/NABLE_RMM.png
+    - /uploads/services/M365_Tools.png
 teamSection:
   title: Unser Team
   description: Wir sind ein dynamisches und junges Team, welches Ihnen bei der Digitalisierung Ihres Unternehmens mit tatendrang zur Seite steht.

@@ -11,6 +11,34 @@ html {
   background: rgba(72, 123, 234, .75);
 }
 
+.prose h1 {
+  line-height: 1.2em;
+}
+
+.prose h1,
+.prose h2,
+.prose h3,
+.prose h4,
+.prose h5 {
+  scroll-margin-top: 128px;
+
+  strong {
+    color: #1d4ed8;
+  }
+}
+
+.prose a {
+  text-underline-offset: 2px;
+  text-decoration-color: #2563EB;
+  text-decoration-thickness: 2px;
+  text-decoration-skip-ink: auto;
+}
+
+.prose img {
+  border: 1px solid rgb(229, 231, 235);
+  border-radius: .75rem;
+}
+
 #TableOfContents {
   ul > li {
     color: #6b7280;
@@ -34,26 +62,4 @@ html {
   ul > li:last-child {
     margin-bottom: 0;
   }
-}
-
-.prose h1 {
-  line-height: 1.2em;
-}
-
-.prose h1,h2,h3,h4,h5 {
-  scroll-margin-top: 128px;
-}
-
-.prose a {
-  text-underline-offset: 4px;
-  text-decoration-color: #2563EB;
-  text-decoration-thickness: 2px;
-}
-
-.prose img {
-  border: 1px solid rgb(229, 231, 235);
-  border-radius: .5rem;
-  --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
-  --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);
-  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
