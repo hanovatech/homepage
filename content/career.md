@@ -1,22 +1,7 @@
 ---
 title: Arbeiten bei HanovaTech
-description: 
-jobs:
-  - name: Systemadministrator (m/w/d)
-    type: Vollzeit
-    todos:
-      - Verwaltung und Wartung von Servern, Netzwerken und Arbeitsplatzrechnern
-      - Installation und Konfiguration von Hard- und Softwarekomponenten
-      - Fehleranalyse und Störungsbehebung im IT-Betrieb
-      - Unterstützung bei der Planung und Umsetzung neuer IT-Projekte
-  - name: IT-Supportmitarbeiter (m/w/d)
-    type: Teilzeit
-    startDate: As soon as possible!
-    todos:
-      - Annahme, Analyse und Lösung von IT-Störungen und Anfragen
-      - Unterstützung der Anwender bei der Nutzung von Hard- und Software
-      - Dokumentation von Supportfällen und Erstellung von Lösungsvorschlägen
-      - Enge Zusammenarbeit mit dem IT-Team zur kontinuierlichen Verbesserung des Supports
+description: null
+jobs: []
 ---
 
 # Arbeiten bei HanovaTech
