@@ -1,8 +1,8 @@
 backend:
   name: git-gateway
   branch: main
-media_folder: "static/images/uploads"
-public_folder: "/images/uploads"
+media_folder: "static/uploads"
+public_folder: "/uploads"
 collections:
   - name: pages
     label: Pages
@@ -36,6 +36,7 @@ collections:
                 name: carousel
                 widget: list
                 fields:
+                  - { label: "Name", name: "name", widget: "string" }
                   - { label: "Image", name: "image", widget: "image" }
           - label: Team Section
             name: teamSection
@@ -51,16 +52,29 @@ collections:
                   - { label: "Role", name: "role", widget: "string" }
                   - { label: "Specialty", name: "specialty", widget: "string" }
                   - { label: "Image", name: "image", widget: "image" }
-      - name: references
-        label: Referenzen
-        file: "/content/references.md"
+      - name: partners
+        label: Partner
+        file: "/content/partners/_index.md"
         fields:
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Description", name: "description", widget: "string", required: false }
+          - label: Partner Logos
+            name: partners
+            widget: list
+            fields:
+              - { label: "Name", name: "name", widget: "string" }
+              - { label: "Image", name: "image", widget: "image" }
           - { label: "Body", name: "body", widget: "markdown" }
       - name: about
         label: Über uns
         file: "/content/about.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Description", name: "description", widget: "string", required: false }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - name: references
+        label: Referenzen
+        file: "/content/references.md"
         fields:
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Description", name: "description", widget: "string", required: false }
@@ -71,13 +85,18 @@ collections:
         fields:
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Description", name: "description", widget: "string", required: false }
-          - { label: "Body", name: "body", widget: "markdown" }
-      - name: partners
-        label: Partner
-        file: "/content/partners.md"
-        fields:
-          - { label: "Title", name: "title", widget: "string" }
-          - { label: "Description", name: "description", widget: "string", required: false }
+          - label: Jobs
+            name: jobs
+            widget: list
+            fields:
+              - { label: "Name", name: "name", widget: "string" }
+              - { label: "Type", name: "type", widget: "string", required: false }
+              - { label: "Start Date", name: "startDate", widget: "string", required: false }
+              - label: Todos
+                name: todos
+                widget: list
+                fields:
+                  - { label: "Todo", name: "todo", widget: "string" }
           - { label: "Body", name: "body", widget: "markdown" }
       - name: contact
         label: Kontakt

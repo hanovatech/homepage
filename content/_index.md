@@ -21,18 +21,20 @@ servicesSection:
       description: Daten von A nach B. Mit Hilfe von individuell entwickelten Schnittstellen verbinden wir Ihre Systeme miteinander.
       icon: <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 7.5l3 2.25-3 2.25m4.5 0h3m-9 8.25h13.5A2.25 2.25 0 0021 18V6a2.25 2.25 0 00-2.25-2.25H5.25A2.25 2.25 0 003 6v12a2.25 2.25 0 002.25 2.25z"></path>
   carousel:
-    - /uploads/services/NABLE_RMM.png
-    - /uploads/services/M365_Tools.png
+    - name: NABLE zum Monitoring Ihrer Systeme
+      image: /uploads/services/NABLE_RMM.png
+    - name: Microsoft 365 as a Service von HanovaTech
+      image: /uploads/services/M365_Tools.png
 teamSection:
   title: Unser Team
   description: Wir sind ein dynamisches und junges Team, welches Ihnen bei der Digitalisierung Ihres Unternehmens mit tatendrang zur Seite steht.
   members:
     - name: Hashem Mahmoud
-      role: Geschäftsführer
+      role: Geschäftsführung
       specialty: Informationssicherheit
       image: https://profile-images.xing.com/images/ef2bdacbea9777e9ca72e6768dae5d3c-4/hashem-mahmoud.256x256.jpg
-    - name: Henry Akmann
-      role: Freier Mitarbeiter
+    - name: "<div style='height:32px;display:flex;align-items:center'><img src='/images/henry.png' alt='Mitarbeiter' style='height: 18px;' /></div>"
+      role: Technische Leitung
       specialty: Softwareentwicklung
       image: https://avatars.githubusercontent.com/u/14221837
 ---

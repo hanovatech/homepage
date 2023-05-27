@@ -1,0 +1,29 @@
+{{ with .Page.Params.jobs }}
+  <hr>
+  <h2><strong>Aktuell ausgeschriebene Stellen</strong></h2>
+  <ul class="list-none !pl-0">
+    {{ range . }}
+      <li>
+        <h3 class="text-blue-600">{{ .name }}</h3>
+        {{ if isset . "type" }}
+          <p><strong>Anstellungsart:</strong> {{ .type }}</p>
+        {{ end }}
+        {{ if isset . "startDate" }}
+          <p><strong>Startdatum:</strong> {{ .startDate }}</p>
+        {{ end }}
+        <p><strong>Deine Aufgaben:</strong></p>
+        <ul>
+          {{ range .todos }}
+            <li>{{ . }}</li>
+          {{ end }}
+        </ul>
+      </li>
+    {{ end }}
+  </ul>
+  <hr>
+{{ else }}
+  <hr>
+  <p class="!text-xl"><strong>Aktuell haben wir leider keine Stellen ausgeschrieben 😧</strong></p>
+  <p class="text-sm font-light">Du kannst uns trotzdem gerne eine Initiativbewerbung schicken an <a href="mailto:karriere@hanova.tech">karriere@hanova.tech</a></p>
+  <hr>
+{{ end }}

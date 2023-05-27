@@ -1,10 +1,11 @@
 ---
-title: Software-Lösungen und Softwareentwicklung für KMU in Hannover
+title: Individuelle Softwareentwicklung für Ihr Unternehmen
 image: /uploads/services/softwareentwicklung.jpg
 description: Wir entwickeln individuelle Software-Lösungen für Ihr KMU in
-  Hannover. Python, Java, Ruby on Rails. Für Android oder iOS. Jetzt anfragen.
+  Hannover. JavaScript, Python, Ruby on Rails. Für Android oder iOS. Jetzt anfragen.
 weight: 4
 ---
+
 # Individuelle Software-Lösungen und Softwareentwicklung - für KMU in Hannover
 
 Mit Standard-Software lassen sich in einem Unternehmen bereits viele Arbeitsschritte umsetzen und Aufgaben lösen. Doch in vielen Fällen reichen Anwendungen von der Stange nicht mehr aus, um nachhaltige Ergebnisse zu liefern. In diesen Fällen können wir Ihnen mit individuellen Software-Lösungen und Softwareentwicklung weiterhelfen.
@@ -15,26 +16,24 @@ Hanovatech hat sich seit einigen Jahren als zuverlässiger IT-Dienstleister für
 
 Wir gehen bei der Softwareentwicklung agil vor. Für Sie bedeutet das nicht nur kürzere Entwicklungszyklen, mit Prototyping oder UX-Testing, sondern gleichzeitig auch mehr Transparenz. Denn Sie sind in alle Entwicklungsschritte direkt eingebunden und können die Entwicklung Ihrer individuellen Softwarelösung durch Ihr Feedback direkt beeinflussen.
 
-Was dürfen wir für Sie tun? Rufen Sie uns an: 0511 – 515 611 90
-
 ## Leistungsübersicht für individuelle Programmierleistungen
 
-* Programmieren und Entwickeln von Anwendungen/Apps für Android oder iOS
-* Entwicklung von Anwendungen auf der Basis von Ruby on Rails, C++, Java, Python oder anderen Programmiersprachen
-* Anpassung bestehender Programme und Customizing
-* Entwicklung individueller Softwarelösungen für Online-Shops, Intranet oder die Firmen-IT
+- Programmieren und Entwickeln von Webanwendungen oder Apps für Android und iOS
+- Entwicklung von Anwendungen auf der Basis von JavaScript, Python, Ruby on Rails oder anderen Programmiersprachen
+- Anpassung bestehender Programme und Customizing
+- Entwicklung individueller Softwarelösungen für Online-Shops, Intranet oder die Firmen-IT
+
+Benötigen Sie eine individuelle Softwarelösung für Ihr KMU im Raum Hannover? Dann schreiben Sie uns eine Nachricht über unser [Kontaktformular](/contact).
 
 ## Ihre Vorteile mit Hanovatech
 
 Wenn Sie sich für Softwarelösungen von Hanovatech entscheiden profitieren Sie von folgenden Vorteilen:
 
-* erfahrene Programmierer
-* transparente und faire Preisgestaltung
-* nachvollziehbarer und transparenter Entwicklungsprozess
-* persönliche Ansprechpartner und direkter Kontakt ohne langes Warten in Ticketsystemen
-  -﻿ schnelle Entwicklungszyklen dank agiler Arbeitsprozesse
-
-Benötigen Sie eine individuelle Softwarelösung für Ihr KMU im Raum Hannover? Dann lassen Sie uns darüber sprechen: 0511 – 515 611 90
+- erfahrene Programmierer
+- transparente und faire Preisgestaltung
+- nachvollziehbarer und transparenter Entwicklungsprozess
+- persönliche Ansprechpartner und direkter Kontakt ohne langes Warten in Ticketsystemen
+- schnelle Entwicklungszyklen dank agiler Arbeitsprozesse
 
 ## Für welche Branchen und Unternehmen eignet sich unser Service?
 
