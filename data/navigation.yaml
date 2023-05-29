@@ -36,12 +36,12 @@ footer:
     childs:
       - name: Services
         url: /services
-      - name: Kontakt
-        url: /contact
       - name: Blog
         url: /blog
   - name: Unternehmen
     childs:
+      - name: Kontakt
+        url: /contact
       - name: Über uns
         url: /about
       - name: Karriere
