@@ -1,8 +1,8 @@
 ---
-title: Kontakt
+title: Kontaktformular
 ---
 
-# Kontakt
+# Nehmen Sie mit uns Kontakt auf!
 
 **Sie wollen Ihr Unternehmen digitalisieren? Wir helfen Ihnen dabei!**
 

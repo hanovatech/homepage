@@ -6,7 +6,7 @@ description: Wir entwickeln individuelle Software-Lösungen für Ihr KMU in
 weight: 4
 ---
 
-# Individuelle Software-Lösungen und Softwareentwicklung - für KMU in Hannover
+# Individuelle Software-Lösungen und Software&shy;entwicklung - für KMU in Hannover
 
 Mit Standard-Software lassen sich in einem Unternehmen bereits viele Arbeitsschritte umsetzen und Aufgaben lösen. Doch in vielen Fällen reichen Anwendungen von der Stange nicht mehr aus, um nachhaltige Ergebnisse zu liefern. In diesen Fällen können wir Ihnen mit individuellen Software-Lösungen und Softwareentwicklung weiterhelfen.
 

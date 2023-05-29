@@ -1,5 +1,5 @@
 ---
-title: IT-Consulting zur Digitalisierung Ihres Unternehmens
+title: "IT-Consulting: Anforderungsanalyse und Konzeptionierung"
 description: Wir helfen Ihnen bei der Planung und Konzeption Ihrer IT-Infrastruktur zur Digitalisierung Ihres Unternehmens, um langfristig wettbewerbsfähig bleiben.
 image: /uploads/services/it-consulting.jpg
 weight: 1
