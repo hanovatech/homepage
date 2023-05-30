@@ -2,7 +2,7 @@
 title: Kontaktformular
 ---
 
-# Nehmen Sie mit uns Kontakt auf!
+# Schreiben Sie uns!
 
 **Sie wollen Ihr Unternehmen digitalisieren? Wir helfen Ihnen dabei!**
 
