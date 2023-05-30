@@ -31,10 +31,10 @@ teamSection:
   members:
     - name: Hashem Mahmoud
       role: Geschäftsführung
-      specialty: Informationssicherheit 🕵️‍♂️
+      specialty: Informationssicherheit
       image: https://profile-images.xing.com/images/ef2bdacbea9777e9ca72e6768dae5d3c-4/hashem-mahmoud.256x256.jpg
     - name: "<div style='height:32px;display:flex;align-items:center'><img src='/images/henry.png' alt='Mitarbeiter' style='height: 18px;' /></div>"
       role: Technische Leitung
-      specialty: Softwareentwicklung 👨‍💻
+      specialty: Softwareentwicklung
       image: https://avatars.githubusercontent.com/u/14221837
 ---
