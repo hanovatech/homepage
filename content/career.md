@@ -17,8 +17,8 @@ Wir sind ein **dynamisches Unternehmen**, das sich auf innovative Lösungen und 
 - Ein motiviertes Team und eine offene Unternehmenskultur
 
 ### Du möchtest mit uns arbeiten? 🎉
-Wenn du Interesse an einer der oben genannten Positionen hast, schreib uns! Schick uns **deinen Lebenslauf und ein kurzes Anschreiben** an [karriere@hanova.tech](mailto:karriere@hanova.tech) und wir werden uns schnellstmöglich bei dir melden.
-
-Bitte beachten Sie, dass wir Ihre persönlichen Daten gemäß den geltenden Datenschutzbestimmungen behandeln und ausschließlich für den Bewerbungsprozess verwenden.
+Dann schick uns **deinen Lebenslauf und ein kurzes Anschreiben** an [karriere@hanova.tech](mailto:karriere@hanova.tech) und wir melden uns schnellstmöglich bei dir.
 
 Wir freuen uns darauf, dich kennenzulernen und gemeinsam mit dir zu wachsen!
+
+{{<alert>}}Bitte beachten Sie, dass wir Ihre persönlichen Daten gemäß den geltenden Datenschutzbestimmungen behandeln und ausschließlich für den Bewerbungsprozess verwenden.{{</alert>}}
