@@ -2,9 +2,9 @@
 title: AGB
 ---
 
-# Allgemein Geschäftsbedingung
+# Allgemeine Geschäftsbedingungen von HanovaTech für den Verkauf von Waren 
 
-Allgemeine Geschäftsbedingungen von HanovaTech für den Verkauf von Waren (Die Allgemeinen Geschäftsbedingungen von HanovaTech für Reparaturdienstleistungen oder sonstige Montagedienstleistungen finden Sie gesondert weiter unten)
+(Die Allgemeinen Geschäftsbedingungen von HanovaTech für Reparaturdienstleistungen oder sonstige Montagedienstleistungen finden Sie gesondert weiter unten)
 
 ## 1. Geltungsbereich
 
