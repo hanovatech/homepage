@@ -35,6 +35,10 @@ html {
   border-radius: .75rem;
 }
 
+.not-prose img {
+  border: none !important;
+}
+
 #TableOfContents {
   ul > li {
     color: #6b7280;
