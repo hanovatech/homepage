@@ -7,13 +7,13 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 {{ if eq .Section "blog" }}
   <meta name="title" content="{{ .Title }} | {{ .Site.Title }} Blog">
-  <meta property="description" content="{{ .Description }}">
+  <meta name="description" content="{{ .Description }}">
   <meta property="og:description" content="{{ .Description }}">
   <meta property="og:image" content="{{ .Params.image }}" />
   <meta property="og:type" content="article">
 {{ else }}
   <meta name="title" content="{{ .Title }} | {{ .Site.Title }}">
-  <meta property="description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+  <meta name="description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.description }}{{ end }}">
   <meta property="og:title" content="{{ .Title }} | {{ .Site.Title }}">
   <meta property="og:description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.description }}{{ end }}">
   <meta property="og:image" content="{{ .Site.BaseURL }}images/hanovatech_logo.jpeg" />
