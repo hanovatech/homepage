@@ -1,19 +1,19 @@
 ---
-title: "IT-Consulting: Anforderungsanalyse und Konzeptionierung"
+title: "IT-Beratung: Anforderungsanalyse und Konzeptionierung"
 description: Wir helfen Ihnen bei der Planung und Konzeption Ihrer IT-Infrastruktur zur Digitalisierung Ihres Unternehmens, um langfristig wettbewerbsfähig bleiben.
 image: /uploads/services/it-consulting.jpg
 weight: 1
 callToAction: true
 ---
 
-# IT-Consulting für die Digitalisierung Ihres Unternehmens
+# IT-Beratung für die Digitalisierung Ihres Unternehmens
 In der heuten Zeit ist eine funktionierende IT-Infrastruktur für Unternehmen jeder Branche unerlässlich. Sie ermöglicht es Ihrem Unternehmen von den neuen Möglichkeiten unserer Zeit zu profitieren und langfristig wettbewerbsfähig zu bleiben. Hierbei möchten wir Ihnen helfen...
 
 Unser Ziel ist es Ihre IT-Systeme und internen Prozesse zu optimieren. Durch unsere Erfahrung im Einsatz moderner Technologien, IT-Systemen und Prozessen in verschiedenen Branchen, können wir Ihnen dabei helfen dieses Ziel zu erreichen.
 
 Wir unterstützen Sie bei der Planung und Konzeptionierung einer Lösung, welche **auf die strategische Ausrichtung und Geschäftsziele zugeschnitten** sind. Wir stehen Ihnen bei der Wahl passender IT-Lösungen und -Technologien zur Steigerung der Effizienz ihres Geschäftsbetriebs beratend zur Seite.
 
-## IT-Consulting von Anfang bis Ende
+## IT-Beratung von Anfang bis Ende
 Wir stehen Ihnen von der anfänglichen Analyse Ihrer Anforderungen bis hin zur Implementierung neuer IT-Lösungen voller Tatendrang zur Seite und lassen Sie auch danach nicht allein.
 
 1. <span class="font-bold">Analyse</span> der bestehenden IT-Infrastruktur und Prozesse
