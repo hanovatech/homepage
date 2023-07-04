@@ -1,6 +1,6 @@
 {
-  "name": "home",
-  "description": "Homepage of HanovaTech",
+  "name": "homepage",
+  "description": "HanovaTech Homepage",
   "scripts": {
     "dev": "hugo serve -D",
     "build": "hugo"

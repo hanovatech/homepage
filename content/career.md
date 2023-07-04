@@ -17,7 +17,7 @@ Wir sind ein **dynamisches Unternehmen**, das sich auf innovative Lösungen und 
 - Ein motiviertes Team und eine offene Unternehmenskultur
 
 ### Du möchtest mit uns arbeiten? 🎉
-Dann schick uns **deinen Lebenslauf und ein kurzes Anschreiben** an [work@hanova.tech](mailto:work@hanova.tech) und wir melden uns schnellstmöglich bei dir.
+Dann schick uns **deinen Lebenslauf und ein kurzes Anschreiben** an [work@hanovatech.de](mailto:work@hanovatech.de) und wir melden uns schnellstmöglich bei dir.
 
 Wir freuen uns darauf, dich kennenzulernen und gemeinsam mit dir zu wachsen!
 

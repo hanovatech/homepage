@@ -30,12 +30,6 @@ main:
   - name: Blog
     url: /blog
 footer:
-  - name: Informationen
-    childs:
-      - name: Services
-        url: /services
-      - name: Blog
-        url: /blog
   - name: Unternehmen
     childs:
       - name: Kontakt
@@ -52,6 +46,14 @@ footer:
         url: /datenschutz
       - name: AGB
         url: /agb
+  - name: Privatkunden
+    childs:
+      - name: PC-Reparatur
+        url: /b2c/pc-reparatur
+      - name: Laptop-Reparatur
+        url: /b2c/notebook-und-laptop-reparatur
+      - name: Datenrettung
+        url: /b2c/datenrettung
   - name: Partner
     childs:
       - name: Unsere Partner

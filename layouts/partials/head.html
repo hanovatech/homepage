@@ -1,23 +1,23 @@
 
-<title>{{ if .IsHome }}{{ .Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ if eq .Section "blog" }} Blog{{ end }}{{ end }}</title>
+<title>{{ .Title }} | {{ .Site.Title }}{{ if eq .Section "blog" }} Blog{{ end }}</title>
 
 <!-- Meta Tags Start -->
 <meta charset="utf-8" />
 <meta http-equiv="content-type" content="text/html; charset=utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 {{ if eq .Section "blog" }}
-  <meta name="title" content="{{ .Title }} | {{ .Site.Title }} Blog">
-  <meta name="description" content="{{ .Description }}">
-  <meta property="og:description" content="{{ .Description }}">
-  <meta property="og:image" content="{{ .Params.image }}" />
-  <meta property="og:type" content="article">
+<meta name="title" content="{{ .Title }} | {{ .Site.Title }} Blog">
+<meta name="description" content="{{ .Description }}">
+<meta property="og:description" content="{{ .Description }}">
+<meta property="og:image" content="{{ .Params.image }}" />
+<meta property="og:type" content="article">
 {{ else }}
-  <meta name="title" content="{{ .Title }} | {{ .Site.Title }}">
-  <meta name="description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.description }}{{ end }}">
-  <meta property="og:title" content="{{ .Title }} | {{ .Site.Title }}">
-  <meta property="og:description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.description }}{{ end }}">
-  <meta property="og:image" content="{{ .Site.BaseURL }}images/hanovatech_logo.jpeg" />
-  <meta property="og:type" content="website">
+<meta name="title" content="{{ .Title }} | {{ .Site.Title }}">
+<meta name="description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+<meta property="og:title" content="{{ .Title }} | {{ .Site.Title }}">
+<meta property="og:description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+<meta property="og:image" content="{{ .Site.BaseURL }}images/hanovatech_logo.jpeg" />
+<meta property="og:type" content="website">
 {{ end }}
 <meta property="og:image:width" content="1000" />
 <meta property="og:image:height" content="750" />
@@ -44,15 +44,15 @@
 <!-- CSS Links Start -->
 {{ $styles := resources.Get "css/styles.scss" | toCSS | postCSS (dict "config" "./assets/css/postcss.config.js") }}
 {{ if .Site.IsServer }}
-  <link rel="stylesheet" href="{{ $styles.RelPermalink }}">
+<link rel="stylesheet" href="{{ $styles.RelPermalink }}">
 {{ else }}
-  {{ $styles := $styles | minify | fingerprint | resources.PostProcess }}
-  <link rel="stylesheet" href="{{ $styles.Permalink }}" integrity="{{ $styles.Data.Integrity }}">
+{{ $styles := $styles | minify | fingerprint | resources.PostProcess }}
+<link rel="stylesheet" href="{{ $styles.Permalink }}" integrity="{{ $styles.Data.Integrity }}">
 {{ end }}
 <!-- CSS Links End -->
 
 <!-- Glide.js Carousel and Slider -->
 <link rel="stylesheet" href="https://unpkg.com/@glidejs/glide@3.6.0/dist/css/glide.core.min.css">
 
-<!-- Animate on Scrol -->
+<!-- Animate on Scroll -->
 <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">

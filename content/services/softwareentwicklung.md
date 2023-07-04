@@ -4,6 +4,7 @@ image: /uploads/services/softwareentwicklung.jpg
 description: Wir entwickeln individuelle Software-Lösungen für Ihr KMU in
   Hannover. JavaScript, Python, Ruby on Rails. Für Android oder iOS. Jetzt anfragen.
 weight: 4
+callToAction: true
 ---
 
 # Individuelle Software-Lösungen und Software&shy;entwicklung - für KMU in Hannover

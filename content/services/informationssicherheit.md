@@ -3,6 +3,7 @@ title: Professionelle Schwachstellen&shy;analysen und Penetrationstests
 description: Verbessern Sie die Informationssicherheit Ihres Unternehmens mit unseren professionellen Schwachstellenanalysen und Penetrationstests. Erfahren Sie mehr!
 image: /uploads/services/informationssicherheit.jpg
 weight: 3
+callToAction: true
 ---
 
 # Informations&shy;sicherheit für Ihr Unternehmen: Professionelle Schwachstellen&shy;analysen und Penetrationstests
