@@ -8,7 +8,7 @@ image: /uploads/b2c/datenrettung-hannover.jpg
 
 Ihre Festplatte ist beschädigt und es ist kein Datenzugriff mehr möglich? Sie haben versehentlich Daten auf einer SSD oder einem anderen Speichermedium gelöscht? Wir helfen weiter: Datenrettung in Hannover mit Hanovatech.
 
-{{<callToAction-b2c>}}
+{{<callToAction-b2c url="/b2c/contact/datenrettung" >}}
 
 ## Typische Ursachen für eine ungewollte Datenlöschung
 Datenverlust kann in Unternehmen zu hohen finanziellen Verlusten führen. Und im privaten Bereich haben verloren gegangene Fotos oder andere wichtige Dateien meist einen hohen ideellen Wert. Häufige Ursachen für gelöschtes Datenmaterial auf Notebooks, Festplatten oder PCs sind:

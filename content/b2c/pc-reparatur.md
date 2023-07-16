@@ -10,7 +10,7 @@ Wir reparieren Ihren PC oder Ihr Notebook: professionell, schnell und zu fairen 
 
 Ihr Rechner streikt, lässt sich nicht mehr hochfahren? Ihr Laptop zeigt einen Bluescreen oder hat sich aufgehängt? Dann können wir Ihnen weiterhelfen. Wir sind Experten für die PC Reparatur in Hannover und bieten einen professionellen, gewissenhaften und schnellen Service. Dabei profitieren Sie von einem sehr guten Preisleistungsverhältnis.
 
-{{<callToAction-b2c>}}
+{{<callToAction-b2c url="/b2c/contact/pc-reparatur" >}}
 
 ## Wir reparieren Ihren Rechner vor Ort, bei uns oder per Fernwartung!
 Wir kümmern uns so schnell wie möglich um die Reparatur Ihres defekten Rechners. Sie müssen das Gerät dafür nicht zuhause oder im Office abbauen.
