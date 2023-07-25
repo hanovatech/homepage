@@ -6,45 +6,84 @@
   <body class="flex flex-col min-h-screen">
     {{- partial "header.html" . -}}
     <main class="flex-1">
-      {{ if .Params.image }}
-        <div class="mx-auto max-w-7xl px-4 sm:px-12 lg:px-16 py-8">
-          <img src="{{ .Params.image }}" alt="{{ .Title }}" class="w-full h-48 sm:h-64 xl:h-80 object-cover bg-gray-100 rounded-lg shadow-lg" />
+      {{ if .Params.heroImage }}
+        <div class="relative pb-8 sm:py-8">
+          <div class="mx-auto max-w-7xl sm:px-6 lg:px-8">
+            <div class="relative shadow-xl sm:overflow-hidden sm:rounded-2xl">
+              <div class="absolute inset-0">
+                <img class="h-full w-full object-cover" src="{{ .Params.heroImage }}" alt="People working on laptops">
+                <div class="absolute inset-0 bg-blue-400 mix-blend-multiply"></div>
+              </div>
+              <div class="relative px-6 py-16 sm:py-24 lg:px-8 lg:py-32">
+                <h1 class="text-center text-4xl font-bold tracking-tight sm:text-5xl lg:text-6xl">
+                  <span class="block text-white">Willkommen bei<br>HanovaTech</span>
+                </h1>
+                <p class="mx-auto mt-6 max-w-lg text-center text-xl text-blue-100 sm:max-w-3xl">
+                  {{ .Params.heroDescription }}
+                </p>
+                <div class="mx-auto mt-10 max-w-sm sm:flex sm:max-w-none sm:justify-center">
+                  <div class="space-y-4 sm:mx-auto sm:inline-grid sm:grid-cols-2 sm:gap-5 sm:space-y-0">
+                    <a href="#services" class="flex items-center justify-center rounded-md border border-transparent bg-white px-4 py-3 text-base font-medium text-blue-700 shadow-sm hover:bg-blue-50 sm:px-8">Dienstleistungen</a>
+                    <a href="/b2c/kontakt" class="flex items-center justify-center rounded-md border border-transparent bg-blue-500 bg-opacity-80 px-4 py-3 text-base font-medium text-white shadow-sm hover:bg-opacity-90 sm:px-8">Schreiben Sie uns</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       {{ end }}
 
-      <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-8 sm:py-16">
-        <div class="prose md:prose-lg max-w-4xl mx-auto">
-          {{ .Content }}
-        </div>
-      </div>
-
-      <div class="mx-auto max-w-4xl rounded-lg overflow-hidden divide-y divide-gray-200 overflow-hidden rounded-lg bg-gray-200 shadow sm:grid sm:grid-cols-2 sm:gap-px sm:divide-y-0">
-        {{ range .Params.services }}
-          <div class="group relative bg-gray-50 p-6 focus-within:ring-2 focus-within:ring-inset focus-within:ring-blue-500">
-            <div>
-              <span class="inline-flex rounded-lg p-3 bg-blue-50 text-blue-600 ">
-                <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
-                  {{ .icon | safeHTML }}
-                </svg>
-              </span>
-            </div>
-            <div class="mt-8">
-              <h3 class="text-base font-semibold leading-6 text-gray-900">
-                <a href="{{ .url }}" class="focus:outline-none">
-                  <span class="absolute inset-0" aria-hidden="true"></span>
-                  {{ .name }}
-                </a>
-              </h3>
-              <p class="mt-2 text-sm text-gray-500">{{ .description }}</p>
-            </div>
-            <span class="pointer-events-none absolute right-6 top-6 text-gray-300 group-hover:text-gray-400" aria-hidden="true">
-              <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
-                <path d="M20 4h1a1 1 0 00-1-1v1zm-1 12a1 1 0 102 0h-2zM8 3a1 1 0 000 2V3zM3.293 19.293a1 1 0 101.414 1.414l-1.414-1.414zM19 4v12h2V4h-2zm1-1H8v2h12V3zm-.707.293l-16 16 1.414 1.414 16-16-1.414-1.414z" />
-              </svg>
-            </span>
+      {{ if .Content }}
+        <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-8 sm:py-16">
+          <div class="prose md:prose-lg max-w-4xl mx-auto">
+            {{ .Content }}
           </div>
-        {{ end }}
-      </div>
+        </div>
+      {{ end }}
+
+      {{ if .Params.services }}
+        <section id="services">
+          <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-8">
+            <div class="prose md:prose-lg max-w-4xl mx-auto">
+              <h2 id="services">Unsere Dienstleistungen</h2>
+            </div>
+          </div>
+          <div class="mx-auto max-w-4xl rounded-lg overflow-hidden divide-y divide-gray-200 overflow-hidden rounded-lg bg-gray-200 shadow sm:grid sm:grid-cols-2 sm:gap-px sm:divide-y-0">
+            {{ range .Params.services }}
+              <div class="group relative bg-gray-50 p-6 focus-within:ring-2 focus-within:ring-inset focus-within:ring-blue-500">
+                <div>
+                  <span class="inline-flex rounded-lg p-3 bg-blue-50 text-blue-600 ">
+                    <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                      {{ .icon | safeHTML }}
+                    </svg>
+                  </span>
+                </div>
+                <div class="mt-8">
+                  <h3 class="text-xl font-semibold leading-6 text-gray-900">
+                    <a href="{{ .url }}" class="focus:outline-none">
+                      <span class="absolute inset-0" aria-hidden="true"></span>
+                      {{ .name }}
+                    </a>
+                  </h3>
+                  <p class="mt-2 text-sm text-gray-500">{{ .description }}</p>
+                </div>
+                <span class="pointer-events-none absolute right-6 top-6 text-gray-300 group-hover:text-gray-400" aria-hidden="true">
+                  <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M20 4h1a1 1 0 00-1-1v1zm-1 12a1 1 0 102 0h-2zM8 3a1 1 0 000 2V3zM3.293 19.293a1 1 0 101.414 1.414l-1.414-1.414zM19 4v12h2V4h-2zm1-1H8v2h12V3zm-.707.293l-16 16 1.414 1.414 16-16-1.414-1.414z" />
+                  </svg>
+                </span>
+              </div>
+            {{ end }}
+          </div>
+          <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-8">
+            <div class="prose max-w-4xl mx-auto">
+                <strong>Ihr Problem ist nicht aufgelistet?</strong><br>
+                Schreiben Sie uns eine Nachricht und wir schauen ob wir Ihnen weiterhelfen können.<br>
+                Unsere Kontaktformular finden sie <a href="/b2c/kontakt">hier</a>.
+              </div>
+            </div>
+        </section>
+      {{ end }}
     </main>
     {{- partial "footer.html" . -}}
     {{- partial "cookie.html" . -}}

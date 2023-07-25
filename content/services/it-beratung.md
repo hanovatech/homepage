@@ -23,7 +23,7 @@ Wir stehen Ihnen von der anfänglichen Analyse Ihrer Anforderungen bis hin zur I
 5. <span class="font-bold">Implementierung</span> neuer IT-Systeme in Ihrem Unternehmen
 6. <span class="font-bold">Schulung</span> von Mitarbeitern zur effektiven Nutzung der Systeme
 
-Sie haben bereits klare Vorstellungen oder möchten diese mit uns ausarbeiten? Dann schreiben Sie uns eine Nachricht über unser [Kontaktformular](/contact).
+Sie haben bereits klare Vorstellungen oder möchten diese mit uns ausarbeiten? Dann schreiben Sie uns eine Nachricht über unser [Kontaktformular](/kontakt).
 
 ## Ihr Full-Service Partner
 Wir stehen Ihnen bei der Digitalisierung Ihres Unternehmens nicht nur beratend zur Seite sondern packen auch mit an. Als Full-Service IT-Unternehmen bieten wir Ihnen neben der Beratung **auch bei der Umsetzung und dem anschließenden Betrieb Ihrer IT-Infrastruktur** unsere Hilfe an.
@@ -40,4 +40,4 @@ Profitieren Sie auch von unseren anderen Dienstleistungen:
 
 Durch unsere Erfahrungen in den Bereichen Managed Services, Cybersicherheit und Softwareentwicklung sind wir in der Lage Ihnen eine umfassende IT-Lösung anzubieten, welche nicht nur Ihre Geschäftsprozesse optimiert, sondern zudem Ihre IT-Infrastruktur verbessert und schützt.
 
-Kontaktieren Sie uns noch heute, um mehr über unsere anderen Dienstleistungen und wie wir Ihnen helfen können zu erfahren. Schreiben Sie uns eine Nachricht über unser [Kontaktformular](/contact).
+Kontaktieren Sie uns noch heute, um mehr über unsere anderen Dienstleistungen und wie wir Ihnen helfen können zu erfahren. Schreiben Sie uns eine Nachricht über unser [Kontaktformular](/kontakt).

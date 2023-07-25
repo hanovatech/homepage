@@ -10,7 +10,7 @@ image: /uploads/b2c/pc-kaufen.jpg
 
 Sie möchten einen Rechner, der genau auf Ihre Anforderungen und Wünsche ausgerichtet ist und suchen deshalb nach einer individuellen Lösung? Standard-PCs werden Ihren Anforderungen nicht gerecht? Dann kann Hanovatech weiterhelfen. Wir sind Ihr IT-Dienstleister aus Hannover, bei welchem Sie Ihren PC professionell zusammenbauen lassen können.
 
-{{<callToAction-b2c url="/b2c/contact/pc-kaufen" >}}
+{{<callToAction-b2c url="/b2c/kontakt/pc-kaufen" >}}
 
 ## In 3 Schritten zum Wunsch-PC mit Hanovatech
 1. Auf der Basis Ihre Anforderungen suchen wir die bestmögliche Hardware für Ihren neuen Rechner aus. Hierfür teilen Sie uns mit:
@@ -24,7 +24,7 @@ Sie möchten einen Rechner, der genau auf Ihre Anforderungen und Wünsche ausger
 
 Von der Vorauswahl der passenden Komponenten bis zum Zusammenbauen vergehen häufig nur wenige Werktage, vorausgesetzt, alle benötigten Teile sind schnell verfügbar.
 
-Wissen Sie schon genau, was für einen Rechner Sie möchten? Dann fordern Sie hier direkt ein Angebot an: 0511&nbsp;–&nbsp;515&nbsp;611&nbsp;90
+Wissen Sie schon genau, was für einen Rechner Sie möchten? Dann fordern Sie direkt ein Angebot an: [0511–51561190](tel:+4951151561190)
 
 ## Die Vorteile eines Maßgeschneiderten Computer
 - Sie nutzen nur die Komponenten und Hardware, die Sie wirklich benötigen.
@@ -55,7 +55,9 @@ Profitieren Sie beim PC-Kauf in Hannover in vollem Umfang von unserer Expertise,
 - Sie erhalten dauerhaft 10 Prozent Rabatt auf alle IT-Dienstleistungen bei Hanovatech (ausgenommen Hardware).
 
 ## Was dürfen wir für Sie tun?
-Wissen Sie schon genau, was für einen Rechner Sie möchten? Dann fordern Sie hier direkt ein Angebot an: 0511&nbsp;–&nbsp;515&nbsp;611&nbsp;90
+Wissen Sie schon genau, was für einen Rechner Sie möchten? Dann fordern Sie hier direkt ein Angebot an: [0511–51561190](tel:+4951151561190)
 
 Jetzt individuellen PC in Hannover kaufen – natürlich bei HanovaTech, Ihren Spezialisten rund um PC-Reparatur, IT-Beratung und Datenrettung.
+
+{{<callToAction-b2c url="/b2c/kontakt/pc-kaufen" >}}
 

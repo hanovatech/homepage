@@ -4,12 +4,12 @@ title: Laptop-Reparatur Formular
 
 # Laptop-Reparatur Formular
 
-Nehmen Sie mit uns über das folgende Formular Kontakt auf, wenn Sie Probleme mit Ihrem Laptop haben.
+**Sie haben Probleme mit Ihrem Laptop oder Notebook?** Dann nehmen Sie mit uns über das folgende Formular Kontakt auf.
 
 Wir werden uns schnellstmöglich bei Ihnen melden, um mit Ihnen einen Termin zu vereinbaren. Alternativ können Sie uns auch telefonisch unter [0511-51561190](tel:051151561190) zu unseren Öffnungszeiten erreichen.
 
 <div class="max-w-2xl mx-auto">
-  <form name="contact" method="POST" data-netlify="true" action="/contact/success">
+  <form name="laptop-reparatur" method="POST" data-netlify="true" action="/b2c/kontakt/success">
     <div class="grid grid-cols-1 gap-y-6 gap-x-8 sm:grid-cols-2">
       <h2 class="sm:col-span-2 text-2xl text-gray-900 font-bold mb-6">Angaben zum Problem</h2>
       <div class="sm:col-span-2">
@@ -37,7 +37,7 @@ Wir werden uns schnellstmöglich bei Ihnen melden, um mit Ihnen einen Termin zu 
       <div class="sm:col-span-2">
         <label for="cause" class="block text-sm font-semibold leading-6 text-gray-900">Was ist die Ursache des Problems?</label>
         <div class="mt-2.5">
-          <select name="cause" id="cause" required="required" class="block w-full rounded-md border-0 py-2 px-3.5 text-sm leading-6 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-blue-600">
+          <select name="cause" id="cause" required class="block w-full rounded-md border-0 py-2 px-3.5 text-sm leading-6 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-blue-600">
             <option value="" class="placeholder" disabled="" selected="selected">Was ist passiert?</option>
             <option value="Keine Vorkommnisse ">Keine Vorkommnisse </option>
             <option value="Gerät ist runtergefallen">Gerät ist runtergefallen</option>
@@ -52,13 +52,13 @@ Wir werden uns schnellstmöglich bei Ihnen melden, um mit Ihnen einen Termin zu 
       <div class="sm:col-span-2">
         <label for="message" class="block text-sm font-semibold leading-6 text-gray-900">Erklärung zum Problem</label>
         <div class="mt-2.5">
-          <textarea name="message" id="message" required rows="4" class="block w-full rounded-md border-0 py-2 px-3.5 text-sm leading-6 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-blue-600"></textarea>
+          <textarea name="message" id="message" rows="4" class="block w-full rounded-md border-0 py-2 px-3.5 text-sm leading-6 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-blue-600"></textarea>
         </div>
       </div>
       <div>
         <label for="manufacturer" class="block text-sm font-semibold leading-6 text-gray-900">Hersteller</label>
         <div class="mt-2.5">
-          <select name="manufacturer" id="manufacturer" required="required" class="block w-full rounded-md border-0 py-2 px-3.5 text-sm leading-6 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-blue-600">
+          <select name="manufacturer" id="manufacturer" required class="block w-full rounded-md border-0 py-2 px-3.5 text-sm leading-6 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-blue-600">
             <option value="" class="placeholder" disabled="" selected="selected">Bitte auswählen</option>
             <option value=" Acer"> Acer</option>
             <option value="Alienware">Alienware</option>
@@ -86,13 +86,13 @@ Wir werden uns schnellstmöglich bei Ihnen melden, um mit Ihnen einen Termin zu 
       <div>
         <label for="modell" class="block text-sm font-semibold leading-6 text-gray-900">Modell</label>
         <div class="mt-2.5">
-          <input type="text" name="modell" id="modell" required class="block w-full rounded-md border-0 py-2 px-3.5 text-sm leading-6 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-blue-600">
+          <input type="text" name="modell" id="modell" class="block w-full rounded-md border-0 py-2 px-3.5 text-sm leading-6 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-blue-600">
         </div>
       </div>
       <div class="sm:col-span-2">
         <label for="serialnumber" class="block text-sm font-semibold leading-6 text-gray-900">Seriennummer</label>
         <div class="mt-2.5">
-          <input type="text" name="serialnumber" id="serialnumber" required class="block w-full rounded-md border-0 py-2 px-3.5 text-sm leading-6 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-blue-600">
+          <input type="text" name="serialnumber" id="serialnumber" class="block w-full rounded-md border-0 py-2 px-3.5 text-sm leading-6 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-blue-600">
         </div>
       </div>
       <div class="sm:col-span-2">

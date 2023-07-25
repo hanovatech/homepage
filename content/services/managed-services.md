@@ -37,4 +37,4 @@ Durch unsere Partner können wir Ihnen Lösungen für jeden Aspekt Ihrer IT-Infr
 ## Warum Managed Services?
 Durch unsere Managed Services **können Sie sich auf Ihr Kerngeschäft konzentrieren** ohne selbst die IT-Infrastruktur zu verwalten oder Gefahr zu laufen, langfristig Probleme mit dieser zu bekommen. Außerdem stehen wir Ihnen jederzeit für die Behebung Ihrer IT-Probleme und Herausforderungen beratend zur Seite.
 
-Sie haben Interesse an unseren Managed Services? Dann schreiben Sie uns eine Nachricht über unser [Kontaktformular](/contact).
+Sie haben Interesse an unseren Managed Services? Dann schreiben Sie uns eine Nachricht über unser [Kontaktformular](/kontakt).

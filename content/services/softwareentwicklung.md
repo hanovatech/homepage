@@ -24,7 +24,7 @@ Wir gehen bei der Softwareentwicklung agil vor. Für Sie bedeutet das nicht nur 
 - Anpassung bestehender Programme und Customizing
 - Entwicklung individueller Softwarelösungen für Online-Shops, Intranet oder die Firmen-IT
 
-Benötigen Sie eine individuelle Softwarelösung für Ihr KMU im Raum Hannover? Dann schreiben Sie uns eine Nachricht über unser [Kontaktformular](/contact).
+Benötigen Sie eine individuelle Softwarelösung für Ihr KMU im Raum Hannover? Dann schreiben Sie uns eine Nachricht über unser [Kontaktformular](/kontakt).
 
 ## Ihre Vorteile mit Hanovatech
 
@@ -48,4 +48,4 @@ Wenn Sie uns jedoch genau schildern, welche Anforderungen Sie an Ihre Softwarel�
 
 Selbstverständlich erhalten Sie auch ein unverbindliches Angebot für Ihre Anfrage.
 
-Individuelle Softwarelösungen für KMU aus der Region Hannover – [jetzt anfragen bei Hanovatech](/contact)
+Individuelle Softwarelösungen für KMU aus der Region Hannover – [jetzt anfragen bei Hanovatech](/kontakt)

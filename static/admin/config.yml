@@ -54,7 +54,7 @@ collections:
                   - { label: "Image", name: "image", widget: "image" }
       - name: partners
         label: Partner
-        file: "/content/partners/_index.md"
+        file: "/content/partner/_index.md"
         fields:
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Description", name: "description", widget: "string", required: false }
@@ -67,7 +67,7 @@ collections:
           - { label: "Body", name: "body", widget: "markdown" }
       - name: about
         label: Über uns
-        file: "/content/about.md"
+        file: "/content/ueber-uns.md"
         fields:
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Description", name: "description", widget: "string", required: false }
@@ -95,7 +95,7 @@ collections:
           - { label: "Body", name: "body", widget: "markdown" }
       - name: career
         label: Karriere
-        file: "/content/career.md"
+        file: "/content/karriere.md"
         fields:
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Description", name: "description", widget: "string", required: false }
@@ -114,7 +114,7 @@ collections:
           - { label: "Body", name: "body", widget: "markdown" }
       - name: contact
         label: Kontakt
-        file: "/content/contact/_index.md"
+        file: "/content/kontakt/_index.md"
         fields:
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Description", name: "description", widget: "string", required: false }

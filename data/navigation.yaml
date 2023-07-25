@@ -20,24 +20,24 @@ main:
         url: /services/softwareentwicklung
         icon: <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 7.5l3 2.25-3 2.25m4.5 0h3m-9 8.25h13.5A2.25 2.25 0 0021 18V6a2.25 2.25 0 00-2.25-2.25H5.25A2.25 2.25 0 003 6v12a2.25 2.25 0 002.25 2.25z" />
   - name: Partner
-    url: /partners
+    url: /partner
   - name: Über uns
     childs:
       - name: Geschichte
-        url: /about
+        url: /ueber-uns
       - name: Karriere
-        url: /career
+        url: /karriere
   - name: Blog
     url: /blog
 footer:
   - name: Über uns
     childs:
       - name: Kontakt
-        url: /contact
+        url: /kontakt
       - name: Geschichte
-        url: /about
+        url: /ueber-uns
       - name: Karriere
-        url: /career
+        url: /karriere
   - name: Rechtliches
     childs:
       - name: Impressum
@@ -57,7 +57,7 @@ footer:
   - name: Partner
     childs:
       - name: Unsere Partner
-        url: /partners
+        url: /partner
       - name: Allianz für Cyber-Sicherheit
         url: https://www.allianz-fuer-cybersicherheit.de/Webs/ACS/DE/Ueber-uns/Teilnehmer/Liste-der-Teilnehmer/Functions/%C3%BCbersicht.html?nn=519278&cms_lv2=489890
         image: /uploads/partner-logos/allianz-fuer-cybersecurity.svg
@@ -84,8 +84,8 @@ b2c:
   - name: Über uns
     childs:
       - name: Geschichte
-        url: /about
+        url: /ueber-uns
       - name: Karriere
-        url: /career
+        url: /karriere
   - name: Blog
     url: /blog
