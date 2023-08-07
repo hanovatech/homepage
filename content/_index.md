@@ -21,8 +21,8 @@ servicesSection:
       description: Ob individuelle Schnittstellenentwicklung oder Anpassungen an Ihrer Webseite, wir entwickeln Software nach Ihren Wünschen.
       icon: <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 7.5l3 2.25-3 2.25m4.5 0h3m-9 8.25h13.5A2.25 2.25 0 0021 18V6a2.25 2.25 0 00-2.25-2.25H5.25A2.25 2.25 0 003 6v12a2.25 2.25 0 002.25 2.25z"></path>
   carousel:
-    - name: NABLE zum Monitoring Ihrer Systeme
-      image: /uploads/services/NABLE_RMM.png
+    - name: Bitwarden - Passwortmanager für Ihr Unternehmen
+      image: /uploads/services/Bitwarden.png
     - name: Microsoft 365 as a Service von HanovaTech
       image: /uploads/services/M365_Tools.png
 teamSection:
@@ -33,7 +33,7 @@ teamSection:
       role: Geschäftsführung
       specialty: Informationssicherheit
       image: https://profile-images.xing.com/images/ef2bdacbea9777e9ca72e6768dae5d3c-4/hashem-mahmoud.256x256.jpg
-    - name: "<div style='height:32px;display:flex;align-items:center'><img src='/images/henry.png' alt='Mitarbeiter' style='height: 18px;' /></div>"
+    - name: Henry Akmann
       role: Technische Leitung
       specialty: Softwareentwicklung
       image: https://avatars.githubusercontent.com/u/14221837

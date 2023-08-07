@@ -19,8 +19,18 @@ main:
         description: Wir verbinden Ihre IT-Systeme miteinander
         url: /services/softwareentwicklung
         icon: <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 7.5l3 2.25-3 2.25m4.5 0h3m-9 8.25h13.5A2.25 2.25 0 0021 18V6a2.25 2.25 0 00-2.25-2.25H5.25A2.25 2.25 0 003 6v12a2.25 2.25 0 002.25 2.25z" />
-  - name: Partner
-    url: /partner
+  - name: Produkte
+    childs:
+      - name: Microsoft 365
+        url: /products/microsoft-365
+      - name: IT-Infrastruktur
+        url: /products/iaas
+      - name: Wiki & Dokumentation
+        url: /products/wiki
+      - name: Passwortmanager
+        url: /products/passwortmanager
+      - name: Cloud-Backup
+        url: /products/cloud-backup
   - name: Über uns
     childs:
       - name: Geschichte
@@ -34,7 +44,7 @@ footer:
     childs:
       - name: Kontakt
         url: /kontakt
-      - name: Geschichte
+      - name: Über uns
         url: /ueber-uns
       - name: Karriere
         url: /karriere
@@ -46,21 +56,21 @@ footer:
         url: /datenschutz
       - name: AGB
         url: /agb
-  - name: Privatkunden
+  - name: Links
     childs:
-      - name: PC-Reparatur
-        url: /b2c/pc-reparatur
-      - name: Laptop-Reparatur
-        url: /b2c/notebook-und-laptop-reparatur
-      - name: Datenrettung
-        url: /b2c/datenrettung
+      - name: Support
+        url: mailto:support@hanovatech.de
+      - name: Blog
+        url: /blog
+      - name: Github
+        url: https://github.com/hanovatech
   - name: Partner
     childs:
       - name: Unsere Partner
         url: /partner
       - name: Allianz für Cyber-Sicherheit
         url: https://www.allianz-fuer-cybersicherheit.de/Webs/ACS/DE/Ueber-uns/Teilnehmer/Liste-der-Teilnehmer/Functions/%C3%BCbersicht.html?nn=519278&cms_lv2=489890
-        image: /uploads/partner-logos/allianz-fuer-cybersecurity.svg
+        image: /uploads/logos/allianz-fuer-cybersecurity.svg
 b2c:
   - name: Services
     iconList: true
@@ -87,5 +97,5 @@ b2c:
         url: /ueber-uns
       - name: Karriere
         url: /karriere
-  - name: Blog
-    url: /blog
+  - name: B2B-Bereich
+    url: /
