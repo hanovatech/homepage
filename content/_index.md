@@ -37,4 +37,16 @@ teamSection:
       role: Technische Leitung
       specialty: Softwareentwicklung
       image: https://avatars.githubusercontent.com/u/14221837
+partnersSection:
+  title: Gemeinsam mehr erreichen
+  description: Wir arbeiten mit führenden Partnern der IT-Branche zusammen, um Ihnen bestmögliche Lösungen bieten zu können.
+  partners:
+    - name: Microsoft
+      image: /uploads/logos/microsoft.png
+    - name: Placetel
+      image: /uploads/logos/placetel.png
+    - name: Wortmann AG
+      image: /uploads/logos/wortmann.png
+    - name: Deutsche Gesellschaft für Cybersicherheit
+      image: /uploads/logos/dgc-ag.svg
 ---

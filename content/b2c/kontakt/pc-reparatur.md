@@ -8,10 +8,10 @@ title: PC-Reparatur Formular
 
 Wir werden uns schnellstmöglich bei Ihnen melden, um mit Ihnen einen Termin zu vereinbaren. Alternativ können Sie uns auch telefonisch unter [0511-51561190](tel:051151561190) zu unseren Öffnungszeiten erreichen.
 
-<div class="max-w-2xl mx-auto">
-  <form name="pc-reparatur" method="POST" data-netlify="true" action="/b2c/kontakt/success">
+<div class="not-prose max-w-2xl mx-auto mt-16 sm:bg-gray-50 sm:p-6 sm:border sm:rounded-lg sm:shadow-lg">
+  <form name="datenrettung" data-netlify="true" method="POST" action="/b2c/kontakt/success">
     <div class="grid grid-cols-1 gap-y-6 gap-x-8 sm:grid-cols-2">
-      <h2 class="sm:col-span-2 text-2xl text-gray-900 font-bold mb-6">Angaben zum Problem</h2>
+      <h2 class="sm:col-span-2 text-2xl text-gray-900 font-bold mb-0">Angaben zum Problem</h2>
       <div class="sm:col-span-2">
         <label for="kind" class="block text-sm font-semibold leading-6 text-gray-900">Art des PCs</label>
         <div class="mt-2.5">
@@ -104,7 +104,7 @@ Wir werden uns schnellstmöglich bei Ihnen melden, um mit Ihnen einen Termin zu 
           </select>
         </div>
       </div>
-      <h2 class="sm:col-span-2 text-2xl text-gray-900 font-bold mb-6">Ihre Kontaktdaten</h2>
+      <h2 class="sm:col-span-2 text-2xl text-gray-900 font-bold mb-0 mt-6">Ihre Kontaktdaten</h2>
       <div>
         <label for="firstname" class="block text-sm font-semibold leading-6 text-gray-900">Vorname</label>
         <div class="mt-2.5">

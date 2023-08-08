@@ -10,7 +10,7 @@ Wir reparieren Ihren PC oder Ihr Notebook: professionell, schnell und zu fairen 
 
 Ihr Rechner streikt, lässt sich nicht mehr hochfahren? Ihr Laptop zeigt einen Bluescreen oder hat sich aufgehängt? Dann können wir Ihnen weiterhelfen. Wir sind Experten für die PC Reparatur in Hannover und bieten einen professionellen, gewissenhaften und schnellen Service. Dabei profitieren Sie von einem sehr guten Preisleistungsverhältnis.
 
-{{<callToAction-b2c url="/b2c/kontakt/pc-reparatur" >}}
+{{<callToAction-b2c formUrl="/b2c/kontakt/pc-reparatur" >}}
 
 ## Wir reparieren Ihren Rechner vor Ort, bei uns oder per Fernwartung!
 Wir kümmern uns so schnell wie möglich um die Reparatur Ihres defekten Rechners. Sie müssen das Gerät dafür nicht zuhause oder im Office abbauen.
@@ -73,4 +73,5 @@ Computer in Hannover reparieren lassen – professioneller Service, faire Preise
 
 Sie möchten Ihre IT-Infrastruktur erneuern oder optimieren? Dann sind Sie bei HanovaTech ebenfalls richtig. Wir sind Ihre professionelle IT-Beratung in Hannover. Gerne beraten wir Sie auch bei der Anschaffung neuer Software oder Computer. Kontaktieren Sie uns schnell und unkompliziert per Mail oder Telefon, wenn Sie mehr über Ihre Möglichkeiten mit Hanovatech erfahren wollen.
 
-{{<callToAction-b2c url="/b2c/kontakt/pc-reparatur" >}}
+<br>
+{{<callToAction-b2c formUrl="/b2c/kontakt/pc-reparatur" >}}

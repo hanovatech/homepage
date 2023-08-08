@@ -97,7 +97,7 @@
         </div>
 
         {{ if .Params.servicesSection.carousel }}
-          <div class="mx-auto mt-12 sm:mt-16 lg:mt-20 max-w-2xl">
+          <div class="mx-auto mt-12 sm:mt-16 lg:mt-20 max-w-xl">
             <div class="glide autoplay">
               <div class="glide__track" data-glide-el="track">
                 <ul class="glide__slides">
@@ -171,18 +171,13 @@
       <div class="mx-auto max-w-7xl px-6 lg:px-8">
         <div class="mx-auto max-w-xl text-center">
           <span class="text-base font-semibold leading-7 text-gray-500">Unsere Partner</span>
-          <h2 class="mt-4 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Gemeinsam mehr erreichen</h2>
-          <p class="mt-6 text-lg leading-8 text-gray-600">Wir arbeiten mit führenden Partnern der IT-Branche zusammen, um Ihnen bestmögliche Lösungen zu bieten.</p>
+          <h2 class="mt-4 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">{{ .Params.partnersSection.title }}</h2>
+          <p class="mt-6 text-lg leading-8 text-gray-600">{{ .Params.partnersSection.description }}</p>
         </div>
-        <div class="mx-auto mt-10 flex flex-col md:flex-row gap-12 justify-center">
-          <div class="flex flex-col lg:flex-row gap-12">
-            <img class="max-h-12 w-full object-contain" src="/uploads/logos/microsoft.png" alt="Microsoft" width="225" height="48">
-            <img class="max-h-12 w-full object-contain" src="/uploads/logos/synaxon.png" alt="SYNAXON" width="225" height="48">
-          </div>
-          <div class="flex flex-col lg:flex-row gap-12">
-            <img class="max-h-12 w-full object-contain" src="/uploads/logos/wortmann.png" alt="Wortmann AG" width="225" height="48">
-            <img class="max-h-12 w-full object-contain" src="/uploads/logos/dgc.svg" alt="DGC" width="225" height="48">
-          </div>
+        <div class="mx-auto mt-16 md:mt-20 grid max-w-lg grid-cols-1 items-center gap-x-8 gap-y-10 sm:gap-y-16 sm:max-w-xl sm:grid-cols-2 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-4">
+          {{ range .Params.partnersSection.partners }}
+            <img class="max-h-12 w-full object-contain" src="{{ .image }}" alt="{{ .name }}" width="225" height="48">
+          {{ end }}
         </div>
       </div>
     </div>

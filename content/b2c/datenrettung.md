@@ -8,7 +8,7 @@ image: /uploads/b2c/datenrettung-hannover.jpg
 
 Ihre Festplatte ist beschädigt und es ist kein Datenzugriff mehr möglich? Sie haben versehentlich Daten auf einer SSD oder einem anderen Speichermedium gelöscht? Wir helfen weiter: Datenrettung in Hannover mit Hanovatech.
 
-{{<callToAction-b2c url="/b2c/kontakt/datenrettung" >}}
+{{<callToAction-b2c formUrl="/b2c/kontakt/datenrettung" appointmentUrl="https://calendly.com/hanovatech/datenrettung-hannover" >}}
 
 ## Typische Ursachen für eine ungewollte Datenlöschung
 Datenverlust kann in Unternehmen zu hohen finanziellen Verlusten führen. Und im privaten Bereich haben verloren gegangene Fotos oder andere wichtige Dateien meist einen hohen ideellen Wert. Häufige Ursachen für gelöschtes Datenmaterial auf Notebooks, Festplatten oder PCs sind:
@@ -70,4 +70,5 @@ Unser Datenrettungsservice ist ein Angebot für Geschäftskunden und KMU ebenso 
 
 Rufen Sie uns an, um Ihre Daten zu fairen Kosten wiederherstellen zu lassen: [0152-23477771](tel:015223477771)
 
-{{<callToAction-b2c url="/b2c/kontakt/datenrettung" >}}
+<br>
+{{<callToAction-b2c formUrl="/b2c/kontakt/datenrettung" appointmentUrl="https://calendly.com/hanovatech/datenrettung-hannover" >}}
