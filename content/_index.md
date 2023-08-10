@@ -22,9 +22,9 @@ servicesSection:
       icon: <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 7.5l3 2.25-3 2.25m4.5 0h3m-9 8.25h13.5A2.25 2.25 0 0021 18V6a2.25 2.25 0 00-2.25-2.25H5.25A2.25 2.25 0 003 6v12a2.25 2.25 0 002.25 2.25z"></path>
   carousel:
     - name: Bitwarden - Passwortmanager für Ihr Unternehmen
-      image: /uploads/services/Bitwarden.png
+      image: /content/services/Bitwarden.png
     - name: Microsoft 365 as a Service von HanovaTech
-      image: /uploads/services/M365_Tools.png
+      image: /content/services/M365_Tools.png
 teamSection:
   title: Unser Team 
   description: Wir sind ein dynamisches und junges Team, welches Ihnen bei der Digitalisierung Ihres Unternehmens mit tatendrang zur Seite steht.
@@ -42,11 +42,11 @@ partnersSection:
   description: Wir arbeiten mit führenden Partnern der IT-Branche zusammen, um Ihnen bestmögliche Lösungen bieten zu können.
   partners:
     - name: Microsoft
-      image: /uploads/logos/microsoft.png
+      image: /content/logos/microsoft.png
     - name: Placetel
-      image: /uploads/logos/placetel.png
+      image: /content/logos/placetel.png
     - name: Wortmann AG
-      image: /uploads/logos/wortmann.png
+      image: /content/logos/wortmann.png
     - name: Deutsche Gesellschaft für Cybersicherheit
-      image: /uploads/logos/dgc-ag.svg
+      image: /content/logos/dgc-ag.svg
 ---

@@ -3,7 +3,7 @@ title: Managed Services für Ihre IT-Infrastruktur
 description: Wir sorgen durch unsere Managed Services für die Zuverlässigkeit
   Ihrer IT-Infrastruktur damit Sie sich ganz auf Ihren Geschäftsprozess
   konzentrieren können.
-image: /uploads/services/managed-services.jpg
+image: /content/services/managed-services.jpg
 weight: 2
 callToAction: true
 ---
@@ -32,7 +32,7 @@ Durch unsere Partner können wir Ihnen Lösungen für jeden Aspekt Ihrer IT-Infr
 - [Synaxon AG](https://synaxon.de/)
 - [Wortmann AG](https://www.wortmann.de/)
 
-![N-ABLE Remote Monitoring and Management](/uploads/services/NABLE_RMM.png)
+![N-ABLE Remote Monitoring and Management](/content/services/NABLE_RMM.png)
 
 ## Warum Managed Services?
 Durch unsere Managed Services **können Sie sich auf Ihr Kerngeschäft konzentrieren** ohne selbst die IT-Infrastruktur zu verwalten oder Gefahr zu laufen, langfristig Probleme mit dieser zu bekommen. Außerdem stehen wir Ihnen jederzeit für die Behebung Ihrer IT-Probleme und Herausforderungen beratend zur Seite.

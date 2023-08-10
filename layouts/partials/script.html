@@ -47,15 +47,6 @@
   // Toggle Mobile Submenu End
 
   // Toggle Desktop Flyout Menu Start
-  function closeFlyoutMenus(event) {
-    if (!event.target.classList.contains("header-flyout-button")) {
-      for (const flyoutMenu of document.getElementsByClassName("header-flyout-menu")) {
-        flyoutMenu.style.opacity = 0
-        flyoutMenu.style.visibility = "hidden"
-      }
-    }
-  }
-
   for (const button of document.getElementsByClassName("header-flyout-button")) {
     button.addEventListener("click", event => {
       const flyoutMenu = event.target.nextElementSibling
@@ -67,6 +58,15 @@
         flyoutMenu.style.visibility = "hidden"
       }
     })
+  }
+
+  function closeFlyoutMenus(event) {
+    if (!event.target.classList.contains("header-flyout-button")) {
+      for (const flyoutMenu of document.getElementsByClassName("header-flyout-menu")) {
+        flyoutMenu.style.opacity = 0
+        flyoutMenu.style.visibility = "hidden"
+      }
+    }
   }
 
   document.addEventListener("click", closeFlyoutMenus)
@@ -90,7 +90,8 @@
 <!-- Netlify Identity Widget End -->
 
 <!-- Glide.js Start -->
-<script src="https://unpkg.com/@glidejs/glide@3.6.0/dist/glide.min.js"></script>
+{{ $glide := resources.Get "/glide@3.6.0/glide.js" | minify | fingerprint }}
+<script src="{{ $glide.Permalink }}"></script>
 <script>
   if (document.getElementsByClassName("glide").length) {
     new Glide('.glide').mount()
@@ -103,10 +104,9 @@
 <!-- Glide.js End -->
 
 <!-- Animate on Scroll Start -->
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<script>
-  AOS.init();
-</script>
+{{ $aos := resources.Get "/aos@2.3.4/aos.js" | minify | fingerprint }}
+<script src="{{ $aos.Permalink }}"></script>
+<script>AOS.init();</script>
 <!-- Animate on Scroll End -->
 
 {{ if .Site.Data.google.google_tag_key }}

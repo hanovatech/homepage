@@ -1,7 +1,7 @@
 ---
 title: Selbstreparatur und PC-Wartung
 description: Der Weg ins Homeoffice ist nicht weit. Neben Schreibtisch, Stuhl und Deko, gehört natürlich die Technik als Hauptdarsteller mit dazu.
-image: /uploads/blog/pc-wartung.jpg
+image: /content/blog/pc-wartung.jpg
 tags: ["Reparatur", "Hardware"]
 published: 2021-02-03T19:05:18+00:00
 modified: 2021-02-04T13:58:53+00:00

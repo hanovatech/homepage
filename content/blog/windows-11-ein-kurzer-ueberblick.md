@@ -1,7 +1,7 @@
 ---
 title: "Windows 11: Ein kurzer Überblick - Wie sieht das Betriebssystem aus?"
 description: Seien Sie bereit! Ein Windows-Upgrade ist nicht zu guter Letzt deswegen sinnvoll, weil man eine Reihe an Sicherheit-Updates bekommt...
-image: /uploads/blog/windows-11.jpeg
+image: /content/blog/windows-11.jpeg
 tags: ["Windows"]
 published: 2021-10-01T15:48:28+00:00
 modified: 2021-10-01T15:49:41+00:00
@@ -36,7 +36,7 @@ Wenn Sie Fragen zu ihrer technischen Ausstattung haben, können Sie uns [hier](/
 Weiterhin kann die verpflichtende Erstellung und Nutzung eines Microsoft-Kontos für manche Benutzer*innen unangebracht sein, die ansonsten Windows 11 Home nicht verwenden werden können.
 
 ## Seien Sie bereit für ein Windows-Upgrade
-![Windows Update Notebook](/uploads/blog/windows-update-notebook.jpeg)
+![Windows Update Notebook](/content/blog/windows-update-notebook.jpeg)
 Wenn es so weit ist, werden Sie in der Lage sein, das Windows-11-Update zu installieren. Vorher sollten Sie sich aber mit den technischen Voraussetzungen Ihres Gerätes auseinandersetzen, denn wenn Sie ein veraltetes System nutzen, können Sie nicht mehr mithalten und werden eine einfache Zielfläche für Cyberangriffe.
 
 Dann bedarf es an einer Umrüstung mit neuer Hardware, wobei bei den moderaten Mindestanforderungen nicht gleich das teuerste Equipment angeschafft werden muss.

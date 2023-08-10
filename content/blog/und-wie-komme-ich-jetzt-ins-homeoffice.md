@@ -1,7 +1,7 @@
 ---
 title: Und wie komme ich jetzt ins Homeoffice?
 description: Der Weg ins Homeoffice ist nicht weit. Neben Schreibtisch, Stuhl und Deko, gehört natürlich die Technik als Hauptdarsteller mit dazu.
-image: /uploads/blog/homeoffice.jpg
+image: /content/blog/homeoffice.jpg
 tags: ["Hardware", "Homeoffice"]
 published: 2020-09-22T10:23:30+00:00
 modified: 2020-10-20T20:50:05+00:00

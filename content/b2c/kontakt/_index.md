@@ -7,7 +7,7 @@ title: Kontaktformular
 **Sie haben ein konkretes Anliegen?** Dann nutzen Sie eines der folgenden Formulare:
 
 - [PC-Reparatur Formular](/b2c/kontakt/pc-reparatur/)
-- [Laptop-Beratung Formular](/b2c/kontakt/laptop-reparatur/)
+- [Laptop-Reparatur Formular](/b2c/kontakt/laptop-reparatur/)
 - [Datenrettung Formular](/b2c/kontakt/datenrettung/)
 
 <section id="contact">
@@ -47,7 +47,7 @@ title: Kontaktformular
         </li>
       </ul>
       <div class="col-span-2 mt-16 md:mt-0">
-        <form name="contact" method="POST" data-netlify="true" action="/kontakt/success">
+        <form name="b2c-contact" data-netlify="true" method="POST" action="/kontakt/success">
           <h2 class="md:hidden text-2xl text-gray-900 font-bold mb-6">Kontakformular</h2>
           <div class="grid grid-cols-1 gap-y-6 gap-x-8 sm:grid-cols-2">
             <div>

@@ -1,7 +1,7 @@
 ---
 title: Wann lohnt sich eine Notebook-Reparatur?
 description: Ihr Laptop ist kaputt? Lassen Sie uns Ihr Notebook prüfen und checken, ob sich eine Reparatur für Sie doch lohnt!
-image: /uploads/blog/notebook-reparatur.jpeg
+image: /content/blog/notebook-reparatur.jpeg
 tags: ["Laptop", "Hardware"]
 published: 2023-02-13T14:26:44+00:00
 modified: 2023-02-13T14:30:11+00:00

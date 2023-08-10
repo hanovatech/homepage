@@ -1,7 +1,7 @@
 ---
 title: "Cybersecurity: sind wir in Deutschland bereit?"
 description: In Deutschland erleben wir derzeitig die schlechte Software-Ära, geprägt vom Qualität einbüßenden Außenhandel mit Billigherstellern.
-image: /uploads/blog/digitalisierung.jpg
+image: /content/blog/digitalisierung.jpg
 tags: ["Cybersicherheit"]
 published: 2021-04-01T13:55:29+00:00
 modified: 2021-04-01T14:03:39+00:00

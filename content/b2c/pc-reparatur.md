@@ -1,7 +1,7 @@
 ---
 title: PC Reparatur Hannover
 description: "Professionelle PC Reparatur in Hannover. ➔ PC oder Laptop reparieren lassen ✓ Wir helfen: vor Ort oder bei uns ✆ Jetzt anrufen: 0511/51561190!"
-image: /uploads/b2c/pc-reparatur.jpg
+image: /content/b2c/pc-reparatur.jpg
 ---
 
 # PC Reparatur Hannover

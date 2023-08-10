@@ -1,7 +1,7 @@
 ---
 title: Daten verloren! Was kann ich jetzt tun? Jetzt Ihre Daten retten
 description: Fest­platten dürfen nur im Rein­raum­labor behandelt werden, denn bereits das Ein­dringen Staub­partikel kann endgültige Schäden ver­ursachen
-image: /uploads/blog/datenrettung.jpg
+image: /content/blog/datenrettung.jpg
 tags: ["Datenrettung"]
 published: 2020-12-07T17:49:48+00:00
 modified: 2021-02-19T20:04:31+00:00

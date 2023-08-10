@@ -41,18 +41,15 @@
 <meta name="theme-color" content="#ffffff">
 <!-- Favicons End -->
 
-<!-- CSS Links Start -->
-{{ $styles := resources.Get "css/styles.scss" | toCSS | postCSS (dict "config" "./assets/css/postcss.config.js") }}
-{{ if .Site.IsServer }}
-<link rel="stylesheet" href="{{ $styles.RelPermalink }}">
-{{ else }}
-{{ $styles := $styles | minify | fingerprint | resources.PostProcess }}
+<!-- Tailwind CSS Links Start -->
+{{ $styles := resources.Get "css/styles.scss" | toCSS | postCSS (dict "config" "./assets/css/postcss.config.js") | minify | fingerprint | resources.PostProcess }}
 <link rel="stylesheet" href="{{ $styles.Permalink }}" integrity="{{ $styles.Data.Integrity }}">
-{{ end }}
-<!-- CSS Links End -->
+<!-- Tailwind CSS Links End -->
 
 <!-- Glide.js Carousel and Slider -->
-<link rel="stylesheet" href="https://unpkg.com/@glidejs/glide@3.6.0/dist/css/glide.core.min.css">
+{{ $glide := resources.Get "glide@3.6.0/glide.core.css" | minify | fingerprint | resources.PostProcess }}
+<link rel="stylesheet" href="{{ $glide.Permalink }}" integrity="{{ $glide.Data.Integrity }}">
 
 <!-- Animate on Scroll -->
-<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+{{ $aos := resources.Get "aos@2.3.4/aos.css" | minify | fingerprint | resources.PostProcess }}
+<link href="{{ $aos.Permalink }}" rel="stylesheet" integrity="{{ $aos.Data.Integrity }}">

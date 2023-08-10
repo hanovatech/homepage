@@ -1,7 +1,7 @@
 ---
 title: "Homeoffice: Desktop oder Laptop? Was brauche ich fürs Homeoffice?"
 description: Arbeite ich jetzt mit Laptop oder Desktop? Einen PC zusammenzustellen lässt sich auch mit Beratung im Handumdrehen für jeden realisieren.
-image: /uploads/blog/desktop-vs-laptop.jpg
+image: /content/blog/desktop-vs-laptop.jpg
 tags: ["Hardware", "Homeoffice"]
 published: 2020-10-20T20:49:12+00:00
 modified: 2021-11-15T12:01:47+00:00

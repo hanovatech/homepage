@@ -1,29 +1,31 @@
 {{ with .Page.Params.jobs }}
   <hr>
-  <h2><strong>Aktuell ausgeschriebene Stellen</strong></h2>
-  <ul class="list-none !pl-0">
-    {{ range . }}
-      <li>
-        <h3 class="text-blue-600">{{ .name }}</h3>
-        {{ if isset . "type" }}
-          <p><strong>Anstellungsart:</strong> {{ .type }}</p>
-        {{ end }}
-        {{ if isset . "startDate" }}
-          <p><strong>Startdatum:</strong> {{ .startDate }}</p>
-        {{ end }}
-        <p><strong>Deine Aufgaben:</strong></p>
-        <ul>
-          {{ range .todos }}
-            <li>{{ . }}</li>
+  <h2>Aktuell ausgeschriebene Stellen</h2>
+  <div class="not-prose">
+    <ul class="flex flex-col gap-4">
+      {{ range . }}
+        <li class="p-4 md:px-6 bg-gray-50 border rounded-lg">
+          <h3 class="mb-2 text-xl text-blue-600 font-semibold">{{ .name }}</h3>
+          {{ if isset . "type" }}
+            <p class="mb-2 text-sm"><strong>Anstellungsart:</strong> {{ .type }}</p>
           {{ end }}
-        </ul>
-      </li>
-    {{ end }}
-  </ul>
+          {{ if isset . "startDate" }}
+            <p class="mb-2 text-sm"><strong>Startdatum:</strong> {{ .startDate }}</p>
+          {{ end }}
+          <p class="mb-1 text-sm"><strong>Deine Aufgaben:</strong></p>
+          <ul class="mb-2 text-sm list-disc list-inside">
+            {{ range .todos }}
+              <li class="ml-2">{{ . }}</li>
+            {{ end }}
+          </ul>
+        </li>
+      {{ end }}
+    </ul>
+  </div>
   <hr>
 {{ else }}
   <hr>
   <p class="!text-xl"><strong>Aktuell haben wir leider keine Stellen ausgeschrieben 😧</strong></p>
-  <p class="text-sm font-light">Du kannst uns trotzdem gerne eine Initiativbewerbung an <a href="mailto:work@hanovatech.de">work@hanovatech.de</a> schicken</p>
+  <p class="text-sm font-light">Du kannst uns trotzdem gerne eine Initiativbewerbung an <a href="mailto:jobs@hanovatech.de">jobs@hanovatech.de</a> schicken!</p>
   <hr>
 {{ end }}

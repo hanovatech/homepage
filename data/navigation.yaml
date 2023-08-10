@@ -40,6 +40,14 @@ main:
   - name: Blog
     url: /blog
 footer:
+  - name: Links
+    childs:
+      - name: Downloads
+        url: /downloads
+      - name: Blog
+        url: /blog
+      - name: Github
+        url: https://github.com/hanovatech
   - name: Über uns
     childs:
       - name: Kontakt
@@ -56,21 +64,13 @@ footer:
         url: /datenschutz
       - name: AGB
         url: /agb
-  - name: Links
-    childs:
-      - name: Downloads
-        url: /downloads
-      - name: Blog
-        url: /blog
-      - name: Github
-        url: https://github.com/hanovatech
   - name: Partner
     childs:
       - name: Unsere Partner
         url: /partner
       - name: Allianz für Cyber-Sicherheit
         url: https://www.allianz-fuer-cybersicherheit.de/Webs/ACS/DE/Ueber-uns/Teilnehmer/Liste-der-Teilnehmer/Functions/%C3%BCbersicht.html?nn=519278&cms_lv2=489890
-        image: /uploads/logos/allianz-fuer-cybersecurity.svg
+        image: /content/logos/allianz-fuer-cybersecurity.svg
 b2c:
   - name: Services
     iconList: true

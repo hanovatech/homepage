@@ -1,7 +1,7 @@
 ---
 title: PC kaufen in Hannover | individuelle Computer bei HanovaTech
 description: "PC kaufen in Hannover: Wir stellen Ihren individuellen Computer nach Ihren Wünschen zusammen. Auf Wunsch mit Wartungspaket. Jetzt informieren!"
-image: /uploads/b2c/pc-kaufen.jpg
+image: /content/b2c/pc-kaufen.jpg
 ---
 
 # PC kaufen in Hannover - Computer individuell zusammenstellen lassen

@@ -4,11 +4,11 @@ title: Unsere Partner für vollumfängliche Lösungen
 description: 
 partners:
   - name: Wortmann AG
-    image: /uploads/logos/wortmann.png
+    image: /content/logos/wortmann.png
   - name: Hornet Security
-    image: /uploads/logos/hornetsecurity.png
+    image: /content/logos/hornetsecurity.png
   - name: Deutsche Gesellschaft für Cybersicherheit
-    image: /uploads/logos/dgc.svg
+    image: /content/logos/dgc.svg
 ---
 
 # Unsere Partner für vollumfängliche Leistungen
