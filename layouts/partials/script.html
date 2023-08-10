@@ -91,7 +91,7 @@
 
 <!-- Glide.js Start -->
 {{ $glide := resources.Get "/glide@3.6.0/glide.js" | minify | fingerprint }}
-<script src="{{ $glide.Permalink }}"></script>
+<script src="{{ $glide.RelPermalink }}"></script>
 <script>
   if (document.getElementsByClassName("glide").length) {
     new Glide('.glide').mount()
@@ -105,7 +105,7 @@
 
 <!-- Animate on Scroll Start -->
 {{ $aos := resources.Get "/aos@2.3.4/aos.js" | minify | fingerprint }}
-<script src="{{ $aos.Permalink }}"></script>
+<script src="{{ $aos.RelPermalink }}"></script>
 <script>AOS.init();</script>
 <!-- Animate on Scroll End -->
 
