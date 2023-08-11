@@ -23,16 +23,16 @@ Unsere Managed Services umfassen unterschiedliche Dienstleistungen:
 - Automatische Installation von Softwareupdates
 - Proaktive Wartung und Fehlerbehebung
 - Sicherheitsüberwachung und -management
+- Einrichtung und Betrieb von Cloud Telefonanlagen
 
 Unser Ziel ist es Ihnen eine zuverlässige IT-Infrastruktur zu bieten, die ständig überwacht und optimiert wird, um Ausfallzeiten oder Datenverlust zu vermeiden. Durch unsere Erfahrungen und Partner können wir sicherstellen, dass Ihre IT-Systeme **stets auf dem aktuellen Stand und einsatzbereit für Ihren Geschäftsbetrieb** sind.
 
 ### Unsere Partner
 Durch unsere Partner können wir Ihnen Lösungen für jeden Aspekt Ihrer IT-Infrastruktur bieten. Egal ob für die Überwachung von Endgeräten, Serversystemen oder Datenbanken wir haben passende Lösungen parat.
 
-- [Synaxon AG](https://synaxon.de/)
 - [Wortmann AG](https://www.wortmann.de/)
-
-![N-ABLE Remote Monitoring and Management](/content/services/NABLE_RMM.png)
+- [Placetel](https://www.placetel.de/)
+- [Synaxon AG](https://synaxon.de/)
 
 ## Warum Managed Services?
 Durch unsere Managed Services **können Sie sich auf Ihr Kerngeschäft konzentrieren** ohne selbst die IT-Infrastruktur zu verwalten oder Gefahr zu laufen, langfristig Probleme mit dieser zu bekommen. Außerdem stehen wir Ihnen jederzeit für die Behebung Ihrer IT-Probleme und Herausforderungen beratend zur Seite.

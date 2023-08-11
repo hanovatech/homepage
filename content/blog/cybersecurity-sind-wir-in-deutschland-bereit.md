@@ -27,4 +27,4 @@ Ob [Home-Office](/blog/homeoffice-desktop-oder-laptop) oder Telearbeit, grundsä
 
 Kurzum, **IT-Sicherheit ist ein komplexes Thema und es gibt viele Wege, wie man Schutzmechanismen einrichten und pflegen kann**. Dazu gehören u.a. das Verwenden moderner Soft- und Hardware, ein geschütztes Kommunikationsrohr, Chiffrierung und Sicherung interner Daten, Virenschutz und vor allem ein vorsichtiger Umgang mit Dateien aus dritter Hand. Der Vorteil: Je mehr Vorkehrungen man trifft, desto bessere Chancen hat man, sich vor Internetkriminellen und deren Cyberattacken zu schützen.
 
-**Für die Cybersicherheit-Beratung und Einrichtung von Sicherheitsstrategien stehen wir Ihnen bei HanovaTech gerne bereit.** Schreiben Sie uns eine Nachricht über unser [Kontaktformular]().
+**Für die Cybersicherheit-Beratung und Einrichtung von Sicherheitsstrategien stehen wir Ihnen bei HanovaTech gerne bereit.** Schreiben Sie uns eine Nachricht über unser [Kontaktformular](/kontakt).

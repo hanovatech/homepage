@@ -9,6 +9,7 @@ title: Kontaktformular
 - [PC-Reparatur Formular](/b2c/kontakt/pc-reparatur/)
 - [Laptop-Reparatur Formular](/b2c/kontakt/laptop-reparatur/)
 - [Datenrettung Formular](/b2c/kontakt/datenrettung/)
+- [PC-Kaufen Formular](/b2c/kontakt/pc-kaufen/)
 
 <section id="contact">
   <h2 class="sr-only">Kontaktformular</h2>
@@ -47,7 +48,7 @@ title: Kontaktformular
         </li>
       </ul>
       <div class="col-span-2 mt-16 md:mt-0">
-        <form name="b2c-contact" data-netlify="true" method="POST" action="/kontakt/success">
+        <form name="b2c-contact" data-netlify="true" method="POST" action="/b2c/kontakt/success">
           <h2 class="md:hidden text-2xl text-gray-900 font-bold mb-6">Kontakformular</h2>
           <div class="grid grid-cols-1 gap-y-6 gap-x-8 sm:grid-cols-2">
             <div>
