@@ -31,7 +31,7 @@ Technische Vorteile äußern sich vor allem durch etwas schnellere Betriebszeite
 ### Nachteile
 **Die größten Nachteile sind** erhöhte Hardware-Anforderungen. Der Prozessor sollte mindestens zwei Kerne und eine Mindestaktfrequenz von 1 GHz besitzen. Benötigt werden zudem 4 GB RAM und 64 GB freier Festplattenspeicher. Als Mindestanforderung sollte die Grafikkarte DirectX 12 mit WDDM 2.0 Treiber bereitstellen. Daneben gibt es weitere Systemanforderungen, die Ihr Rechner mitbringen sollte, damit Windows 11 einwandfrei laufen kann.
 
-Wenn Sie Fragen zu ihrer technischen Ausstattung haben, können Sie uns [hier](/b2c/kontakt) kontaktieren. Wir helfen gerne weiter!
+Wenn Sie Fragen zu ihrer technischen Ausstattung haben, können Sie uns [hier](/repair/kontakt) kontaktieren. Wir helfen gerne weiter!
 
 Weiterhin kann die verpflichtende Erstellung und Nutzung eines Microsoft-Kontos für manche Benutzer*innen unangebracht sein, die ansonsten Windows 11 Home nicht verwenden werden können.
 
@@ -41,8 +41,8 @@ Wenn es so weit ist, werden Sie in der Lage sein, das Windows-11-Update zu insta
 
 Dann bedarf es an einer Umrüstung mit neuer Hardware, wobei bei den moderaten Mindestanforderungen nicht gleich das teuerste Equipment angeschafft werden muss.
 
-Wenn Sie sich unsicher sind, was Ihr Gerät leisten kann, ob Sie Windows 11 brauchen oder nicht wissen, wie man Windows 11 herunterlädt und einrichtet, dann sind Sie bei uns genau richtig! Wir übernehmen Windows-Installationen, [PC-Zusammenbau](/b2c/pc-kaufen) und [Computer-Reparatur](/b2c/pc-reparatur) sowie IT-Beratung für all Ihre technischen Fragen.  
+Wenn Sie sich unsicher sind, was Ihr Gerät leisten kann, ob Sie Windows 11 brauchen oder nicht wissen, wie man Windows 11 herunterlädt und einrichtet, dann sind Sie bei uns genau richtig! Wir übernehmen Windows-Installationen, [PC-Zusammenbau](/repair/pc-kaufen) und [Computer-Reparatur](/repair/pc-reparatur) sowie IT-Beratung für all Ihre technischen Fragen.  
 
 Jetzt die beste Aufrüstung (inkl. Windows Upgrade) für Ihre PCs oder Notebooks bei HanovaTech in Hannover durchführen lassen.
 
-Haben Sie Ihre wichtige Daten (Dokumente, Bilder, oder Videos) nach Windows-Updates verloren? Dann jetzt Ihre Daten bei [HanovaTech-Datenrettung](/b2c/datenrettung) professionell retten lassen.
+Haben Sie Ihre wichtige Daten (Dokumente, Bilder, oder Videos) nach Windows-Updates verloren? Dann jetzt Ihre Daten bei [HanovaTech-Datenrettung](/repair/datenrettung) professionell retten lassen.

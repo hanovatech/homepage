@@ -1,9 +1,14 @@
-baseURL: "https://hanovatech.netlify.app"
+baseURL: "https://hanovatech.de"
 languageCode: "de-DE"
 title: HanovaTech
+
 params:
   slogan: Digitale Lösungen für Ihr Unternehmen
   description: Der Dienstleister für IT-Consulting, Managed Services, Software Solutions und Cybersecurity in Hannover. Ihr Partner für die Digitalisierung Ihres Unternehmens!
+
+disableKinds:
+  - taxonomy
+  - term
 
 markup:
   goldmark:

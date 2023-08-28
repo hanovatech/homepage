@@ -37,4 +37,4 @@ Sich an dieser Stelle Beratung zu suchen und Meinungen einzuholen, kann der Viel
 
 Solange man weiß, was für den eigenen häuslichen Arbeitsplatz benötigt wird, kann Beratung den Weg ins Homeoffice schnell und effizient gestalten.
 
-**Zur Beratung und/oder Einrichtung Ihres Homeoffices helfen wir HanovaTech Ihnen gerne [hier](/b2c/kontakt) weiter.**
+**Zur Beratung und/oder Einrichtung Ihres Homeoffices helfen wir HanovaTech Ihnen gerne [hier](/repair/kontakt) weiter.**

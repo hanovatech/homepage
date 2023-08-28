@@ -1,14 +1,14 @@
 ---
 title: Datenrettung Hannover
 description: "Gelöschte Daten auf Festplatten, verlorene Daten in Software. Wir helfen weiter: Datenrettung in Hannover mit Hanovatech ✆ 0152/23477771"
-image: /content/b2c/datenrettung-hannover.jpg
+image: /content/repair/datenrettung-hannover.jpg
 ---
 
 # Datenrettung in Hannover – schnelle Hilfe bei Datenverlust
 
 Ihre Festplatte ist beschädigt und es ist kein Datenzugriff mehr möglich? Sie haben versehentlich Daten auf einer SSD oder einem anderen Speichermedium gelöscht? Wir helfen weiter: Datenrettung in Hannover mit Hanovatech.
 
-{{<callToAction-b2c formUrl="/b2c/kontakt/datenrettung" appointmentUrl="https://calendly.com/hanovatech/datenrettung-hannover" >}}
+{{<callToAction-repair formUrl="/repair/kontakt/datenrettung" appointmentUrl="https://calendly.com/hanovatech/datenrettung-hannover" >}}
 
 ## Typische Ursachen für eine ungewollte Datenlöschung
 Datenverlust kann in Unternehmen zu hohen finanziellen Verlusten führen. Und im privaten Bereich haben verloren gegangene Fotos oder andere wichtige Dateien meist einen hohen ideellen Wert. Häufige Ursachen für gelöschtes Datenmaterial auf Notebooks, Festplatten oder PCs sind:
@@ -71,4 +71,4 @@ Unser Datenrettungsservice ist ein Angebot für Geschäftskunden und KMU ebenso 
 Rufen Sie uns an, um Ihre Daten zu fairen Kosten wiederherstellen zu lassen: [0152-23477771](tel:015223477771)
 
 <br>
-{{<callToAction-b2c formUrl="/b2c/kontakt/datenrettung" appointmentUrl="https://calendly.com/hanovatech/datenrettung-hannover" >}}
+{{<callToAction-repair formUrl="/repair/kontakt/datenrettung" appointmentUrl="https://calendly.com/hanovatech/datenrettung-hannover" >}}

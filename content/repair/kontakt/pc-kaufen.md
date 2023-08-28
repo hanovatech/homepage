@@ -1,15 +1,15 @@
 ---
-title: PC-Reparatur Formular
+title: PC-Kaufberatung Formular
 ---
 
-# PC-Kaufen Formular
+# PC-Kaufberatung Formular
 
-**Sie haben Probleme mit Ihrem PC?** Dann nehmen Sie mit uns über das folgende Formular Kontakt auf.
+**Sie benötigen Hilfe bei der Wahl eines neuen PCs?** Dann nehmen Sie mit uns über das folgende Formular Kontakt auf.
 
 Wir werden uns schnellstmöglich bei Ihnen melden, um mit Ihnen einen Termin zu vereinbaren. Alternativ können Sie uns auch telefonisch unter [0511-51561190](tel:051151561190) zu unseren Öffnungszeiten erreichen.
 
 <div class="not-prose max-w-2xl mx-auto mt-16 sm:bg-gray-50 sm:p-6 sm:border sm:rounded-lg sm:shadow-lg">
-  <form name="b2c-pc-kaufen" data-netlify="true" method="POST" action="/b2c/kontakt/success">
+  <form name="repair-pc-kaufen" data-netlify="true" method="POST" action="/repair/kontakt/success">
     <div class="grid grid-cols-1 gap-y-6 gap-x-8 sm:grid-cols-2">
       <h2 class="sm:col-span-2 text-2xl text-gray-900 font-bold mb-0">Angaben zur Verwendung</h2>
       <div class="sm:col-span-2">

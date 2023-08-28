@@ -29,7 +29,7 @@ Die Arbeitsfläche des Geräts ist eingeschränkt, die Bildschirmgröße, Kamera
 
 Auch der Speicher eines Laptops lässt nicht allzu große Projekte zu, doch gibt es hier zum Glück eine weit verbreitete Lösung: Durch Cloud-Storing ist es unwichtig, wie viel Speicherplatz das eigene Gerät aufweist. So sind auch gleich die Daten gesichert und können einfach synchronisiert werden, wenn dann doch der Weg ins Büro ansteht.
 
-Und falls der Speicherplatz doch erweitert werden soll, steht das Aufrüsten an, doch dies zieht bei Laptops andere Probleme mit sich. Natürlich lässt sich der Speicher oder die Festplatte leicht erneuern, solange das Gehäuse verschraubt und nicht, wie heutzutage immer häufiger, verklebt wurde. Doch möchte man den eigenen, [verlangsamten Laptop weiter aufrüsten](/b2c/pc-kaufen), da Hardware und Software ständig im Wandel sind und das Gerät einfach nicht mehr dem Fortschritt hinterherkommt, hilft leider eben nur noch der Neukauf. Der Desktop-PC hingegen kennt dieses Problem nicht.
+Und falls der Speicherplatz doch erweitert werden soll, steht das Aufrüsten an, doch dies zieht bei Laptops andere Probleme mit sich. Natürlich lässt sich der Speicher oder die Festplatte leicht erneuern, solange das Gehäuse verschraubt und nicht, wie heutzutage immer häufiger, verklebt wurde. Doch möchte man den eigenen, [verlangsamten Laptop weiter aufrüsten](/repair/pc-kaufen), da Hardware und Software ständig im Wandel sind und das Gerät einfach nicht mehr dem Fortschritt hinterherkommt, hilft leider eben nur noch der Neukauf. Der Desktop-PC hingegen kennt dieses Problem nicht.
 
 Ein ausschlaggebendes Argument für einen Desktop-Computer ist das Aufrüsten. Jede Komponente des Geräts kann ausgetauscht und verbessert werden, oft für einen geringen Preis. So muss nicht der komplette PC ausgetauscht werden, womit nicht nur an Kosten gespart wird, auch der Umwelt kommt dies zu Gute.
 
@@ -37,4 +37,4 @@ So kann auch von vornherein ein komplett personalisierter Computer zusammengeste
 
 Der Desktop punktet am Ende doch mit Nachhaltigkeit und weniger Kosten und ist für den längeren Aufenthalt im Homeoffice also nur zu empfehlen.
 
-Zu dem Thema beraten wir Sie natürlich auch gerne persönlich hier bei HanovaTech. Schreiben Sie uns eine Nachricht über unser [Kontaktformular](/b2c/kontakt)
+Zu dem Thema beraten wir Sie natürlich auch gerne persönlich hier bei HanovaTech. Schreiben Sie uns eine Nachricht über unser [Kontaktformular](/repair/kontakt)

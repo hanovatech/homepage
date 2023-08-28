@@ -12,7 +12,7 @@ Heinrich-Kümmel-Straße 8
 30169 Hannover
 
 **Telefon**: +49 (0) 511 51561190  
-**E-Mail**: service@hanovatech.de  
+**E-Mail**: admin@hanovatech.de  
 **Internet**: hanovatech.de
 
 **Zuständige Kammer**  

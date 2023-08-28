@@ -1,9 +1,9 @@
-{{ if hasPrefix .RelPermalink "/b2c/" }}
-  <header class="z-10 w-full bg-white transition-shadow duration-300">
+{{ if hasPrefix .RelPermalink "/repair/" }}
+  <header class="z-10 w-full backdrop-blur bg-white bg-white/[.85] transition-shadow duration-300">
     <div class="w-full py-1 bg-blue-600 text-xs text-white text-center tracking-wider">Sie befinden sich im <strong>Privatkunden Bereich</strong></div>
     <nav class="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
       <div class="flex lg:flex-1">
-        <a href="/b2c" class="-m-1.5 p-1.5">
+        <a href="/repair" class="-m-1.5 p-1.5">
           <span class="sr-only">HanovaTech</span>
           <img class="h-10 w-auto" src="/images/logo.svg" alt="HanovaTech">
         </a>
@@ -17,7 +17,7 @@
         </button>
       </div>
       <div class="hidden lg:flex lg:gap-x-12">
-        {{ range .Site.Data.navigation.b2c }}
+        {{ range .Site.Data.navigation.repair }}
           {{ if .childs }}
             <div class="relative">
               <button type="button" class="header-flyout-button flex items-center gap-x-1 text-sm font-semibold leading-6 text-gray-900" aria-expanded="false">
@@ -66,7 +66,7 @@
         {{ end }}
       </div>
       <div class="hidden lg:flex lg:flex-1 lg:justify-end">
-        <a href="/b2c/kontakt" class="rounded-md bg-blue-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600 duration-200">
+        <a href="/repair/kontakt" class="rounded-md bg-blue-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600 duration-200">
           Kontakt <span aria-hidden="true">&rarr;</span>
         </a>
       </div>
@@ -76,7 +76,7 @@
       <div class="fixed inset-0 z-10 backdrop-blur-sm"></div>
       <div focus="true" class="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
         <div class="flex items-center justify-between">
-          <a href="/b2c" class="-m-1.5 p-1.5">
+          <a href="/repair" class="-m-1.5 p-1.5">
             <span class="sr-only">HanovaTech</span>
             <img class="h-10 w-auto" src="/images/logo.svg" alt="HanovaTech">
           </a>
@@ -90,7 +90,7 @@
         <div class="mt-6 flow-root">
           <div class="-my-6 divide-y divide-gray-500/10">
             <div class="space-y-2 py-6">
-              {{ range .Site.Data.navigation.b2c }}
+              {{ range .Site.Data.navigation.repair }}
                 {{ if .childs }}
                   <div class="-mx-3">
                     <button type="button" class="header-submenu-button flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base font-semibold leading-7 hover:bg-gray-50" aria-controls="disclosure-1" aria-expanded="false">
@@ -114,7 +114,7 @@
               {{ end }}
             </div>
             <div class="py-6">
-              <a href="/b2c/kontakt" class="-mx-3 block bg-blue-600 rounded-lg py-2.5 px-3 text-center text-white font-semibold leading-7 text-gray-900 hover:bg-blue-700 duration-200">
+              <a href="/repair/kontakt" class="-mx-3 block bg-blue-600 rounded-lg py-2.5 px-3 text-center text-white font-semibold leading-7 text-gray-900 hover:bg-blue-700 duration-200">
                 Kontakt <span aria-hidden="true">&rarr;</span>
               </a>
             </div>
@@ -130,7 +130,8 @@
   <header class="z-10 w-full bg-white transition-shadow duration-300">
     <nav class="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
       <div class="flex lg:flex-1">
-        <a href="/" class="-m-1.5 p-1.5">
+        <div class="opacity-100 hidden"></div>
+        <a id="header-icon" href="/" class="-m-1.5 p-1.5 opacity-0 duration-700">
           <span class="sr-only">HanovaTech</span>
           <img class="h-10 w-auto" src="/images/logo.svg" alt="HanovaTech">
         </a>
