@@ -52,19 +52,6 @@ collections:
                   - { label: "Role", name: "role", widget: "string" }
                   - { label: "Specialty", name: "specialty", widget: "string" }
                   - { label: "Image", name: "image", widget: "image" }
-      - name: partners
-        label: Partner
-        file: "/content/partner/_index.md"
-        fields:
-          - { label: "Title", name: "title", widget: "string" }
-          - { label: "Description", name: "description", widget: "string", required: false }
-          - label: Partner Logos
-            name: partners
-            widget: list
-            fields:
-              - { label: "Name", name: "name", widget: "string" }
-              - { label: "Image", name: "image", widget: "image" }
-          - { label: "Body", name: "body", widget: "markdown" }
       - name: about
         label: Über uns
         file: "/content/ueber-uns.md"
@@ -85,13 +72,6 @@ collections:
                   - { label: "Role", name: "role", widget: "string" }
                   - { label: "Specialty", name: "specialty", widget: "string" }
                   - { label: "Image", name: "image", widget: "image" }
-          - { label: "Body", name: "body", widget: "markdown" }
-      - name: references
-        label: Referenzen
-        file: "/content/references.md"
-        fields:
-          - { label: "Title", name: "title", widget: "string" }
-          - { label: "Description", name: "description", widget: "string", required: false }
           - { label: "Body", name: "body", widget: "markdown" }
       - name: career
         label: Karriere
@@ -122,6 +102,15 @@ collections:
   - name: services
     label: Services
     folder: /content/services
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Description", name: "description", widget: "string", required: false }
+      - { label: "Body", name: "body", widget: "markdown" }
+  - name: repair
+    label: Repair (B2C)
+    folder: /content/repair
     create: true
     slug: "{{slug}}"
     fields:
@@ -172,6 +161,21 @@ collections:
                 fields:
                   - { label: "Name", name: "name", widget: "string" }
                   - { label: "Link", name: "url", widget: "string" }
+          - label: Repair-Main
+            name: repair
+            widget: list
+            fields:
+              - { label: "Name", name: "name", widget: "string" }
+              - { label: "URL", name: "url", widget: "string" }
+              - { label: "Icon List", name: "iconList", widget: "boolean" }
+              - label: Sublinks
+                name: childs
+                widget: list
+                fields:
+                  - { label: "Name", name: "name", widget: "string" }
+                  - { label: "Link", name: "url", widget: "string" }
+                  - { label: "Icon", name: "icon", widget: "string" }
+                  - { label: "Description", name: "description", widget: "string" }
       - name: google
         label: Google
         file: /data/google.yaml
