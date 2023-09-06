@@ -27,16 +27,18 @@
 
   // Hide Icon on Homepage Start
   const headerIcon = document.getElementById("header-icon")
-  if (window.location.pathname == "/") {
-    document.addEventListener("scroll", () => {
-      if (window.scrollY > 150) {
-        headerIcon.classList.add("opacity-100")
-      } else {
-        headerIcon.classList.remove("opacity-100")
-      }
-    })
-  } else {
-    headerIcon.classList.add("opacity-100")
+  if (headerIcon) {
+    if (window.location.pathname == "/") {
+      document.addEventListener("scroll", () => {
+        if (window.scrollY > 150) {
+          headerIcon.classList.add("opacity-100")
+        } else {
+          headerIcon.classList.remove("opacity-100")
+        }
+      })
+    } else {
+      headerIcon.classList.add("opacity-100")
+    }
   }
   // Hide Icon on Homepage End
 
