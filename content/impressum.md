@@ -13,8 +13,8 @@ Amtsgericht Hannover
 Heinrich-Kümmel-Straße 8  
 30169 Hannover
 
-**Telefon**: +49 (0) 511 51561190  
-**E-Mail**: admin@hanovatech.de  
+**Telefon**: +49 (0) 511 51512491  
+**E-Mail**: info@hanovatech.de  
 **Internet**: hanovatech.de
 
 **Zuständige Kammer**  
