@@ -21,7 +21,7 @@ Ein entscheidender Vorteil durch die Verwendung eines Passwortmanager ist, dass 
 
 Durch die zentrale Speicherung der Passwörter, haben Sie jederzeit und von jedem Gerät die Möglichkeit, auf Ihre Passwörter zuzugreifen. Damit der Umgang mit Ihren Zugängen so einfach wie möglich abläuft, ermöglicht Ihnen der Passwortmanager das automatische Ausfüllen der Zugangsdaten auf Webseiten oder Apps, wie Sie es aus Chrome und Co. wahrscheinlich bereits kennen. 
 
-![Sichere Zugänge](static/content/blog/passwort-sicher.jpeg)
+![Sichere Zugänge]([static/content/blog/passwort-sicher.jpeg](https://github.com/hanovatech/homepage/blob/24c3dcd3b225250a039363f3d184f43bfdc8aa5c/static/content/blog/passwort-sicher.jpeg))
 
 ### Passwortmanager für Unternehmen
 
