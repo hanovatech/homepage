@@ -3,7 +3,8 @@ title: Go Hugo - Wordpress vs. Static Site Generators
 description: Static Site Generators sind beliebter denn je, doch können Sie mit etablierten Systemen wie Wordpress und Co. mithalten? Wir haben für Sie den Vergleich gemacht.
 image: /content/blog/hugo-blog-post.png
 tags: [Webentwicklung, SEO]
-date: 2023-04-11T06:34:52.350Z
+published: 2023-04-11T06:34:52.350Z
+modified: 2023-04-11T06:34:52.350Z
 ---
 
 # Go Hugo - Wordpress vs. Static Site Generators

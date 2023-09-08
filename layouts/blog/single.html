@@ -1,11 +1,11 @@
 {{ define "main" }}
   {{ if .Params.image }}
-    <div class="mx-auto max-w-7xl px-4 sm:px-8 py-8">
-      <img src="{{ .Params.image }}" alt="{{ .Title }}" class="mx-auto max-w-4xl w-full max-h-[480px] object-cover border rounded-lg shadow-xl" />
+    <div class="mx-auto max-w-7xl px-4 sm:px-12 lg:px-16 py-8">
+      <img src="{{ .Params.image }}" alt="{{ .Title }}" class="w-full max-h-[480px] object-cover border rounded-lg shadow-xl" />
     </div>
   {{ end }}
 
-  <div class="mx-auto max-w-7xl px-4 sm:px-12 lg:px-16 md:py-8 flex flex-row justify-between gap-12">
+  <div class="mx-auto max-w-7xl px-4 sm:px-12 lg:px-16 md:pt-8 pb-16 md:pb-24 flex flex-row justify-between gap-12">
     <div class="prose md:prose-lg max-w-none">
       {{ .Content }}
     </div>
