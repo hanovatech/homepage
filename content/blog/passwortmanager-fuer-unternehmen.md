@@ -16,6 +16,8 @@ Ein Passwort Manager bietet Ihnen und Ihren Kollegen eine intelligente Lösung, 
 ## Was ist ein Passwortmanager? 
 Ein Passwort Manager ist eine Software, die entwickelt wurde, um die Verwaltung und Sicherheit von Passwörtern zu verbessern. Anstatt sich viele verschiedene komplizierte Passwörter zu merken, können Nutzer einen Passwort Manager verwenden, um alle ihre Zugangsdaten sicher zu speichern.
 
+{{<callToAction-blog text="Sie möchten einen Passwortmanager in Ihrem Unternehmen einsetzen?" buttonLabel="Jetzt Beratungstermin vereinbaren" buttonUrl="https://calendly.com/hanovatech/30min" >}}
+
 ## Vorteile eines Passwortmanagers
 Ein entscheidender Vorteil durch die Verwendung eines Passwortmanager ist, dass Sie sich nur noch ein einziges Passwort merken müssen und zwar das Ihres Passwortmanager Accounts. Alle anderen Passwörter werden durch den Passwortmanager verwaltet, sodass Sie diese nicht im Kopf behalten müssen. 
 
@@ -47,3 +49,5 @@ Mit dem selbstständigen Betreiben Ihres Passwortmanagers kommen aber auch Pflic
 Die Kosten für Passwort Manager variieren je nach Funktionsumfang, Anzahl der Benutzer und Art der Lizenzierung. Wenn Sie sich dafür entschließend den Passwortmanager selbst zu betreiben oder durch uns betreiben zu lassen, zahlen Sie lediglich die Kosten für das Serversystem sowie die regelmäßige Sicherung Ihrer Daten.
 
 In Anbetracht der zunehmenden Notwendigkeit, sensible Informationen zu schützen, ist die Nutzung eines Passwort Managers wie Vaultwarden eine kluge Entscheidung. Wir von HanovaTech stehen Ihnen gerne zur Seite, um Ihre individuellen Anforderungen zu verstehen und die optimale Lösung für Ihr Unternehmen zu finden. Durch unsere umfassende Beratung und Schulung gewährleisten wir Ihnen, dass Sie von den Vorteilen eines Passwort Managers optimal profitieren. Kontaktieren Sie uns heute, um das Passwort-Chaos in Ihrem Unternehmen zu beenden.
+
+{{<callToAction-blog text="Sie möchten einen Passwortmanager in Ihrem Unternehmen einsetzen?" buttonLabel="Jetzt Beratungstermin vereinbaren" buttonUrl="https://calendly.com/hanovatech/30min" >}}
