@@ -9,7 +9,7 @@ modified: 2023-09-08T13:34:52.350Z
 
 # Passwort-Chaos? Ein Passwort&shy;manager ist die Lösung
 
-Sie kennen es vermutlich selbst… Für Ihre Arbeit nutzen Sie unterschiedlichste Anwendungen und Online-Portale, für welche Sie sich Zugangsdaten merken müssen. Auch Ihre Kollegen sollen auf diese Dienste zugreifen können und schon entstehen Passwort-Zettel oder Excel-Tabellen, in welchen die sensibelsten Daten Ihres Unternehmens geschrieben werden. Dass das nicht die beste und sicherste Lösung ist, sollte klar sein…
+Sie kennen es vermutlich selbst, für Ihre Arbeit nutzen Sie unterschiedlichste Anwendungen und Online-Portale, für welche Sie sich Zugangsdaten merken müssen. Auch Ihre Kollegen sollen auf diese Dienste zugreifen können und schon entstehen Passwort-Zettel oder Excel-Tabellen, in welchen die sensibelsten Daten Ihres Unternehmens geschrieben werden. Das ist natürlich nicht die bestmögliche Lösung...
 
 Ein Passwort Manager bietet Ihnen und Ihren Kollegen eine intelligente Lösung, um den Zugriff auf sensible Zugangsdaten sicherer und effizienter zu gestalten. Er bietet einen zentralen Ort zur Speicherung und Verwaltung der wahrscheinlich sensibelsten Daten Ihres Unternehmens.
 
