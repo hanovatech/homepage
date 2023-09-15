@@ -3,7 +3,7 @@ title: Managed Services für Ihre IT-Infrastruktur
 description: Wir sorgen durch unsere Managed Services für die Zuverlässigkeit
   Ihrer IT-Infrastruktur damit Sie sich ganz auf Ihren Geschäftsprozess
   konzentrieren können.
-image: /content/services/managed-services.jpg
+image: /content/services/managed-services.jpeg
 weight: 2
 callToAction: true
 ---

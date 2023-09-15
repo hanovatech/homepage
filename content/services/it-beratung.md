@@ -1,7 +1,7 @@
 ---
 title: "IT-Beratung: Anforderungsanalyse und Konzeptionierung"
 description: Wir helfen Ihnen bei der Planung und Konzeption Ihrer IT-Infrastruktur zur Digitalisierung Ihres Unternehmens, um langfristig wettbewerbsfähig bleiben.
-image: /content/services/it-consulting.jpg
+image: /content/services/it-beratung.jpeg
 weight: 1
 callToAction: true
 ---
