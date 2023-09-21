@@ -48,6 +48,9 @@ footer:
         url: /blog
       - name: Github
         url: https://github.com/hanovatech
+      - name: Cookie Einstellungen
+        url: "#"
+        id: open_preferences_center
   - name: Über uns
     childs:
       - name: Kontakt

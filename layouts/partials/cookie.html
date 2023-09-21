@@ -21,10 +21,10 @@ document.addEventListener('DOMContentLoaded', function () {
 <noscript>Free cookie consent management tool by <a href="https://www.termsfeed.com/">TermsFeed</a></noscript>
 <!-- End Cookie Consent by TermsFeed https://www.TermsFeed.com -->
 
-<!-- Below is the link that users can use to open Preferences Center to change their preferences. Do not modify the ID parameter. Place it where appropriate, style it as needed. -->
+{{/*  <!-- Below is the link that users can use to open Preferences Center to change their preferences. Do not modify the ID parameter. Place it where appropriate, style it as needed. -->
 <a href="#" id="open_preferences_center">
   <span class="sr-only">Cookie Settings</span>
-</a>
+</a>  */}}
 
 <style>
   .termsfeed-com---nb-interstitial-overlay {
@@ -61,38 +61,6 @@ document.addEventListener('DOMContentLoaded', function () {
   .termsfeed-com---nb .cc-nb-reject {
     color: black !important;
     background-color: #bfdbfe !important;
-  }
-
-  #open_preferences_center {
-    position: fixed;
-    width: 3.5em;
-    height: 3.5em;
-    right: 2em;
-    bottom: 2em;
-    background: white;
-    border-radius: 100%;
-    background-image: url("/images/cookie.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    transition: all .5s;
-    border: 1px solid rgb(229, 231, 235);
-    --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
-    --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);
-    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-  }
-
-  #open_preferences_center:hover {
-    rotate: 30deg;
-    scale: 110%;
-  }
-
-  @media only screen and (max-width: 640px) {
-    #open_preferences_center {
-      width: 3em;
-      height: 3em;
-      left: 1em;
-      bottom: 1em;
-    }
   }
 
   .termsfeed-com---palette-light .cc-cp-foot-save {
