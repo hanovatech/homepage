@@ -3,29 +3,47 @@
   <head>
     {{- partial "head.html" . -}}
   </head>
-  <body class="flex flex-col min-h-screen">
+  <body class="flex flex-col min-h-screen bg-gray-900">
     {{- partial "header.html" . -}}
     <main class="flex-1">
-      {{ if .Params.heroImage }}
-        <div class="relative pb-8 sm:py-8">
-          <div class="mx-auto max-w-7xl sm:px-6 lg:px-8">
-            <div class="relative shadow-xl sm:overflow-hidden sm:rounded-2xl">
-              <div class="absolute inset-0">
-                <img class="h-full w-full object-cover" src="{{ .Params.heroImage }}" alt="People working on laptops">
-                <div class="absolute inset-0 bg-blue-400 mix-blend-multiply"></div>
+
+      {{ if .Params.heroHeading }}
+        <div class="mt-16 sm:mt-24">
+          <div class="mx-auto max-w-7xl">
+            <div class="lg:grid lg:grid-cols-12 lg:gap-8">
+              <div class="px-6 sm:text-center md:mx-auto md:max-w-2xl lg:col-span-6 lg:flex lg:items-center lg:text-left">
+                <div>
+                  <h1 class="text-4xl font-bold !leading-tight tracking-tight text-white sm:text-5xl md:text-6xl">{{ .Params.heroHeading }}</h1>
+                  <p class="mt-3 text-base text-gray-300 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">{{ .Params.heroDescription }}</p>
+                  <p class="mt-6 text-base font-semibold text-white sm:mt-8">Wir sind Montags bis Freitags zwischen 10 und 18 Uhr für Sie da.</p>
+                </div>
               </div>
-              <div class="relative px-6 py-16 sm:py-24 lg:px-8 lg:py-32">
-                <h1 class="text-center text-4xl font-bold tracking-tight sm:text-5xl lg:text-6xl">
-                  <span class="block text-white">Willkommen bei<br>HanovaTech</span>
-                </h1>
-                <p class="mx-auto mt-6 max-w-lg text-center text-xl text-blue-100 sm:max-w-3xl">
-                  {{ .Params.heroDescription }}
-                </p>
-                <div class="mx-auto mt-10 max-w-sm sm:flex sm:max-w-none sm:justify-center">
-                  <div class="space-y-4 sm:mx-auto sm:inline-grid sm:grid-cols-2 sm:gap-5 sm:space-y-0">
-                    <a href="#services" class="flex items-center justify-center rounded-md border border-transparent bg-white px-4 py-3 text-base font-medium text-blue-700 shadow-sm hover:bg-blue-50 sm:px-8">Dienstleistungen</a>
-                    <a href="/b2c/kontakt" class="flex items-center justify-center rounded-md border border-transparent bg-blue-500 bg-opacity-80 px-4 py-3 text-base font-medium text-white shadow-sm hover:bg-opacity-90 sm:px-8">Schreiben Sie uns</a>
-                  </div>
+              <div class="mt-16 sm:mt-24 lg:col-span-6 lg:mt-0">
+                <div class="bg-white sm:mx-auto sm:w-full sm:max-w-md sm:overflow-hidden sm:rounded-lg">
+                  <div class="px-6 py-8 sm:px-10">
+                    <h2 class="text-xl font-bold mb-6">Unsere Anfrageformulare</h2>
+                    <div class="flex flex-col gap-4">
+                      {{ range .Params.services }}
+                      <a href="{{ .formUrl }}" class="px-6 py-3 bg-gray-50 rounded-lg hover:scale-105 duration-200">
+                        <div class="flex flex-row gap-4 items-center">
+                          <div class="p-3 bg-white rounded-lg text-blue-600">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                              {{ .icon | safeHTML }}
+                            </svg>                        
+                          </div>
+                          <p class="grow">
+                            Zur <span class="font-bold">{{ .name }}</span>
+                          </p>
+                          <svg fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 stroke-2 text-blue-600">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
+                          </svg>
+                        </div>
+                      </a>
+                      {{ end }}
+                      <p class="prose mt-2">
+                        <strong>Dringend?</strong> Rufen Sie uns an <a href="tel:+4951151512490">051151512490</a>
+                      </p>
+                    </div>
                 </div>
               </div>
             </div>
@@ -35,7 +53,7 @@
 
       {{ if .Content }}
         <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-8 sm:py-16">
-          <div class="prose md:prose-lg max-w-4xl mx-auto">
+          <div class="prose prose-invert md:prose-lg max-w-4xl mx-auto">
             {{ .Content }}
           </div>
         </div>
@@ -43,49 +61,78 @@
 
       {{ if .Params.services }}
         <section id="services">
-          <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-8">
-            <div class="prose md:prose-lg max-w-4xl mx-auto">
-              <h2 id="services">Unsere Dienstleistungen</h2>
+          <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-16 sm:py-24">
+            <div class="prose prose-invert md:prose-lg max-w-4xl mx-auto mb-8">
+              <h2 id="services">Mehr zu unseren Dienstleistungen</h2>
             </div>
-          </div>
-          <div class="mx-auto max-w-4xl rounded-lg overflow-hidden divide-y divide-gray-200 overflow-hidden rounded-lg bg-gray-200 shadow sm:grid sm:grid-cols-2 sm:gap-px sm:divide-y-0">
-            {{ range .Params.services }}
-              <div class="group relative bg-gray-50 p-6 focus-within:ring-2 focus-within:ring-inset focus-within:ring-blue-500">
-                <div>
-                  <span class="inline-flex rounded-lg p-3 bg-blue-50 text-blue-600 ">
-                    <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
-                      {{ .icon | safeHTML }}
+            <div class="mx-auto max-w-4xl rounded-lg overflow-hidden divide-y divide-gray-900 overflow-hidden rounded-lg shadow sm:grid sm:grid-cols-2 sm:gap-px sm:divide-y-0">
+              {{ range .Params.services }}
+                <div class="group relative bg-gray-800 p-6 focus-within:ring-2 focus-within:ring-inset">
+                  <div>
+                    <span class="inline-flex rounded-lg p-3 bg-gray-900 text-blue-400">
+                      <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                        {{ .icon | safeHTML }}
+                      </svg>
+                    </span>
+                  </div>
+                  <div class="mt-8">
+                    <h3 class="text-xl font-semibold leading-6 text-white">
+                      <a href="{{ .url }}" class="focus:outline-none">
+                        <span class="absolute inset-0" aria-hidden="true"></span>
+                        {{ .name }}
+                      </a>
+                    </h3>
+                    <p class="mt-2 text-sm text-gray-200">{{ .description }}</p>
+                  </div>
+                  <span class="pointer-events-none absolute right-6 top-6 text-gray-300 group-hover:text-gray-400" aria-hidden="true">
+                    <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
+                      <path d="M20 4h1a1 1 0 00-1-1v1zm-1 12a1 1 0 102 0h-2zM8 3a1 1 0 000 2V3zM3.293 19.293a1 1 0 101.414 1.414l-1.414-1.414zM19 4v12h2V4h-2zm1-1H8v2h12V3zm-.707.293l-16 16 1.414 1.414 16-16-1.414-1.414z" />
                     </svg>
                   </span>
                 </div>
-                <div class="mt-8">
-                  <h3 class="text-xl font-semibold leading-6 text-gray-900">
-                    <a href="{{ .url }}" class="focus:outline-none">
-                      <span class="absolute inset-0" aria-hidden="true"></span>
-                      {{ .name }}
-                    </a>
-                  </h3>
-                  <p class="mt-2 text-sm text-gray-500">{{ .description }}</p>
-                </div>
-                <span class="pointer-events-none absolute right-6 top-6 text-gray-300 group-hover:text-gray-400" aria-hidden="true">
-                  <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
-                    <path d="M20 4h1a1 1 0 00-1-1v1zm-1 12a1 1 0 102 0h-2zM8 3a1 1 0 000 2V3zM3.293 19.293a1 1 0 101.414 1.414l-1.414-1.414zM19 4v12h2V4h-2zm1-1H8v2h12V3zm-.707.293l-16 16 1.414 1.414 16-16-1.414-1.414z" />
-                  </svg>
-                </span>
-              </div>
-            {{ end }}
-          </div>
-          <div class="mt-8 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-8">
-            <div class="prose max-w-4xl mx-auto">
+              {{ end }}
+            </div>
+            <div class="mt-12 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+              <div class="prose prose-invert max-w-4xl mx-auto">
                 <strong>Ihr Problem ist nicht aufgelistet?</strong><br>
                 Schreiben Sie uns eine Nachricht und wir schauen ob wir Ihnen weiterhelfen können.<br>
                 Unser Kontaktformular finden sie <a href="/b2c/kontakt">hier</a>.
               </div>
             </div>
+          </div>
         </section>
       {{ end }}
     </main>
-    {{- partial "footer.html" . -}}
+
+    <footer aria-labelledby="footer-heading">
+      <div class="mt-12 sm:mt-20 bg-gray-900 text-white border-t-2 border-blue-400">
+        <h2 id="footer-heading" class="sr-only">Footer</h2>
+        <div class="mx-auto max-w-7xl px-6 py-16 sm:py-24 lg:px-8 lg:py-32">
+          <div class="xl:grid xl:grid-cols-2 xl:gap-8">
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-8 xl:col-span-2">
+              {{ range .Site.Data.navigation.footer }}
+                <div class="mt-10 md:mt-0">
+                  <h3 class="text-sm font-bold leading-6 text-white tracking-wide uppercase">{{ .name }}</h3>
+                  <ul role="list" class="mt-6 space-y-4">
+                    {{ range .childs }}
+                      <li>
+                        <a href="{{ .url }}" {{ if isset . "id" }}id="{{ .id }}"{{ end }} class="text-sm leading-6 text-white hover:text-gray-200 duration-200">
+                          {{ if isset . "image" }}
+                            <img src="{{ .image }}" alt="{{ .name }}" width="200" />
+                          {{ else }}
+                            {{ .name }}
+                          {{ end }}
+                        </a>
+                      </li>
+                    {{ end }}
+                  </ul>
+                </div>
+              {{ end }}
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
     {{- partial "phoneButton.html" . -}}
     {{- partial "cookie.html" . -}}
     {{- partial "script.html" . -}}

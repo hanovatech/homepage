@@ -13,8 +13,8 @@ title: Kontaktformular
 
 <section id="contact">
   <h2 class="sr-only">Kontaktformular</h2>
-  <p class="!mb-0">Für sonstige Anfragen nutzen Sie bitte das folgende Kontaktformular.</p>
-  <div class="not-prose isolate bg-white py-12 px-6 sm:py-16 lg:px-8">
+  <p>Für sonstige Anfragen nutzen Sie bitte das folgende Kontaktformular.</p>
+  <div class="not-prose isolate bg-white rounded-lg py-12 px-6 sm:py-12 lg:px-8">
     <div class="md:grid md:grid-cols-3 gap-12 max-w-4xl mx-auto">
       <ul class="md:order-last flex flex-col gap-6">
         <h2 class="text-2xl text-gray-900 font-bold">Kontaktdaten</h2>
