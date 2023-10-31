@@ -18,15 +18,15 @@
                   <p class="mt-6 text-base font-semibold text-white sm:mt-8">Wir sind Montags bis Freitags zwischen 10 und 18 Uhr für Sie da.</p>
                 </div>
               </div>
-              <div class="mt-16 sm:mt-24 lg:col-span-6 lg:mt-0">
-                <div class="bg-white sm:mx-auto sm:w-full sm:max-w-md sm:overflow-hidden sm:rounded-lg">
+              <div class="mt-16 sm:mt-24 lg:col-span-6 lg:mt-0 text-white">
+                <div class="bg-gray-800 sm:mx-auto sm:w-full sm:max-w-md sm:overflow-hidden sm:rounded-lg">
                   <div class="px-6 py-8 sm:px-10">
                     <h2 class="text-xl font-bold mb-6">Unsere Anfrageformulare</h2>
                     <div class="flex flex-col gap-4">
                       {{ range .Params.services }}
-                      <a href="{{ .formUrl }}" class="px-6 py-3 bg-gray-50 rounded-lg hover:scale-105 duration-200">
+                      <a href="{{ .formUrl }}" class="px-6 py-3 bg-gray-900 rounded-lg hover:scale-105 duration-200">
                         <div class="flex flex-row gap-4 items-center">
-                          <div class="p-3 bg-white rounded-lg text-blue-600">
+                          <div class="p-3 bg-gray-800 rounded-lg text-blue-600">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
                               {{ .icon | safeHTML }}
                             </svg>                        
@@ -40,7 +40,7 @@
                         </div>
                       </a>
                       {{ end }}
-                      <p class="prose mt-2">
+                      <p class="prose prose-invert mt-2">
                         <strong>Dringend?</strong> Rufen Sie uns an <a href="tel:+4951151512490">051151512490</a>
                       </p>
                     </div>
