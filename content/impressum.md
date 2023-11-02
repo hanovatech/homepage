@@ -4,25 +4,33 @@ title: Impressum
 
 # Impressum
 
-**Anbieter**: HanovaTech GmbH  
-**Geschäftsführer**: Hashem Mahmoud  
-**Handelsregister**: HRB 225757  
-Amtsgericht Hannover
+Unser Impressum gilt für die Seite hanovatech.de sowie für die HanovaTech Socialmedia Seiten auf Facebook, Instagram und Linkedin.
 
-**Anschrift**:  
+**HanovaTech GmbH**  
 Heinrich-Kümmel-Straße 8  
 30169 Hannover
 
-**Telefon**: +49 (0) 511 51512491  
-**E-Mail**: info@hanovatech.de  
-**Internet**: hanovatech.de
+**Geschäftsführer**: Hashem Mahmoud  
+**Umsatzsteuer-ID**: DE 363164508  
+**Steuernummer**: 25/208/26228  
+**Handelsregister**: HRB 225757  
+Amtsgericht Hannover  
 
 **Zuständige Kammer**  
 Industrie- und Handelskammer Hannover  
 Schiffgraben 49, 30175 Hannover  
 www.hannover.ihk.de
 
-**Verantwortlich**: HanovaTech GmbH  
+### Kontakt
+
+**Telefon**: +49 (0) 511 51512491  
+**E-Mail**: info@hanovatech.de  
+**Internet**: hanovatech.de
+
+### Inhaltlich verantwortlich
+
+HanovaTech GmbH  
+info@hanovatech.de
 
 ---
 
