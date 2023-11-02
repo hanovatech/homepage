@@ -21,13 +21,13 @@ Industrie- und Handelskammer Hannover
 Schiffgraben 49, 30175 Hannover  
 www.hannover.ihk.de
 
-### Kontakt
+## Kontakt
 
 **Telefon**: +49 (0) 511 51512491  
 **E-Mail**: info@hanovatech.de  
 **Internet**: hanovatech.de
 
-### Inhaltlich verantwortlich
+## Inhaltlich verantwortlich
 
 HanovaTech GmbH  
 info@hanovatech.de
