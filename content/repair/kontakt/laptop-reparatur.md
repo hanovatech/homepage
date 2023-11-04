@@ -9,7 +9,7 @@ title: Laptop-Reparatur Formular
 Wir werden uns schnellstmöglich bei Ihnen melden, um mit Ihnen einen Termin zu vereinbaren. Alternativ können Sie uns auch telefonisch unter [0511-51561190](tel:051151561190) zu unseren Öffnungszeiten erreichen.
 
 <div class="not-prose max-w-2xl mx-auto mt-16 bg-gray-50 p-3 sm:p-6 border rounded-lg shadow-lg">
-  <form name="repair-laptop-reparatur" data-netlify="true" method="POST" action="/repair/kontakt/success/">
+  <form name="repair-laptop-reparatur" method="POST" action="/repair/kontakt/success/" netlify>
     <div class="grid grid-cols-1 gap-y-6 gap-x-8 sm:grid-cols-2">
       <h2 class="sm:col-span-2 text-2xl text-gray-900 font-bold mb-0">Angaben zum Problem</h2>
       <div class="sm:col-span-2">
