@@ -1,5 +1,5 @@
 ---
-title: Datenrettung Hannover - Schnelle Hilfe bei Datenverlust
+title: Datenrettung Hannover - Schnelle Hilfe bei Datenverlust 🩺
 description: "Gelöschte Daten auf Festplatten, verlorene Daten in Software. Wir helfen weiter: Datenrettung in Hannover mit Hanovatech ✆ 0152/23477771"
 image: /content/repair/datenrettung-hannover.jpg
 ---
