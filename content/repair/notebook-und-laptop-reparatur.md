@@ -1,5 +1,5 @@
 ---
-title: Notebook und Laptop Reparatur in Hannover
+title: Laptop Reparatur Hannover - Schnelle Hilfe bei Laptop-Problemen 🩺
 description: "Wir sind Ihre Profis für die Notebook und Laptop Reparatur in Hannover. Schnelle Problemlösung, kompetente Beratung &amp; faire Preise: HanovaTech."
 image: /content/repair/notebook-und-laptop-reparatur.jpg
 ---
