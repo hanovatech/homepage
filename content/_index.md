@@ -1,5 +1,5 @@
 ---
-title: Digitale Lösungen für Ihr Unternehmen
+title: Digitale Lösungen für Ihr Unternehmen | HanovaTech
 description: Der Dienstleister für IT-Consulting, Managed Services, Software Solutions und Cybersecurity in Hannover. Ihr Partner für die Digitalisierung Ihres Unternehmens!
 heroSection:
   title: Digitale Lösungen für Ihr Unternehmen

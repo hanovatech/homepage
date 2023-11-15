@@ -1,5 +1,5 @@
 ---
-title: HanovaTech - Ihr Partner bei IT-Problemen
+title: HanovaTech - Ihr Partner bei IT-Problemen in Hannover
 description: "IT Beratung, PC Reparatur, PC/Server Aufbau, Datenrettung, Betriebssytem & Systemumstellung, Private Cloud... und viels mehr! Wir digitaliseren Hannover!"
 heroHeading: 🚨 PC-Probleme oder Datenverlust?
 heroDescription: Wir helfen Ihnen in der Not schnell und unkompliziert weiter! Schreiben Sie uns über unsere Formulare oder rufen Sie uns direkt an.
