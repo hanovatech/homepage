@@ -32,7 +32,36 @@
         </div>
       {{ end }}
     </main>
-    {{- partial "footer.html" . -}}
+
+    <footer aria-labelledby="footer-heading">
+      <div class="mt-12 sm:mt-20 bg-gray-900 text-white border-t-2 border-blue-400">
+        <h2 id="footer-heading" class="sr-only">Footer</h2>
+        <div class="mx-auto max-w-7xl px-6 py-16 sm:py-24 lg:px-8 lg:py-32">
+          <div class="xl:grid xl:grid-cols-2 xl:gap-8">
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-8 xl:col-span-2">
+              {{ range .Site.Data.navigation.footer }}
+                <div class="mt-10 md:mt-0">
+                  <h3 class="text-sm font-bold leading-6 text-white tracking-wide uppercase">{{ .name }}</h3>
+                  <ul role="list" class="mt-6 space-y-4">
+                    {{ range .childs }}
+                      <li>
+                        <a href="{{ .url }}" {{ if isset . "id" }}id="{{ .id }}"{{ end }} class="text-sm leading-6 text-white hover:text-gray-200 duration-200">
+                          {{ if isset . "image" }}
+                            <img src="{{ .image }}" alt="{{ .name }}" width="200" />
+                          {{ else }}
+                            {{ .name }}
+                          {{ end }}
+                        </a>
+                      </li>
+                    {{ end }}
+                  </ul>
+                </div>
+              {{ end }}
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
     {{- partial "phoneButton.html" . -}}
     {{- partial "cookie.html" . -}}
     {{- partial "script.html" . -}}
