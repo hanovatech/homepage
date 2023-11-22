@@ -149,7 +149,7 @@ Wir werden uns schnellstmöglich bei Ihnen melden, um mit Ihnen einen Termin zu 
       <div class="sm:col-span-2">
         <label for="address" class="block text-sm font-semibold leading-6 text-gray-900">Adresse</label>
         <div class="relative mt-2.5">
-          <input type="tel" name="address" id="address" autocomplete="tel" class="block w-full rounded-md border-0 py-2 px-3.5 text-sm leading-6 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-blue-600" placeholder="Musterstraße 1, 12345 Musterort">
+          <input type="text" name="address" id="address" autocomplete="tel" class="block w-full rounded-md border-0 py-2 px-3.5 text-sm leading-6 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-blue-600" placeholder="Musterstraße 1, 12345 Musterort">
         </div>
       </div>
       <div class="flex gap-x-4 sm:col-span-2">
