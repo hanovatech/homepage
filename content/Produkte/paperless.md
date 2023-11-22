@@ -1,6 +1,6 @@
 ---
-title:
-description: 
+title: Paperless - Effiziente Dokumentenverwaltung für die digitale Zukunft
+description: Entdecken Sie Paperless, die Open-Source-Software für mühelose Digitalisierung und intelligente Dokumentenorganisation. Scannen, suchen, sicher aufbewahren und individuell anpassen - optimieren Sie Ihre Abläufe noch heute.
 image: /content/services/
 weight: 
 callToAction: true
