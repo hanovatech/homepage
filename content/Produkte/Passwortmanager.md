@@ -25,7 +25,7 @@ Moderne Passwort Manager verwenden starke Verschlüsselungsstandards. Die Sicher
 Für volle Kontrolle können Sie Ihren Passwortmanager selbst betreiben. Dies erfordert Pflichten wie technischen Betrieb und regelmäßige Datensicherung. Wir helfen Ihnen gerne bei der Einrichtung und dem Betrieb.
 
 ## Kosten:
-Die Kosten variieren je nach Funktionsumfang, Benutzeranzahl und Lizenzierung. Bei Selbstbetrieb zahlen Sie nur für das Serversystem und die Datensicherung. Nutzen Sie einen Passwort Manager wie Bitwarden für sensible Informationen und kontaktieren Sie uns für umfassende Beratung und Schulung.
+Die Kosten variieren je nach Speicherkapazität & Benutzeranzahl. Bei Selbstbetrieb zahlen Sie nur für die Administration des Serversystems und die Datensicherung. Nutzen Sie einen Passwort Manager für sensible Informationen und kontaktieren Sie uns für umfassende Beratung und Schulung.
 
-**Möchten Sie das Passwort-Chaos in Ihrem Unternehmen beenden?** dann lassen SIe uns einen sicheren und effizienten Passwortmanager für Ihr Unternehmen einrichten. 
+**Möchten Sie das Passwort-Chaos in Ihrem Unternehmen beenden?** dann lassen Sie uns einen sicheren und effizienten Passwortmanager für Ihr Unternehmen einrichten. 
 Wir unterstützen Sie gerne auf dem Weg zu mehr Sicherheit und Organisation.
