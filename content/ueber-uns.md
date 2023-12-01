@@ -1,6 +1,6 @@
 ---
 title: Über uns
-description: 
+description: Unser Team besteht aus jungen Allroundern, die Ihnen bei der Digitalisierung Ihres Unternehmens zur Seite stehen. Erfahren Sie mehr über unser Team und unsere Geschichte.
 teamSection:
   title: Das Team 
   description: Wir sind ein dynamisches und junges Team, welches Ihnen bei der Digitalisierung Ihres Unternehmens mit tatendrang zur Seite steht.
@@ -9,10 +9,10 @@ teamSection:
       role: Geschäftsführung
       specialty: Informationssicherheit
       image: https://profile-images.xing.com/images/ef2bdacbea9777e9ca72e6768dae5d3c-4/hashem-mahmoud.256x256.jpg
-    # - name: Henry Akmann
-    #   role: Technische Leitung
-    #   specialty: Softwareentwicklung
-    #   image: https://avatars.githubusercontent.com/u/14221837
+    - name: Henry Akmann
+      role: Technische Geschäftsführung
+      specialty: Softwareentwicklung
+      image: https://avatars.githubusercontent.com/u/14221837
 ---
 
 # Über uns

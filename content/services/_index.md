@@ -1,6 +1,6 @@
 ---
-title: Services
-description:
+title: Unsere Dienstleistungen bringen Ihr Unternehmen voran | HanovaTech
+description: Wir bieten Ihnen vollumfängliche IT-Dienstleistungen für die Digitalisierung Ihres Unternehmens. Von der IT-Beratung über Managed Services bis hin zur Softwareentwicklung. Erfahren Sie mehr über uns und unsere Leistungen!
 ---
 
 # Unsere Dienstleistungen zur Digitalisierung Ihres Unternehmens

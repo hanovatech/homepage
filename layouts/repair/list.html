@@ -26,7 +26,7 @@
                       {{ range .Params.services }}
                       <a href="{{ .formUrl }}" class="px-6 py-3 bg-gray-900 rounded-lg hover:scale-105 duration-200">
                         <div class="flex flex-row gap-4 items-center">
-                          <div class="p-3 bg-gray-800 rounded-lg text-blue-600">
+                          <div class="p-3 bg-gray-800 rounded-lg text-blue-500">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
                               {{ .icon | safeHTML }}
                             </svg>                        
@@ -34,7 +34,7 @@
                           <p class="grow">
                             Zur <span class="font-bold">{{ .name }}</span>
                           </p>
-                          <svg fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 stroke-2 text-blue-600">
+                          <svg fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 stroke-2 text-blue-500">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
                           </svg>
                         </div>
@@ -69,7 +69,7 @@
               {{ range .Params.services }}
                 <div class="group relative bg-gray-800 p-6 focus-within:ring-2 focus-within:ring-inset">
                   <div>
-                    <span class="inline-flex rounded-lg p-3 bg-gray-900 text-blue-400">
+                    <span class="inline-flex rounded-lg p-3 bg-gray-900 text-blue-500">
                       <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
                         {{ .icon | safeHTML }}
                       </svg>
@@ -133,7 +133,7 @@
         </div>
       </div>
     </footer>
-    {{- partial "phoneButton.html" . -}}
+    {{- partial "scroller.html" . -}}
     {{- partial "cookie.html" . -}}
     {{- partial "script.html" . -}}
   </body>

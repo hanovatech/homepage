@@ -1,41 +1,41 @@
 
-<title>{{ .Title }}{{ if eq .Section "blog" }} Blog{{ end }}</title>
+<title>{{ .Title }}</title>
 
 <!-- Meta Tags Start -->
 <meta charset="utf-8" />
 <meta http-equiv="content-type" content="text/html; charset=utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-{{ if eq .Section "blog" }}
-<meta name="title" content="{{ .Title }} | {{ .Site.Title }} Blog">
+
+<meta name="title" content="{{ .Title }}">
 <meta name="description" content="{{ .Description }}">
+<meta name="author" content="HanovaTech GmbH">
+
+<meta property="og:title" content="{{ .Title }}">
 <meta property="og:description" content="{{ .Description }}">
-<meta property="og:image" content="{{ .Params.image }}" />
-<meta property="og:type" content="article">
-{{ else }}
-<meta name="title" content="{{ .Title }} | {{ .Site.Title }}">
-<meta name="description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.description }}{{ end }}">
-<meta property="og:title" content="{{ .Title }} | {{ .Site.Title }}">
-<meta property="og:description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.description }}{{ end }}">
-<meta property="og:image" content="{{ .Site.BaseURL }}images/hanovatech_logo_color.svg" />
-<meta property="og:type" content="website">
-{{ end }}
-<meta property="og:image:width" content="1000" />
-<meta property="og:image:height" content="750" />
+<meta property="og:locale" content="de_DE">
+<meta property="og:type" content='{{ if eq .Section "blog" }}article{{ else }}website{{ end }}'>
+<meta property="og:image" content="{{ if .Params.image }}{{ .Params.image }}{{ else }}{{ .Site.BaseURL }}/images/ogimage.jpeg{{ end }}" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
 <meta property="og:image:type" content="image/jpeg" />
 <meta property="og:url" content="{{ .Permalink }}">
 <meta property="og:site_name" content="{{ .Site.Title }} | {{ .Site.Params.slogan }}">
+
+<meta name="twitter:title" content="{{ .Title }}" />
+<meta name="twitter:description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.description }}{{ end }}" />
 <meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:label1" content="Geschätzte Lesezeit" />
-<meta name="twitter:data1" content="3 Minuten" />
+<meta name="twitter:image" content="{{ .Site.BaseURL }}/images/ogimage.jpeg" />
+<meta name="twitter:image:alt" content="HanovaTech Logo" />
 <!-- Meta Tags End -->
 
 <!-- Favicons Start -->
-<link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon.png">
+<link rel="icon" type="image/x-icon" href="/favicons/favicon.ico">
+<link rel="shortcut icon" href="/favicons/favicon.ico">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png">
 <link rel="manifest" href="/favicons/site.webmanifest">
 <link rel="mask-icon" href="/favicons/safari-pinned-tab.svg" color="#5b7bd5">
-<link rel="shortcut icon" href="/favicons/favicon.ico">
+<link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon.png">
 <meta name="msapplication-TileColor" content="#da532c">
 <meta name="msapplication-config" content="/favicons/browserconfig.xml">
 <meta name="theme-color" content="#ffffff">
