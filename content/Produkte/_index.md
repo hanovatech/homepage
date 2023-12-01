@@ -1,9 +1,9 @@
 ---
-title: Produkte
-description:
+title: Unsere Produkte digitalisieren Ihr Unternehmen | HanovaTech
+description: Mit Hilfe unserer Produkte können Sie Ihr Unternehmen digitalisieren und die Effizienz Ihrer Prozesse steigern. Wir haben verschiedene Lösungen für Ihre Probleme parat. Erfahren Sie mehr über unsere Produkte!
 ---
 
-# Willkommen bei HanovaTech – Ihr Schlüssel zur effizienten Digitalisierung
+# Unsere Produkte lösen Ihre IT-Probleme und digitalisieren Ihr Unternehmen
 
 Entdecken Sie mit unseren hochmodernen Produkten die optimale Lösung für die Digitalisierung Ihres Unternehmens. Unsere Palette umfasst leistungsstarke Lösungen für IP Telefonie, Passwortverwaltung, die Digitalisierung von Bürounterlagen und ein effektives Wiki-Management. Als Ihr verlässlicher Partner begleiten wir Sie von der Planung über die Einrichtung bis hin zum langfristigen Betrieb Ihrer Systeme.
 

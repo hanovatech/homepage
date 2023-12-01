@@ -4,7 +4,7 @@ description: "Professionelle PC Reparatur in Hannover. ➔ PC oder Laptop repari
 image: /content/repair/pc-reparatur.jpg
 ---
 
-# PC Reparatur Hannover
+# PC Reparatur in Hannover - schnelle Hilfe bei PC-Problemen
 
 Wir reparieren Ihren PC oder Ihr Notebook: professionell, schnell und zu fairen Preisen. Die Reparatur erfolgt vor Ort bei Ihnen oder in unserer Werkstatt in der Südstadt. Ihr kompetenter PC Spezialist aus Hannover sorgt für kompetente und schnelle Hilfe bei Problemen mit Ihrem Rechner oder Laptop. Wir helfen Ihnen weiter!
 
