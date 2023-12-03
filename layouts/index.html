@@ -25,8 +25,10 @@
               <h1 class="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">{{ .Params.heroSection.title | safeHTML }}</h1>
               <p class="relative mt-6 text-lg leading-8 text-gray-600 sm:max-w-md lg:max-w-none">{{ .Params.heroSection.description }}</p>
               <div class="mt-10 flex items-center gap-x-6">
-                <a href="/kontakt" class="rounded-md bg-blue-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600 duration-200">Schreiben Sie uns</a>
-                <a href="#services" class="text-sm font-semibold leading-6 text-gray-900">Mehr erfahren <span aria-hidden="true">→</span></a>
+                <a href="/termin" class="rounded-md bg-blue-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600 duration-200">
+                  Kostenloses Erstgespräch
+                </a>
+                <a href="#services" class="text-sm font-semibold leading-6 text-gray-900">Mehr über uns <span aria-hidden="true">→</span></a>
               </div>
             </div>
             <div class="mt-20 flex justify-end gap-8 sm:-mt-44 sm:justify-start sm:pl-20 lg:mt-0 lg:pl-0">
@@ -84,63 +86,108 @@
     </div>
   </section>
 
-  <section id="services">
-    <div class="bg-white py-32">
+  <section id="products">
+    <div class="bg-white pb-16 pt-32">
       <div class="mx-auto max-w-7xl px-6 lg:px-8">
-        <div class="mx-auto max-w-2xl lg:text-center">
-          <span class="text-base font-semibold leading-7 text-gray-500">Digitale Lösungen</span>
-          <h2 class="mt-4 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">{{ .Params.servicesSection.title }}</h2>
-          <p class="mt-6 text-lg leading-8 text-gray-600">{{ .Params.servicesSection.description }}</p>
-        </div>
-
-        <div class="mx-auto mt-16 max-w-2xl sm:mt-20 lg:max-w-4xl">
-          <dl class="grid max-w-xl grid-cols-1 gap-y-10 gap-x-8 lg:max-w-none lg:grid-cols-2 lg:gap-y-8">
-            {{ range .Params.servicesSection.services }}
-            <a href="{{ .url }}" class="p-6 bg-gray-50 rounded-lg hover:scale-105 duration-200">
-              <div class="relative pl-16">
-                <dt class="text-base font-semibold leading-7 text-gray-900">
-                  <div class="absolute top-0 left-0 flex h-10 w-10 items-center justify-center rounded-lg bg-white">
-                    <svg class="w-6 h-6 text-blue-600" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
-                      {{ .icon | safeHTML }}
-                    </svg>
+        <div class="flex flex-col lg:flex-row gap-8 items-center">
+          <div class="w-full">
+            <span class="text-base font-semibold leading-7 text-gray-500">Digitale Lösungen</span>
+            <h2 class="mt-4 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+              {{ .Params.productsSection.title }}
+            </h2>
+            <p class="mt-6 text-lg leading-8 text-gray-600">
+              {{ .Params.productsSection.description | markdownify }}
+            </p>
+            <p class="mt-6 text-lg leading-8 text-gray-600">
+              In einem <strong>kostenlosen Erstgespräch</strong> können wir uns über Ihre Anforderungen austauschen.
+            </p>
+            {{ if .Params.servicesSection.carousel }}
+              <div class="mt-8 mx-auto max-w-sm">
+                <div class="glide autoplay">
+                  <div class="glide__track" data-glide-el="track">
+                    <ul class="glide__slides">
+                      {{ range .Params.servicesSection.carousel }}
+                        <li class="glide__slide">
+                          <img class="aspect-[3/1] w-full rounded-lg" src="{{ .image }}" alt="{{ .name }}" />
+                        </li>
+                      {{ end }}
+                    </ul>
                   </div>
-                  {{ .name }}
-                </dt>
-                <dd class="mt-2 text-base leading-7 text-gray-600">{{ .description }}</dd>
+                </div>
               </div>
-            </a>
             {{ end }}
-          </dl>
-        </div>
-
-        <div class="mx-auto text-center mt-12 sm:mt-16 lg:mt-20 max-w-2xl">
-          <a href="/services" class="text-sm font-semibold text-blue-600">
-            Mehr zu unseren Leistungen <span aria-hidden="true">→</span>
-          </a>
-        </div>
-
-        {{ if .Params.servicesSection.carousel }}
-          <div class="mx-auto mt-12 sm:mt-16 lg:mt-20 max-w-xl">
-            <div class="glide autoplay">
-              <div class="glide__track" data-glide-el="track">
-                <ul class="glide__slides">
-                  {{ range .Params.servicesSection.carousel }}
-                    <li class="glide__slide">
-                      <img class="aspect-[3/1] w-full rounded-lg" src="{{ .image }}" alt="{{ .name }}" />
-                    </li>
-                  {{ end }}
-                </ul>
-              </div>
+          </div>
+          <div class="w-full">
+            <div class="flex flex-col gap-6">
+              {{ range .Params.productsSection.products }}
+              <a href="{{ .url }}" class="px-6 py-4 bg-gray-50 rounded-lg hover:scale-105 duration-200">
+                <div class="relative pl-16">
+                  <dt class="text-base font-semibold leading-7 text-gray-900 flex items-center">
+                    <div class="absolute top-0 left-0 flex h-10 w-10 items-center justify-center rounded-lg bg-white">
+                      <svg class="w-6 h-6 text-gray-700" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                        {{ .icon | safeHTML }}
+                      </svg>
+                    </div>
+                    <div class="text-blue-600">{{ .name }}</div>
+                  </dt>
+                  <dd class="mt-2 text-sm leading-7 text-gray-600">{{ .description }}</dd>
+                </div>
+              </a>
+              {{ end }}
             </div>
           </div>
-        {{ end }}
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="services">
+    <div class="bg-white pt-16 pb-32">
+      <div class="mx-auto max-w-7xl px-6 lg:px-8">
+        <div class="flex flex-col lg:flex-row-reverse gap-8 items-center">
+          <div class="w-full">
+            <span class="text-base font-semibold leading-7 text-gray-500">Modern. Smart. Sicher.</span>
+            <h2 class="mt-4 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+              {{ .Params.servicesSection.title }}
+            </h2>
+            <p class="mt-6 text-lg leading-8 text-gray-600">
+              {{ .Params.servicesSection.description | markdownify }}
+            </p>
+            <p class="mt-6 text-lg leading-8 text-gray-600">
+              In einem <strong>kostenlosen Erstgespräch</strong> können wir uns über Ihre Anforderungen austauschen.
+            </p>
+            <div class="mt-6">
+              <a href="/termin" class="rounded-md bg-blue-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600 duration-200">
+                Jetzt Termin vereinbaren <span aria-hidden="true">→</span>
+              </a>
+            </div>
+          </div>
+          <div class="w-full">
+            <div class="flex flex-col gap-6">
+              {{ range .Params.servicesSection.services }}
+              <a href="{{ .url }}" class="px-6 py-4 bg-gray-50 rounded-lg hover:scale-105 duration-200">
+                <div class="relative pl-16">
+                  <dt class="text-base font-semibold leading-7 text-gray-900 flex items-center">
+                    <div class="absolute top-0 left-0 flex h-10 w-10 items-center justify-center rounded-lg bg-white">
+                      <svg class="w-6 h-6 text-gray-700" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                        {{ .icon | safeHTML }}
+                      </svg>
+                    </div>
+                    <div class="text-blue-600">{{ .name }}</div>
+                  </dt>
+                  <dd class="mt-2 text-sm leading-7 text-gray-600">{{ .description }}</dd>
+                </div>
+              </a>
+              {{ end }}
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </section>
 
   <section id="call-to-action">
     <div class="py-12">
-      {{/*  <svg class="-mb-1" style="transform:rotate(0deg); transition: 0.3s" viewBox="0 0 1440 100" version="1.1" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0"><stop stop-color="rgba(29, 78, 216, 1)" offset="0%"></stop><stop stop-color="rgba(29, 78, 216, 1)" offset="100%"></stop></linearGradient></defs><path style="transform:translate(0, 0px); opacity:1" fill="rgb(29, 79, 216)" d="M0,60L1440,30L2880,40L4320,40L5760,60L7200,30L8640,0L10080,40L11520,30L12960,60L14400,80L15840,80L17280,50L18720,10L20160,40L21600,90L23040,70L24480,0L25920,50L27360,60L28800,70L30240,60L31680,10L33120,30L34560,80L34560,100L33120,100L31680,100L30240,100L28800,100L27360,100L25920,100L24480,100L23040,100L21600,100L20160,100L18720,100L17280,100L15840,100L14400,100L12960,100L11520,100L10080,100L8640,100L7200,100L5760,100L4320,100L2880,100L1440,100L0,100Z"></path></svg>  */}}
       <div class="bg-blue-700">
         <div class="mx-auto max-w-5xl px-6 lg:px-8">
           <div class="flex flex-col-reverse sm:flex-row gap-8 lg:gap-16 pt-8">
@@ -149,59 +196,50 @@
               <h2 class="mb-6 lg:mb-8 text-center sm:text-left text-3xl lg:text-4xl font-bold text-white">
                 Ihre Ansprechpartner <br>in Hannover
               </h2>
-              <div class="flex flex-col gap-6 lg:gap-8">
-                <div class="text-center sm:text-left">
+              <div class="flex flex-col gap-4 lg:gap-8 text-center sm:text-left">
+                <div>
                   <p class="text-xl text-gray-100 font-bold tracking-normal">Hashem Mahmoud</p>
                   <p class="mb-2 text-md text-gray-200 font-semibold">Geschäftsführer</p>
                   <a class="mb-1 block text-sm font-light" href="mailto:h.mahmoud@hanovatech.de">h.mahmoud@hanovatech.de</a>
                   <a class="block text-sm font-light" href="tel:+4951151512491">0511 5151 2491</a>
                 </div>
-                <div class="text-center sm:text-left">
+                <div>
                   <p class="text-xl text-gray-100 font-bold">Henry Akmann</p>
                   <p class="mb-2 text-md text-gray-200 font-semibold">Technischer Geschäftsführer</p>
                   <a class="mb-1 block text-sm font-light" href="mailto:h.akmann@hanovatech.de">h.akmann@hanovatech.de</a>
                   <a class="block text-sm font-light" href="tel:+4951151512492">0511 5151 2492</a>
                 </div>
               </div>
-              <p class="mt-6 lg:mt-8 text-center sm:text-left text-sm text-gray-200">Heinrich-Kümmel-Straße 8 in 30169 Hannover</p>
+              <p class="mt-4 lg:mt-8 text-center sm:text-left text-sm text-gray-200">Heinrich-Kümmel-Straße 8 in 30169 Hannover</p>
             </div>
           </div>
         </div>
       </div>
-      {{/*  <svg class="-mt-1" style="transform:rotate(180deg); transition: 0.3s" viewBox="0 0 1440 100" version="1.1" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0"><stop stop-color="rgba(29, 78, 216, 1)" offset="0%"></stop><stop stop-color="rgba(29, 78, 216, 1)" offset="100%"></stop></linearGradient></defs><path style="transform:translate(0, 0px); opacity:1" fill="rgb(29, 79, 216)" d="M0,60L1440,30L2880,40L4320,40L5760,60L7200,30L8640,0L10080,40L11520,30L12960,60L14400,80L15840,80L17280,50L18720,10L20160,40L21600,90L23040,70L24480,0L25920,50L27360,60L28800,70L30240,60L31680,10L33120,30L34560,80L34560,100L33120,100L31680,100L30240,100L28800,100L27360,100L25920,100L24480,100L23040,100L21600,100L20160,100L18720,100L17280,100L15840,100L14400,100L12960,100L11520,100L10080,100L8640,100L7200,100L5760,100L4320,100L2880,100L1440,100L0,100Z"></path></svg>  */}}
     </div>
   </section>
 
-  {{/*  <section id="team">
-    <div class="bg-white py-32">
-      <div class="mx-auto max-w-7xl px-6 lg:px-8">
-        <div class="mx-auto max-w-2xl text-center">
-          <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">{{ .Params.teamSection.title }}</h2>
-          <p class="mt-6 text-lg leading-8 text-gray-600">{{ .Params.teamSection.description }}</p>
+  <section id="faq">
+    <div class="bg-white py-24 sm:py-32">
+      <div class="mx-auto max-w-4xl px-6 lg:px-8">
+        <div class="mx-auto max-w-xl text-center">
+          <span class="text-base font-semibold leading-7 text-gray-500">FAQ</span>
+          <h2 class="mt-4 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">{{ .Params.faqSection.title }}</h2>
+          <p class="mt-6 text-lg leading-8 text-gray-600">{{ .Params.faqSection.description | safeHTML }}</p>
         </div>
-        <ul role="list" class="mx-auto mt-20 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-3">
-          {{ range $index, $member := .Params.teamSection.members }}
-            <li data-aos="fade-up" data-aos-duration="500" data-aos-delay="{{ mul $index 150 }}">
-              <img class="aspect-[3/2] w-full rounded-2xl object-cover" src="{{ $member.image }}" alt="{{ $member.name }}">
-              <h3 class="mt-6 text-lg font-semibold leading-8 tracking-tight text-gray-900">{{ $member.name | safeHTML }}</h3>
-              <p class="text-base text-gray-600 leading-7 font-medium">{{ $member.role }}</p>
-              <p class="text-base text-gray-600 leading-7 font-light">{{ $member.specialty }}</p>
-            </li>
+        <div class="mt-8 flex flex-col gap-4">
+          {{ range $index, $entry := .Params.faqSection.questions }}
+            <details class="p-4 bg-gray-50 border rounded-lg" {{ if eq $index 0 }}open{{ end }}>
+              <summary class="text-xl text-gray-800 font-semibold tracking-wide cursor-pointer">{{ $entry.question }}</summary>
+              <hr class="my-2" />
+              <div class="prose">
+                {{ $entry.answer | markdownify }}
+              </div>
+            </details>
           {{ end }}
-    
-          <li data-aos="fade-up" data-aos-duration="500" data-aos-delay="{{ mul (len .Params.teamSection.members) 150 }}">
-            <div class="aspect-[3/2] w-full bg-gray-400 rounded-2xl flex items-center justify-center">
-              <svg class="w-40 h-40 text-white" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M19 7.5v3m0 0v3m0-3h3m-3 0h-3m-2.25-4.125a3.375 3.375 0 11-6.75 0 3.375 3.375 0 016.75 0zM4 19.235v-.11a6.375 6.375 0 0112.75 0v.109A12.318 12.318 0 0110.374 21c-2.331 0-4.512-.645-6.374-1.766z" />
-              </svg>                
-            </div>
-            <h3 class="mt-6 text-lg font-semibold leading-8 tracking-tight text-gray-900">Wir suchen neue Kollegen!</h3>
-            <a href="/karriere" class="text-base text-blue-600 leading-7 font-medium">Bewirb dich jetzt <span aria-hidden="true">→</span></a>
-          </li>
-        </ul>
+        </div>
       </div>
     </div>
-  </section>  */}}
+  </section>
 
   <section id="partners">
     <div class="bg-white py-24 sm:py-32">
