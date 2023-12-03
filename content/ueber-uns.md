@@ -6,13 +6,13 @@ teamSection:
   description: Wir sind ein dynamisches und junges Team, welches Ihnen bei der Digitalisierung Ihres Unternehmens mit tatendrang zur Seite steht.
   members:
     - name: Hashem Mahmoud
-      role: Geschäftsführung
+      role: Geschäftsführer
       specialty: Informationssicherheit
-      image: https://profile-images.xing.com/images/ef2bdacbea9777e9ca72e6768dae5d3c-4/hashem-mahmoud.256x256.jpg
+      image: /content/team/hashem.jpg
     - name: Henry Akmann
-      role: Technische Geschäftsführung
+      role: Technischer Geschäftsführer
       specialty: Softwareentwicklung
-      image: https://avatars.githubusercontent.com/u/14221837
+      image: /content/team/henry.jpg
 ---
 
 # Über uns
