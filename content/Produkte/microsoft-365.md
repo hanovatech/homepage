@@ -21,3 +21,6 @@ Mit Microsoft 365 haben Sie Ihre Dateien immer und überall dabei, das ist der V
 Mit Microsoft 365 erhalten Sie nicht nur eine Lösung für die Verwaltung Ihrer Dateien, sondern auch ein System für Email-Postfächer, Kalender und die interne Kommunikation mittels Teams. Sie können Emails, Kalender und Kontakte einfach mit Ihren Mitarbeitern teilen und so die Zusammenarbeit im Team optimieren.
 
 Mit Microsoft Teams erhalten Sie eine Lösung für die interne Kommunikation, die Ihnen hilft, die Kommunikation im Team zu verbessern und die Zusammenarbeit zu optimieren. Mit Ihren Mitarbeitern per Whatsapp oder Facebook Messenger zu kommunizieren ist schnell und einfach aber nicht datenschutzkonform. Mit Microsoft Teams erhalten Sie eine Lösung, die datenschutzkonform ist und Ihnen hilft, die Kommunikation im Team zu verbessern.
+
+## Alle Anwendungen mit einer Lizenz
+Mit Microsoft 365 erhalten Sie alle Anwendungen die Sie in Ihrem Unternehmen brauchen mit einer Lizenz. Sie können die Anwendungen auf bis zu 5 Geräten pro Benutzer installieren und nutzen. Dabei spielt es keine Rolle, ob Sie die Anwendungen auf einem Windows PC, Mac, Smartphone oder Tablet nutzen.

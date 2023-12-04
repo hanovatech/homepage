@@ -7,9 +7,9 @@ callToAction: true
 
 # Paperless: Die Lösung für eine effiziente Verwaltung Ihrer Dokumente!
 
-In einer zunehmend digitalen Welt bietet Paperless-ngx die Lösung für das Problem der wachsenden Menge an Papier. Diese Open-Source Software ermöglicht Ihnen eine reibungslose Digitalisierung und Organisation Ihrer Dokumente.
+In einer zunehmend digitalen Welt bietet Paperless-ngx die Lösung für das Problem der wachsenden Menge an Papier. Die Paperless Open-Source Software ermöglicht Ihnen eine reibungslose Digitalisierung und Organisation Ihrer Dokumente.
 
-## Wie funktioniert Paperless-ngx?
+## Wie funktioniert Paperless?
 
 ### 1. Dokumente scannen:
 Ganz einfach und unkompliziert - scannen Sie Ihre Dokumente und senden Sie sie per E-Mail direkt an Paperless-ngx. Die nahtlose Integration mit Ihrem Drucker macht diesen Vorgang ganz einfach.
@@ -23,7 +23,7 @@ Paperless geht über das einfache Scannen hinaus. Das System erkennt den Inhalt 
 ### 4. Anpassbare Archivierung:
 Bei uns stehen Ihre individuellen Bedürfnisse im Mittelpunkt. Mit Paperless-ngx können Wir die Archivstruktur ganz nach Ihren Wünschen konfigurieren - sei es nach Datum, Kategorie oder Projekten.
 
-## Vorteile von Paperless-ngx:
+## Vorteile von Paperless:
 
 ### Stichwortsuche
 Nutzen Sie Schlüsselwörter, um Dokumente im Handumdrehen zu finden.
