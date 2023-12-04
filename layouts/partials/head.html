@@ -47,9 +47,12 @@
 <!-- Tailwind CSS Links End -->
 
 <!-- Glide.js Carousel and Slider -->
-{{ $glide := resources.Get "glide@3.6.0/glide.core.css" | minify | fingerprint | resources.PostProcess }}
+{{ $glide := resources.Get "utils/glide@3.6.0/glide.core.css" | minify | fingerprint | resources.PostProcess }}
 <link rel="stylesheet" href="{{ $glide.RelPermalink }}" integrity="{{ $glide.Data.Integrity }}">
 
 <!-- Animate on Scroll -->
-{{ $aos := resources.Get "aos@2.3.4/aos.css" | minify | fingerprint | resources.PostProcess }}
+{{ $aos := resources.Get "utils/aos@2.3.4/aos.css" | minify | fingerprint | resources.PostProcess }}
 <link rel="stylesheet" href="{{ $aos.RelPermalink }}" integrity="{{ $aos.Data.Integrity }}">
+
+<!-- Plausible Analytics -->
+<script defer data-domain="hanovatech.de" src="https://plausible.hanova.tech/js/script.js"></script>

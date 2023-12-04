@@ -107,7 +107,7 @@
 <!-- Netlify Identity Widget End -->
 
 <!-- Glide.js Start -->
-{{ $glide := resources.Get "/glide@3.6.0/glide.js" | minify | fingerprint }}
+{{ $glide := resources.Get "/utils/glide@3.6.0/glide.js" | minify | fingerprint }}
 <script src="{{ $glide.RelPermalink }}"></script>
 <script>
   if (document.getElementsByClassName("glide").length) {
@@ -121,13 +121,13 @@
 <!-- Glide.js End -->
 
 <!-- Animate on Scroll Start -->
-{{ $aos := resources.Get "/aos@2.3.4/aos.js" | minify | fingerprint }}
+{{ $aos := resources.Get "/utils/aos@2.3.4/aos.js" | minify | fingerprint }}
 <script src="{{ $aos.RelPermalink }}"></script>
 <script>AOS.init();</script>
 <!-- Animate on Scroll End -->
 
 <!-- FSLightbox Start -->
-{{ $fslightbox := resources.Get "/fslightbox@3.4.1/fslightbox.js" | minify | fingerprint }}
+{{ $fslightbox := resources.Get "/utils/fslightbox@3.4.1/fslightbox.js" | minify | fingerprint }}
 <script src="{{ $fslightbox.RelPermalink }}"></script>
 <!-- FSLightbox End -->
 

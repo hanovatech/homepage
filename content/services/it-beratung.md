@@ -35,9 +35,9 @@ Die aktuell am meisten genutzte Möglichkeit zur Digitalisierung von Unternehmen
 Profitieren Sie auch von unseren anderen Dienstleistungen:
 
 - [Managed Services](/services/managed-services)
-- [Cybersicherheit](/services/cybersicherheit)
+- [Informationssicherheit](/services/informationssicherheit)
 - [Softwareentwicklung](/services/softwareentwicklung)
 
-Durch unsere Erfahrungen in den Bereichen Managed Services, Cybersicherheit und Softwareentwicklung sind wir in der Lage Ihnen eine umfassende IT-Lösung anzubieten, welche nicht nur Ihre Geschäftsprozesse optimiert, sondern zudem Ihre IT-Infrastruktur verbessert und schützt.
+Durch unsere Erfahrungen in den Bereichen Managed Services, Informationssicherheit und Softwareentwicklung sind wir in der Lage Ihnen eine umfassende IT-Lösung anzubieten, welche nicht nur Ihre Geschäftsprozesse optimiert, sondern zudem Ihre IT-Infrastruktur verbessert und schützt.
 
 Kontaktieren Sie uns noch heute, um mehr über unsere anderen Dienstleistungen und wie wir Ihnen helfen können zu erfahren. Schreiben Sie uns eine Nachricht über unser [Kontaktformular](/kontakt).
