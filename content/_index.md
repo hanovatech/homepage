@@ -59,7 +59,7 @@ servicesSection:
       image: /content/services/M365_Tools.png
 faqSection:
   title: Häufig gestellte Fragen
-  description: Sie haben Fragen zu unseren Produkten und Dienstleistungen?<br>Hier finden Sie Antworten auf die häufigsten Fragen.
+  description: Sie haben Fragen zu unseren Produkten und Dienstleistungen?<br>Hier finden Sie die Antworten.
   questions:
     - question: Wie kann die Zusammenarbeit aussehen?
       answer: Nachdem wir uns in einem [kostenlosen Erstgespräch](/termin) kennengelernt haben, können wir über Ihre Anforderungen und Wünsche für die Zukunft reden. Sobald wir ein Verständnis für Ihre Anforderungen bekommen haben, können wir uns Gedanken machen, **wie wir Sie am besten unterstützen** können. Anschließend stellen wir Ihnen unsere Ideen und Lösungen für Ihr Unternehmen vor. Wenn Sie mit unseren Lösungen einverstanden sind, können wir mit der Umsetzung beginnen.
