@@ -28,4 +28,4 @@ Im Jahr 2022 entschied sich Hashem gemeinsam mit seinem Partner, den Fokus des U
 
 Heute bietet HanovaTech eine breite Palette von Dienstleistungen an, darunter **IT-Consulting, Managed Services, Informationssicherheit und Softwareentwicklung**. Durch maßgeschneiderte Lösungen und eine enge Zusammenarbeit mit den Kunden unterstützt HanovaTech Unternehmen dabei, ihre IT-Infrastruktur effizient zu gestalten, Risiken zu minimieren und Wachstum zu fördern. Mit einem erfahrenen Team von Experten strebt HanovaTech stets nach Spitzenleistungen und strebt danach, seinen Kunden einen erstklassigen Service zu bieten, der ihren Anforderungen gerecht wird.
 
-![HanovaTech Logo](/images/hanovatech_logo_color.svg "HanovaTech Logo")
+{{<image src="/images/hanovatech_logo_color.svg" alt="HanovaTech Logo" >}}
