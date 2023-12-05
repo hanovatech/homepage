@@ -61,12 +61,12 @@ faqSection:
   title: Häufig gestellte Fragen
   description: Sie haben Fragen zu unseren Produkten und Dienstleistungen?<br>Hier finden Sie die Antworten.
   questions:
-    - question: Wie kann die Zusammenarbeit aussehen?
-      answer: Nachdem wir uns in einem [kostenlosen Erstgespräch](/termin) kennengelernt haben, können wir über Ihre Anforderungen und Wünsche für die Zukunft reden. Sobald wir ein Verständnis für Ihre Anforderungen bekommen haben, können wir uns Gedanken machen, **wie wir Sie am besten unterstützen** können. Anschließend stellen wir Ihnen unsere Ideen und Lösungen für Ihr Unternehmen vor. Wenn Sie mit unseren Lösungen einverstanden sind, können wir mit der Umsetzung beginnen.
+    - question: Wie geht es jetzt los?
+      answer: Nachdem wir uns in einem [kostenlosen Erstgespräch](/termin) kennengelernt haben, reden wir über Ihre Anforderungen und Wünsche für die Zukunft. Nachdem wir ein Verständnis für Ihre Anforderungen bekommen haben, machen wir uns Gedanken, **wie wir Sie am besten unterstützen** können. Anschließend stellen wir Ihnen unsere Ideen und Lösungen für Ihr Unternehmen vor. Wenn Sie mit unseren Lösungen einverstanden sind, können wir mit der Umsetzung beginnen.
     - question: Sind wir der richtige IT-Dienstleister für Sie?
       answer: Wir haben uns **auf KMU spezialisiert** und kennen die Anforderungen und Probleme von Unternehmen, welche sich gerade in der Digitalisierung befinden. Als Ihr IT-Dienstleister wollen wir mehr als nur eine externe IT-Abteilung sein. Wir wollen Ihr Partner sein, der Sie bei der Digitalisierung Ihres Unternehmens unterstützt und Sie durch unser Know-How weiter bringt. Wir sind erst zufrieden, wenn Sie es sind.
     - question: Was macht HanovaTech als IT-Dienstleister aus?
-      answer: Als junges und trotzdem erfahrenes Team haben wir uns **auf die Digitalisierung von KMU spezialisiert**. Durch unsere Fachkenntnisse in den unterschiedlichsten Bereich können wir Sie vollumfänglich unterstützen. So bilden wir nicht nur klassische IT-Beratung und Support ab, sondern können Ihnen auch bei Themen wie **Informationssicherheit oder der individuellen Softwareentwicklung** zur Seite stehen.
+      answer: Als junges und trotzdem erfahrenes Team haben wir uns **auf die Digitalisierung von KMU spezialisiert**. Durch unsere Fachkenntnisse in den unterschiedlichsten Bereich können wir Sie vollumfänglich als IT-Dienstleister unterstützen. So bilden wir nicht nur klassische IT-Beratung und Support ab, sondern können Ihnen auch bei Themen wie **Informationssicherheit oder der individuellen Softwareentwicklung** zur Seite stehen.
 partnersSection:
   title: Gemeinsam mehr erreichen
   description: Wir arbeiten mit führenden Partnern der IT-Branche zusammen, um Ihnen bestmögliche Lösungen bieten zu können.
