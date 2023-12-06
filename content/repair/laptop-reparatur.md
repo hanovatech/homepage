@@ -7,7 +7,7 @@ image: /content/repair/notebook-und-laptop-reparatur.jpg
 # Laptop Reparatur in Hannover - schnelle Hilfe bei Laptop-Problemen
 Wir reparieren Ihr Notebook oder Ihren Laptop professionell und zu fairen Preisen. Schnelle Problemlösung und kompetente Beratung mit HanovaTech.
 
-{{<callToAction-repair formUrl="/repair/kontakt/laptop-reparatur" >}}
+{{<callToAction-repair formLabel="Laptop-Reparatur Formular" formUrl="/repair/kontakt/laptop-reparatur" >}}
 
 ## Wann lohnt sich eine Laptop Reparatur?
 Eine Laptop Reparatur lohnt sich immer dann, wenn die Kosten fürs Reparieren deutlich unter dem Preis für ein neues Gerät liegen. Wir machen Ihnen im Vorfeld immer einen transparenten Kostenvoranschlag. Auf dieser Basis können Sie dann immer selbst entscheiden, ob eine Reparatur Sinn ergibt.
@@ -89,4 +89,4 @@ Auf Wunsch optimieren wir Ihren gebrauchten Laptop, damit Sie auch neuere Anwend
 Wir freuen uns auf Ihren Reparaturauftrag für Ihr Notebook oder Ihren Laptop: [0511-51561190](tel:051151561190)!
 
 <br>
-{{<callToAction-repair formUrl="/repair/kontakt/laptop-reparatur" >}}
+{{<callToAction-repair formLabel="Laptop-Reparatur Formular" formUrl="/repair/kontakt/laptop-reparatur" >}}

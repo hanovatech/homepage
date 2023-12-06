@@ -10,7 +10,7 @@ image: /content/repair/pc-kaufen.jpg
 
 Sie möchten einen Rechner, der genau auf Ihre Anforderungen und Wünsche ausgerichtet ist und suchen deshalb nach einer individuellen Lösung? Standard-PCs werden Ihren Anforderungen nicht gerecht? Dann kann Hanovatech weiterhelfen. Wir sind Ihr IT-Dienstleister aus Hannover, bei welchem Sie Ihren PC professionell zusammenbauen lassen können.
 
-{{<callToAction-repair formUrl="/repair/kontakt/pc-kaufen" >}}
+{{<callToAction-repair heading="Wir helfen Ihnen gerne weiter!" formUrl="/repair/kontakt/pc-kaufen" >}}
 
 ## In 3 Schritten zum Wunsch-PC mit Hanovatech
 1. Auf der Basis Ihre Anforderungen suchen wir die bestmögliche Hardware für Ihren neuen Rechner aus. Hierfür teilen Sie uns mit:
@@ -60,5 +60,5 @@ Wissen Sie schon genau, was für einen Rechner Sie möchten? Dann fordern Sie hi
 Jetzt individuellen PC in Hannover kaufen – natürlich bei HanovaTech, Ihren Spezialisten rund um PC-Reparatur, IT-Beratung und Datenrettung.
 
 <br>
-{{<callToAction-repair formUrl="/repair/kontakt/pc-kaufen" >}}
+{{<callToAction-repair heading="Wir helfen Ihnen gerne weiter!" formUrl="/repair/kontakt/pc-kaufen" >}}
 

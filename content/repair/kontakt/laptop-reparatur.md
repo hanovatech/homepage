@@ -13,7 +13,7 @@ Wir werden uns schnellstmöglich bei Ihnen melden, um mit Ihnen einen Termin zu 
     <div class="grid grid-cols-1 gap-y-6 gap-x-8 sm:grid-cols-2">
       <h2 class="sm:col-span-2 text-2xl text-gray-900 font-bold mb-0">Angaben zum Problem</h2>
       <div class="sm:col-span-2">
-        <label for="problem" class="block text-sm font-semibold leading-6 text-gray-900">Welches Problem hat Ihr Notebook?</label>
+        <label for="problem" class="block text-sm font-semibold leading-6 text-gray-900">Welches Problem hat Ihr Laptop?</label>
         <div class="mt-2.5">
           <select name="problem" id="problem" required="required" class="block w-full rounded-md border-0 py-2 px-3.5 text-sm leading-6 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-blue-600">
             <option value="" class="placeholder" disabled="" selected="selected">Bitte auswählen</option>
