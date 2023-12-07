@@ -54,5 +54,9 @@
 {{ $aos := resources.Get "utils/aos@2.3.4/aos.css" | minify | fingerprint | resources.PostProcess }}
 <link rel="stylesheet" href="{{ $aos.RelPermalink }}" integrity="{{ $aos.Data.Integrity }}">
 
+<!-- Poppins Font -->
+{{ $poppins := resources.Get "fonts/poppins@1.1.13/index.css" | minify | fingerprint | resources.PostProcess }}
+<link rel="stylesheet" href="{{ $poppins.RelPermalink }}" integrity="{{ $poppins.Data.Integrity }}">
+
 <!-- Plausible Analytics -->
 <script defer data-domain="hanovatech.de" src="https://plausible.hanova.tech/js/script.js"></script>
