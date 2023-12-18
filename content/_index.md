@@ -69,7 +69,7 @@ faqSection:
       answer: Als junges und trotzdem erfahrenes Team haben wir uns **auf die Digitalisierung von KMU spezialisiert**. Durch unsere Fachkenntnisse in den unterschiedlichsten Bereich können wir Sie vollumfänglich als IT-Dienstleister unterstützen. So bilden wir nicht nur klassische IT-Beratung und Support ab, sondern können Ihnen auch bei Themen wie **Informationssicherheit oder der individuellen Softwareentwicklung** zur Seite stehen.
 partnersSection:
   title: Gemeinsam mehr erreichen
-  description: Wir arbeiten mit führenden Partnern der IT-Branche zusammen, um Ihnen bestmögliche Lösungen bieten zu können.
+  description: Um Ihnen die besten Lösungen bieten zu können, arbeiten wir mit anderen IT Dienstleistern partnerschaftlich zusammen.
   partners:
     - name: Microsoft
       image: /content/logos/microsoft.png

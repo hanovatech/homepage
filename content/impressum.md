@@ -7,8 +7,8 @@ title: Impressum
 Unser Impressum gilt für die Seite hanovatech.de sowie für die HanovaTech Socialmedia Seiten auf Facebook, Instagram und Linkedin.
 
 **HanovaTech GmbH**  
-Heinrich-Kümmel-Straße 8  
-30169 Hannover
+Spielhagenstraße 25  
+30171 Hannover
 
 **Geschäftsführer**: Hashem Mahmoud  
 **Umsatzsteuer-ID**: DE 363164508  
