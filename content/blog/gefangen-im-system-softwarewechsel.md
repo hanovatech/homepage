@@ -1,5 +1,5 @@
 ---
-title: "Gefangen im System: Keine Angst vor dem Wechsel!"
+title: "Gefangen im System: Keine Angst vor dem ERP-Wechsel!"
 description: Mit StyleX hat Meta ein neues CSS Framework geschaffen, welches die Entwicklung von Webanwendungen vor allem mit React vereinfachen soll. Welche Vor- und Nachteile es gegenüber anderen CSS Frameworks gibt, erfahren Sie in diesem Blog Eintrag.
 image: /content/blog/gefangen-im-system.jpeg
 tags: [Webentwicklung, CSS, Meta]
@@ -7,7 +7,7 @@ published: 2024-01-04T11:22:42.350Z
 modified: 2024-01-04T11:22:42.350Z
 ---
 
-# Gefangen im System: Keine Angst vor dem Wechsel!
+# Gefangen im System: Keine Angst vor dem ERP-Wechsel!
 
 In vielen Unternehmen ist eine Software das Herzstück der alltäglichen Arbeit. Sämtliche Daten des Unternehmens werden in einem ERP oder CRM System gespeichert, Prozesse werden aus diesen angestoßen und fast jeder Mitarbeiter arbeitet damit. Doch wenn diese Systeme im Laufe der Zeit die Anforderungen des Unternehmens nicht mehr abbilden, entsteht ein Zwiespalt, welcher langfristig zu **Problemen und Frustration** führt.
 
