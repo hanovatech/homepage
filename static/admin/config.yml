@@ -4,9 +4,11 @@ backend:
 media_folder: "static/content"
 public_folder: "/content"
 collections:
+  ############### Single Pages ################
   - name: pages
     label: Pages
     files:
+      ############### Homepage ################
       - name: home
         label: Home
         file: "/content/_index.md"
@@ -52,6 +54,8 @@ collections:
                   - { label: "Role", name: "role", widget: "string" }
                   - { label: "Specialty", name: "specialty", widget: "string" }
                   - { label: "Image", name: "image", widget: "image" }
+
+      ############### Über uns ################
       - name: about
         label: Über uns
         file: "/content/ueber-uns.md"
@@ -73,6 +77,8 @@ collections:
                   - { label: "Specialty", name: "specialty", widget: "string" }
                   - { label: "Image", name: "image", widget: "image" }
           - { label: "Body", name: "body", widget: "markdown" }
+
+      ############### Karriere ################
       - name: career
         label: Karriere
         file: "/content/karriere.md"
@@ -92,6 +98,8 @@ collections:
                 fields:
                   - { label: "Todo", name: "todo", widget: "string" }
           - { label: "Body", name: "body", widget: "markdown" }
+
+      ############### Kontakt ################
       - name: contact
         label: Kontakt
         file: "/content/kontakt/_index.md"
@@ -99,6 +107,8 @@ collections:
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Description", name: "description", widget: "string", required: false }
           - { label: "Body", name: "body", widget: "markdown", required: false }
+
+      ############### Datenschutz ################
       - name: privacy
         label: Datemschutz
         file: "/content/datenschutz.md"
@@ -106,6 +116,8 @@ collections:
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Description", name: "description", widget: "string", required: false }
           - { label: "Body", name: "body", widget: "markdown", required: false }
+
+      ############### Impressum ################
       - name: impress
         label: Impressum
         file: "/content/impressum.md"
@@ -113,6 +125,8 @@ collections:
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Description", name: "description", widget: "string", required: false }
           - { label: "Body", name: "body", widget: "markdown", required: false }
+
+  ############### Services ################
   - name: services
     label: Services
     folder: /content/services
@@ -124,6 +138,8 @@ collections:
       - { label: "Weight", name: "weight", widget: "number", required: false }
       - { label: "Body", name: "body", widget: "markdown", required: false }
       - { label: "Call To Action", name: "callToAction", widget: "boolean", required: false }
+
+  ############### Produkte ################
   - name: products
     label: Produkte
     folder: /content/produkte
@@ -135,6 +151,8 @@ collections:
       - { label: "Weight", name: "weight", widget: "number", required: false }
       - { label: "Body", name: "body", widget: "markdown", required: false }
       - { label: "Call To Action", name: "callToAction", widget: "boolean", required: false }
+
+  ############### HanovaTech Repair ################
   - name: repair
     label: Repair (B2C)
     folder: /content/repair
@@ -144,6 +162,8 @@ collections:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Description", name: "description", widget: "string", required: false }
       - { label: "Body", name: "body", widget: "markdown", required: false }
+
+  ############### Blog ################
   - name: blog
     label: Blog
     folder: /content/blog
@@ -157,13 +177,17 @@ collections:
       - { label: "Publish Date", name: "published", widget: "datetime", required: false }
       - { label: "Modified", name: "modified", widget: "datetime", required: false }
       - { label: "Body", name: "body", widget: "markdown" }
+
+  ############### Settings ################
   - name: settings
     label: Settings
     files:
+      ############### Navigation ################
       - name: navigation
         label: Navigation
         file: /data/navigation.yaml
         fields:
+          ############### Main ################
           - label: Main
             name: main
             widget: list
@@ -179,6 +203,8 @@ collections:
                   - { label: "Link", name: "url", widget: "string" }
                   - { label: "Icon", name: "icon", widget: "string" }
                   - { label: "Description", name: "description", widget: "string" }
+
+          ############### Footer ################
           - label: Footer
             name: footer
             widget: list
@@ -190,6 +216,8 @@ collections:
                 fields:
                   - { label: "Name", name: "name", widget: "string" }
                   - { label: "Link", name: "url", widget: "string" }
+
+          ############### Repair ################
           - label: Repair-Main
             name: repair
             widget: list
@@ -205,6 +233,8 @@ collections:
                   - { label: "Link", name: "url", widget: "string" }
                   - { label: "Icon", name: "icon", widget: "string" }
                   - { label: "Description", name: "description", widget: "string" }
+
+      ############### Google Settings ################
       - name: google
         label: Google
         file: /data/google.yaml
