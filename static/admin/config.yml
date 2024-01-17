@@ -98,7 +98,21 @@ collections:
         fields:
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Description", name: "description", widget: "string", required: false }
-          - { label: "Body", name: "body", widget: "markdown" }
+          - { label: "Body", name: "body", widget: "markdown", required: false }
+      - name: privacy
+        label: Datemschutz
+        file: "/content/datenschutz.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Description", name: "description", widget: "string", required: false }
+          - { label: "Body", name: "body", widget: "markdown", required: false }
+      - name: impress
+        label: Impressum
+        file: "/content/impressum.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Description", name: "description", widget: "string", required: false }
+          - { label: "Body", name: "body", widget: "markdown", required: false }
   - name: services
     label: Services
     folder: /content/services
@@ -107,7 +121,20 @@ collections:
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Description", name: "description", widget: "string", required: false }
-      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Weight", name: "weight", widget: "number", required: false }
+      - { label: "Body", name: "body", widget: "markdown", required: false }
+      - { label: "Call To Action", name: "callToAction", widget: "boolean", required: false }
+  - name: products
+    label: Produkte
+    folder: /content/produkte
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Description", name: "description", widget: "string", required: false }
+      - { label: "Weight", name: "weight", widget: "number", required: false }
+      - { label: "Body", name: "body", widget: "markdown", required: false }
+      - { label: "Call To Action", name: "callToAction", widget: "boolean", required: false }
   - name: repair
     label: Repair (B2C)
     folder: /content/repair
@@ -116,7 +143,7 @@ collections:
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Description", name: "description", widget: "string", required: false }
-      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Body", name: "body", widget: "markdown", required: false }
   - name: blog
     label: Blog
     folder: /content/blog
@@ -125,8 +152,10 @@ collections:
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Description", name: "description", widget: "string", required: false }
-      - { label: "Publish Date", name: "date", widget: "datetime", required: false }
       - { label: "Featured Image", name: "thumbnail", widget: "image", required: false }
+      - { label: "Tags", name: "tags", widget: "list", required: false }
+      - { label: "Publish Date", name: "published", widget: "datetime", required: false }
+      - { label: "Modified", name: "modified", widget: "datetime", required: false }
       - { label: "Body", name: "body", widget: "markdown" }
   - name: settings
     label: Settings
