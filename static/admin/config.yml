@@ -6,7 +6,7 @@ public_folder: "/content"
 collections:
   ############### Single Pages ################
   - name: pages
-    label: Pages
+    label: Einzelseiten
     files:
       ############### Homepage ################
       - name: home
@@ -140,7 +140,7 @@ collections:
       - { label: "Call To Action", name: "callToAction", widget: "boolean", required: false }
 
   ############### Produkte ################
-  - name: products
+  - name: produkte
     label: Produkte
     folder: /content/produkte
     create: true
@@ -151,17 +151,6 @@ collections:
       - { label: "Weight", name: "weight", widget: "number", required: false }
       - { label: "Body", name: "body", widget: "markdown", required: false }
       - { label: "Call To Action", name: "callToAction", widget: "boolean", required: false }
-
-  ############### HanovaTech Repair ################
-  - name: repair
-    label: Repair (B2C)
-    folder: /content/repair
-    create: true
-    slug: "{{slug}}"
-    fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Description", name: "description", widget: "string", required: false }
-      - { label: "Body", name: "body", widget: "markdown", required: false }
 
   ############### Blog ################
   - name: blog
@@ -178,9 +167,20 @@ collections:
       - { label: "Modified", name: "modified", widget: "datetime", required: false }
       - { label: "Body", name: "body", widget: "markdown" }
 
+  ############### HanovaTech Repair ################
+  - name: repair
+    label: HanovaTech Repair
+    folder: /content/repair
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Description", name: "description", widget: "string", required: false }
+      - { label: "Body", name: "body", widget: "markdown", required: false }
+
   ############### Settings ################
   - name: settings
-    label: Settings
+    label: Einstellungen
     files:
       ############### Navigation ################
       - name: navigation
@@ -188,7 +188,7 @@ collections:
         file: /data/navigation.yaml
         fields:
           ############### Main ################
-          - label: Main
+          - label: Header
             name: main
             widget: list
             fields:
@@ -218,7 +218,7 @@ collections:
                   - { label: "Link", name: "url", widget: "string" }
 
           ############### Repair ################
-          - label: Repair-Main
+          - label: Repair
             name: repair
             widget: list
             fields:

@@ -1,5 +1,5 @@
 ---
-title: HanovaTech - Ihr Partner bei IT-Problemen in Hannover
+title: HanovaTech - Ihr Partner bei PC-Problemen in Hannover
 description: IT Beratung, PC Reparatur, PC/Server Aufbau, Datenrettung,
   Betriebssytem & Systemumstellung, Private Cloud... und viels mehr! Wir
   digitaliseren Hannover!
@@ -45,4 +45,3 @@ services:
       002.25-2.25V6.75a2.25 2.25 0 00-2.25-2.25H6.75A2.25 2.25 0 004.5
       6.75v10.5a2.25 2.25 0 002.25 2.25zm.75-12h9v9h-9v-9z" />
 ---
-T﻿EST

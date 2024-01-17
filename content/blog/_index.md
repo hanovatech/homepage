@@ -1,5 +1,5 @@
 ---
-title: Letzte Einträge
+title: Letzte Einträge im HanovaTech Blog
 image: /images/home/illustration.png
 ---
 
