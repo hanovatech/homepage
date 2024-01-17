@@ -110,7 +110,7 @@ collections:
 
       ############### Datenschutz ################
       - name: privacy
-        label: Datemschutz
+        label: Datenschutz
         file: "/content/datenschutz.md"
         fields:
           - { label: "Title", name: "title", widget: "string" }
