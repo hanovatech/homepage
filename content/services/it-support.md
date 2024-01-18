@@ -1,7 +1,7 @@
 ---
 title: "IT-Support: Wir helfen Ihnen bei allen Ihren Problemen weiter"
 description: Wir Ihnen bei all Ihren IT-Problemen zu jeder Zeit weiter und sorgen dafür, dass Sie schnellstmöglich wieder arbeitsfähig sind. Rufen Sie uns jetzt an!
-image: /content/produkte/it-support.jpg
+image: /content/services/it-support.jpg
 weight: 2
 callToAction: true
 ---

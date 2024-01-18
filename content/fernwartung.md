@@ -1,7 +1,7 @@
 ---
 title: 🚨 PC-Problem? Wir helfen mit der Fernwartung von HanovaTech
 description: Sie arbeiten am PC und haben ein konkretes Problem? Wir helfen Ihnen aus der Ferne weiter! Mit unserer Fernwartung können wir Ihnen schnell und unkompliziert helfen, egal wo Sie sich gerade befinden.
-image: https://as2.ftcdn.net/v2/jpg/02/36/14/27/1000_F_236142744_I3pZGLU2n5s5lxzhbjUKIojqAZvS2HgA.jpg
+image: /content/services/it-support.jpg
 ---
 
 # 🚨 PC-Problem? Wir helfen Ihnen!
@@ -15,7 +15,7 @@ Sie haben **ein akutes Problem mit Ihrem PC?** Outlook funktioniert nicht mehr? 
     Quick Support herunterladen <span aria-hidden="true">&rarr;</span>
   </a>
 
-  <a href="#services" class="mt-6 block text-sm font-semibold leading-6 text-gray-900">
+  <a href="#" class="mt-6 block text-sm font-semibold leading-6 text-gray-900">
     Ihre Rechnungsdaten eingeben
   </a>
 </div>

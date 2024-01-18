@@ -40,10 +40,6 @@ servicesSection:
       description: Wir stehen Ihnen als technischer Ansprechpartner bei all Ihren IT-Problemen jederzeit zur Seite.
       url: /services/managed-services
       icon: <path stroke-linecap="round" stroke-linejoin="round" d="M5.25 14.25h13.5m-13.5 0a3 3 0 01-3-3m3 3a3 3 0 100 6h13.5a3 3 0 100-6m-16.5-3a3 3 0 013-3h13.5a3 3 0 013 3m-19.5 0a4.5 4.5 0 01.9-2.7L5.737 5.1a3.375 3.375 0 012.7-1.35h7.126c1.062 0 2.062.5 2.7 1.35l2.587 3.45a4.5 4.5 0 01.9 2.7m0 0a3 3 0 01-3 3m0 3h.008v.008h-.008v-.008zm0-6h.008v.008h-.008v-.008zm-3 6h.008v.008h-.008v-.008zm0-6h.008v.008h-.008v-.008z"></path>
-    # - name: Managed Services
-    #   description: Wir übernehmen die Einrichtung und die anschließende Betreuung Ihrer IT-Systeme damit Sie sich zurück lehnen können.
-    #   url: /services/managed-services
-    #   icon: <path stroke-linecap="round" stroke-linejoin="round" d="M5.25 14.25h13.5m-13.5 0a3 3 0 01-3-3m3 3a3 3 0 100 6h13.5a3 3 0 100-6m-16.5-3a3 3 0 013-3h13.5a3 3 0 013 3m-19.5 0a4.5 4.5 0 01.9-2.7L5.737 5.1a3.375 3.375 0 012.7-1.35h7.126c1.062 0 2.062.5 2.7 1.35l2.587 3.45a4.5 4.5 0 01.9 2.7m0 0a3 3 0 01-3 3m0 3h.008v.008h-.008v-.008zm0-6h.008v.008h-.008v-.008zm-3 6h.008v.008h-.008v-.008zm0-6h.008v.008h-.008v-.008z"></path>
     - name: Informationssicherheit
       description: Daten sind die Grundlage des Geschäftsprozesses. Wir helfen Ihnen dabei diese abzusichern, um Problemen vorzugreifen.
       url: /services/informationssicherheit
@@ -52,11 +48,6 @@ servicesSection:
       description: Ob individuelle Schnittstellenentwicklung oder Anpassungen an Ihrer Webseite, wir entwickeln Software nach Ihren Wünschen.
       url: /services/softwareentwicklung
       icon: <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 7.5l3 2.25-3 2.25m4.5 0h3m-9 8.25h13.5A2.25 2.25 0 0021 18V6a2.25 2.25 0 00-2.25-2.25H5.25A2.25 2.25 0 003 6v12a2.25 2.25 0 002.25 2.25z"></path>
-  carousel:
-    - name: Bitwarden - Passwortmanager für Ihr Unternehmen
-      image: /content/services/Bitwarden.png
-    - name: Microsoft 365 as a Service von HanovaTech
-      image: /content/services/M365_Tools.png
 faqSection:
   title: Häufig gestellte Fragen
   description: Sie haben Fragen zu unseren Produkten und Dienstleistungen?<br>Hier finden Sie die Antworten.

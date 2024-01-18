@@ -1,11 +1,11 @@
 ---
-title: Arbeiten bei HanovaTech
-description: null
+title: HanovaTech als Arbeitgeber - Bewerben Sie sich jetzt!
+description: 
 jobs:
 ---
 
-# Arbeiten bei HanovaTech
-Wir sind ein **dynamisches Unternehmen**, das sich auf innovative Lösungen und exzellenten Kundenservice konzentriert. Um unser Unternehmen weiter auszubauen, **suchen wir engagierte Talente**, die mit uns gemeinsam die Zukunft der IT gestalten möchten. Werde Teil unseres Teams und entdecke spannende Karrieremöglichkeiten in der IT-Branche!
+# HanovaTech als Arbeitgeber
+Wir sind ein **junges und dynamisches Unternehmen**, das sich auf innovative Lösungen und exzellenten Kundenservice konzentriert. Um unser Unternehmen weiter auszubauen, **suchen wir engagierte Talente**, die mit uns gemeinsam die Zukunft der IT gestalten möchten. Werde Teil unseres Teams und entdecke spannende Karrieremöglichkeiten in der IT-Branche!
 
 {{<careerList>}}
 

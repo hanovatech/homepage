@@ -15,12 +15,37 @@ collections:
         fields:
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Description", name: "description", widget: "string", required: false }
+          ############### Hero Section ################
           - label: Hero Section
             name: heroSection
             widget: object
             fields:
               - { label: "Title", name: "title", widget: "string" }
               - { label: "Description", name: "description", widget: "string" }
+
+          ############### Products Section ################
+          - label: Products Section
+            name: productsSection
+            widget: object
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Description", name: "description", widget: "string" }
+              - label: Products
+                name: products
+                widget: list
+                fields:
+                  - { label: "Name", name: "name", widget: "string" }
+                  - { label: "Description", name: "description", widget: "string" }
+                  - { label: "Icon", name: "icon", widget: "string" }
+                  - { label: "Url", name: "url", widget: "string" }
+              - label: Carousel
+                name: carousel
+                widget: list
+                fields:
+                  - { label: "Name", name: "name", widget: "string" }
+                  - { label: "Image", name: "image", widget: "image" }
+
+          ############### Services Section ################
           - label: Services Section
             name: servicesSection
             widget: object
@@ -34,25 +59,34 @@ collections:
                   - { label: "Name", name: "name", widget: "string" }
                   - { label: "Description", name: "description", widget: "string" }
                   - { label: "Icon", name: "icon", widget: "string" }
-              - label: Carousel
-                name: carousel
-                widget: list
-                fields:
-                  - { label: "Name", name: "name", widget: "string" }
-                  - { label: "Image", name: "image", widget: "image" }
-          - label: Team Section
-            name: teamSection
+                  - { label: "Url", name: "url", widget: "string" }
+
+          ############### FAQ Section ################
+          - label: FAQ Section
+            name: faqSection
             widget: object
             fields:
               - { label: "Title", name: "title", widget: "string" }
               - { label: "Description", name: "description", widget: "string" }
-              - label: Team
-                name: members
+              - label: Questions
+                name: questions
+                widget: list
+                fields:
+                  - { label: "Question", name: "question", widget: "string" }
+                  - { label: "Answer", name: "answer", widget: "string" }
+
+          ############### Partners Section ################
+          - label: partners Section
+            name: partnersSection
+            widget: object
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Description", name: "description", widget: "string" }
+              - label: Partners
+                name: partners
                 widget: list
                 fields:
                   - { label: "Name", name: "name", widget: "string" }
-                  - { label: "Role", name: "role", widget: "string" }
-                  - { label: "Specialty", name: "specialty", widget: "string" }
                   - { label: "Image", name: "image", widget: "image" }
 
       ############### Über uns ################
@@ -99,10 +133,51 @@ collections:
                   - { label: "Todo", name: "todo", widget: "string" }
           - { label: "Body", name: "body", widget: "markdown" }
 
+      ############### Termin / Erstgespräch ################
+      - name: termin
+        label: Termin
+        file: "/content/termin/_index.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Description", name: "description", widget: "string", required: false }
+          - { label: "Body", name: "body", widget: "markdown" }
+
+      ############### Fernwartung ################
+      - name: fernwartung
+        label: Fernwartung
+        file: "/content/fernwartung.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Description", name: "description", widget: "string", required: false }
+          - { label: "Image", name: "image", widget: "image", required: false }
+          - { label: "Body", name: "body", widget: "markdown" }
+
       ############### Kontakt ################
       - name: contact
         label: Kontakt
         file: "/content/kontakt/_index.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Description", name: "description", widget: "string", required: false }
+          - { label: "Address", name: "address", widget: "string" }
+          - { label: "Phone", name: "phone", widget: "string" }
+          - { label: "Email", name: "email", widget: "string" }
+          - { label: "Opening Hours", name: "openingHours", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown", required: false }
+
+      ############### Downloads ################
+      - name: downloads
+        label: Downloads
+        file: "/content/downloads.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Description", name: "description", widget: "string", required: false }
+          - { label: "Body", name: "body", widget: "markdown" }
+
+      ############### AGB ################
+      - name: agb
+        label: AGBs
+        file: "/content/agb.md"
         fields:
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Description", name: "description", widget: "string", required: false }
