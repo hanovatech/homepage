@@ -1,7 +1,7 @@
 ---
 title: MacBook Reparatur in Hannover - Schnelle Hilfe bei Problemen ✅
 description: "Professionelle MacBook Reparatur in Hannover. ➔ MacBook oder iMac reparieren lassen ✓ Wir helfen: vor Ort oder bei uns ✆ Jetzt anrufen: 0511-51512490!"
-image: /content/repair/notebook-und-laptop-reparatur.jpg
+image: /content/repair/macbook-reparatur.jpeg
 ---
 
 # MacBook Reparatur in Hannover - Professionell und zuverlässig
