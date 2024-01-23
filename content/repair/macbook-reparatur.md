@@ -10,7 +10,7 @@ Unsere Experten verfügen über umfangreiches Know-how und jahrelange Erfahrung 
 
 Egal, ob es sich um Hardware- oder Softwareprobleme handelt, wir bieten professionelle Lösungen, um Ihr MacBook wieder in Topform zu bringen.
 
-{{<callToAction-repair heading="🚨 Brauchen Sie Hilfe? Melden Sie sich bei uns! ✅" formUrl="/repair/kontakt/laptop-reparatur" >}}
+{{<callToAction-repair heading="🚨 Brauchen Sie Hilfe? Melden Sie sich bei uns! ✅" formUrl="/repair/kontakt/apple-reparatur" >}}
 
 ## Ausführliche Diagnose für Ihr defektes Apple Gerät
 Ihr MacBook startet nicht, oder stürtzt dauernd ab und Sie wissen nicht genau, woran es liegt? Dann sind Sie bei uns richtig. Wir führen umfangreiche Hardware- und Software Diagnosen durch, um den Fehler Ihres Apple-Gerätes schnellstmöglich zu beheben. 
@@ -78,5 +78,5 @@ Sie haben die Möglichkeit, Ihr Apple-Gerät persönlich bei uns vorbeizubringen
 ### Bieten Sie Ihren Apple-Reparaturservice deutschlandweit an?
 Ja, wir bieten unseren Apple-Reparaturservice deutschlandweit an. Sie können Ihr defektes Apple-Gerät versichert an uns senden, und wir sorgen dafür, dass die Reparatur professionell durchgeführt wird. Bei Bedarf stellen wir Ihnen gerne einen kostenlosen DHL-Versandschein zur Verfügung, um den Prozess für Sie so bequem wie möglich zu gestalten. 
 
-{{<callToAction-repair heading="🚨 Brauchen Sie Hilfe? Melden Sie sich bei uns! ✅" formUrl="/repair/kontakt/pc-kaufen" >}}
+{{<callToAction-repair heading="🚨 Brauchen Sie Hilfe? Melden Sie sich bei uns! ✅" formUrl="/repair/kontakt/apple-reparatur" >}}
 
