@@ -59,6 +59,5 @@ Wissen Sie schon genau, was für einen Rechner Sie möchten? Dann fordern Sie hi
 
 Jetzt individuellen PC in Hannover kaufen – natürlich bei HanovaTech, Ihren Spezialisten rund um PC-Reparatur, IT-Beratung und Datenrettung.
 
-<br>
 {{<callToAction-repair heading="Wir helfen Ihnen gerne weiter!" formUrl="/repair/kontakt/pc-kaufen" >}}
 

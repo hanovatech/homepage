@@ -78,6 +78,5 @@ Sie haben die Möglichkeit, Ihr Apple-Gerät persönlich bei uns vorbeizubringen
 ### Bieten Sie Ihren Apple-Reparaturservice deutschlandweit an?
 Ja, wir bieten unseren Apple-Reparaturservice deutschlandweit an. Sie können Ihr defektes Apple-Gerät versichert an uns senden, und wir sorgen dafür, dass die Reparatur professionell durchgeführt wird. Bei Bedarf stellen wir Ihnen gerne einen kostenlosen DHL-Versandschein zur Verfügung, um den Prozess für Sie so bequem wie möglich zu gestalten. 
 
-<br>
-{{<callToAction-repair heading="Wir helfen Ihnen gerne weiter!" formUrl="/repair/kontakt/pc-kaufen" >}}
+{{<callToAction-repair heading="🚨 Brauchen Sie Hilfe? Melden Sie sich bei uns! ✅" formUrl="/repair/kontakt/pc-kaufen" >}}
 

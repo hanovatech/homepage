@@ -70,5 +70,4 @@ Unser Datenrettungsservice ist ein Angebot für Geschäftskunden und KMU ebenso 
 
 Rufen Sie uns an, um Ihre Daten zu fairen Kosten wiederherstellen zu lassen: [0152-23477771](tel:015223477771)
 
-<br>
-{{<callToAction-repair formUrl="/repair/kontakt/datenrettung" appointmentUrl="https://calendly.com/hanovatech/datenrettung-hannover" >}}
+{{<callToAction-repair formLabel="Datenrettung Formular" formUrl="/repair/kontakt/datenrettung" >}}

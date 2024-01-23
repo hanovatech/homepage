@@ -88,5 +88,4 @@ Auf Wunsch optimieren wir Ihren gebrauchten Laptop, damit Sie auch neuere Anwend
 
 Wir freuen uns auf Ihren Reparaturauftrag für Ihr Notebook oder Ihren Laptop: [0511-51561190](tel:051151561190)!
 
-<br>
 {{<callToAction-repair formLabel="Laptop-Reparatur Formular" formUrl="/repair/kontakt/laptop-reparatur" >}}

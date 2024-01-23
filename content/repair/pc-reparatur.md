@@ -73,5 +73,4 @@ Computer in Hannover reparieren lassen – professioneller Service, faire Preise
 
 Sie möchten Ihre IT-Infrastruktur erneuern oder optimieren? Dann sind Sie bei HanovaTech ebenfalls richtig. Wir sind Ihre professionelle IT-Beratung in Hannover. Gerne beraten wir Sie auch bei der Anschaffung neuer Software oder Computer. Kontaktieren Sie uns schnell und unkompliziert per Mail oder Telefon, wenn Sie mehr über Ihre Möglichkeiten mit Hanovatech erfahren wollen.
 
-<br>
 {{<callToAction-repair formLabel="PC-Reparatur Formular" formUrl="/repair/kontakt/pc-reparatur" >}}
