@@ -1,5 +1,5 @@
 ---
-title: Laptop-Reparatur Formular
+title: Apple-Reparatur Formular
 ---
 
 # Laptop-Reparatur Formular
