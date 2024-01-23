@@ -2,9 +2,9 @@
 title: Apple-Reparatur Formular
 ---
 
-# Laptop-Reparatur Formular
+# Apple-Reparatur Formular
 
-**Sie haben Probleme mit Ihrem Laptop oder Notebook?** Dann nehmen Sie mit uns über das folgende Formular Kontakt auf.
+**Sie haben Probleme mit Ihrem MacBook oder iPad?** Dann nehmen Sie mit uns über das folgende Formular Kontakt auf.
 
 Wir werden uns schnellstmöglich bei Ihnen melden, um mit Ihnen einen Termin zu vereinbaren. Alternativ können Sie uns auch telefonisch unter [0511-51561190](tel:051151561190) zu unseren Öffnungszeiten erreichen.
 
