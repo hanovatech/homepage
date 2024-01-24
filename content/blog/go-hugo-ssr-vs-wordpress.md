@@ -4,7 +4,7 @@ description: Static Site Generators sind beliebter denn je, doch können Sie mit
 image: /content/blog/hugo-blog-post.jpg
 tags: [Webentwicklung, SEO]
 published: 2023-04-11T06:34:52.350Z
-modified: 2023-04-11T06:34:52.350Z
+modified: 2024-01-24T11:11:42.350Z
 ---
 
 # Go Hugo - Wordpress vs. Static Site Generators
@@ -58,10 +58,12 @@ Wenn Sie einen Static Site Generator benutzen, müssen Sie sich nun noch die Fra
 
 Wenn Sie einen SSG nutzen, werden sie die dafür erstellten Dateien wahrscheinlich in einem Git Repository bspw. auf [GitHub](https://github.com/) hinterlegten. Dieses Git Repository kann Netlify als Verwaltungsgrundlage Ihrer statischen Webseite benutzen. Sobald eine neue Version in dieses Repository gepusht wird, wird automatisch ein Build-Prozess bei Netlify angestoßen, welcher die neue Version Ihrer Webseite im Internet bereitstellt. Dadurch müssen Sie nicht händisch die statischen HTML-Dateien generieren und anschließend in einem Webspace hochladen.
 
-### Netlify CMS
+### Netlify CMS (Decap)
+**Update:** Netlify CMS wurde inzwischen in [Decap](https://decapcms.org/) umbenannt.
+
 Über das Hosting hinaus bietet Netlify eine [Headless CMS Funktion](https://jamstack.org/headless-cms/netlify-cms/), welches es Ihnen ermöglicht, ähnlich wie bei Wordpress, die Inhalte Ihrer Webseite schnell und einfach über ein Dashboard im Browser anzupassen. Änderungen aus diesem CMS werden dann in das gerade beschriebene Git Repository gepusht, wodurch wiederum der Build-Prozess angestoßen und die neue Version der Webseite veröffentlicht wird.
 
-Das CMS können Sie dabei selbst mit Hilfe einer config.yaml Datei konfigurieren. Wie das Netlify CMS im Detail funktioniert, können Sie [hier](https://preview-auth-doc--netlify-cms-www.netlify.app/docs/) nachlesen.
+Das CMS können Sie dabei selbst mit Hilfe einer config.yaml Datei konfigurieren. Wie das Netlify CMS im Detail funktioniert, können Sie [hier](https://decapcms.org/docs/intro/) nachlesen.
 
 ### Formulare
 Formulare wie z.B. ein Kontaktformular über welches Besucher Ihnen Nachrichten senden können, benötigen immer zwangsläufig ein Backend. Doch wie kann das Umgesetzt werden, wenn mit der statischen Webseiten gar kein Backend vorhanden ist?
