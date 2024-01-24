@@ -53,7 +53,8 @@
   // Toggle Mobile Menu End
 
   // Toggle Mobile Submenu Start
-  for (const button of document.getElementsByClassName("header-submenu-button")) {
+  const mobileSubmenuButtons = document.getElementsByClassName("header-submenu-button")
+  for (const button of mobileSubmenuButtons) {
     button.addEventListener("click", event => {
       const button = event.target
       button.children[0].classList.toggle("rotate-180")
@@ -64,8 +65,18 @@
   // Toggle Mobile Submenu End
 
   // Toggle Desktop Flyout Menu Start
-  for (const button of document.getElementsByClassName("header-flyout-button")) {
+  const desktopFlyoutButtons = document.getElementsByClassName("header-flyout-button")
+  for (const button of desktopFlyoutButtons) {
     button.addEventListener("click", event => {
+      // hide other flyout menus
+      for (const b of desktopFlyoutButtons) {
+        if (b != event.target) {
+          b.nextElementSibling.style.opacity = 0
+          b.nextElementSibling.style.visibility = "hidden"
+        }
+      }
+
+      // toggle related flyout menu
       const flyoutMenu = event.target.nextElementSibling
       if (flyoutMenu.style.opacity != 1) {
         flyoutMenu.style.opacity = 1
