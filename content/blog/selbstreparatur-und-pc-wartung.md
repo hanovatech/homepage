@@ -1,6 +1,6 @@
 ---
 title: Selbstreparatur und PC-Wartung
-description: Der Weg ins Homeoffice ist nicht weit. Neben Schreibtisch, Stuhl und Deko, gehört natürlich die Technik als Hauptdarsteller mit dazu.
+description: Reparieren oder Optimieren Sie Ihren PC mit unseren Selbstreparatur- und Wartungstipps. Erfahren Sie, wie Sie häufige Probleme beheben und Ihren Computer in Topform halten.
 image: /content/blog/pc-wartung.jpg
 tags: ["Reparatur", "Hardware"]
 published: 2021-02-03T19:05:18+00:00
