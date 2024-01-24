@@ -1,6 +1,5 @@
 ---
 title: HanovaTech als Arbeitgeber - Bewerben Sie sich jetzt!
-description: null
 jobs: null
 ---
 # HanovaTech als Arbeitgeber

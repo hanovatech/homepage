@@ -1,9 +1,11 @@
 ---
 title: Ihr moderner IT-Dienstleister aus Hannover | HanovaTech
 description: ✅ Wir sind Ihr moderner IT-Dienstleister aus Hannover. Wir bieten Ihnen verschiedene Dienstleistungen und Produkte für die Digitalisierung Ihres Unternehmens. Erfahren Sie mehr über uns und unsere Leistungen!
+
 heroSection:
   title: Ihr moderner<br> IT-Dienstleister aus Hannover
   description: Wir bieten Ihnen IT-Dienstleistungen zur Digitalisierung Ihres Unternehmens. Starten Sie mit der Modernisierung Ihrer IT.
+
 productsSection:
   title: Unsere Produkte zur Digitalisierung Ihres Unternehmens
   description: Als IT-Dienstleister bringen wir fertige Lösungen zur Digitalisierung Ihres Unternehmens mit und unterstützen Sie von der Einrichtung bis zur Schulung Ihrer Mitarbeiter.
@@ -24,10 +26,7 @@ productsSection:
       description: Schützen Sie Ihre Passwörter und nutzen Sie sie zusammen im Team
       url: /produkte/passwortmanager
       icon: <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75m-3-7.036A11.959 11.959 0 013.598 6 11.99 11.99 0 003 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285z" />
-    # - name: Wiki & Dokumentation
-    #   description: Dokumentieren Sie Informationen und teilen Sie sie mit Ihrem Team
-    #   url: /produkte/wiki
-    #   icon: <path stroke-linecap="round" stroke-linejoin="round" d="M12 6.042A8.967 8.967 0 006 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 016 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 016-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0018 18a8.967 8.967 0 00-6 2.292m0-14.25v14.25" />
+
 servicesSection:
   title: Wir unterstützen Sie mit unseren Dienstleistungen
   description: Sie haben **individuelle Anforderungen** an Ihre IT-Infrastruktur? Als IT-Dienstleister unterstützen wir Sie mit unseren Dienstleistungen bei der Digitalisierung Ihres Unternehmens.
@@ -48,16 +47,18 @@ servicesSection:
       description: Ob individuelle Schnittstellenentwicklung oder Anpassungen an Ihrer Webseite, wir entwickeln Software nach Ihren Wünschen.
       url: /services/softwareentwicklung
       icon: <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 7.5l3 2.25-3 2.25m4.5 0h3m-9 8.25h13.5A2.25 2.25 0 0021 18V6a2.25 2.25 0 00-2.25-2.25H5.25A2.25 2.25 0 003 6v12a2.25 2.25 0 002.25 2.25z"></path>
+
 faqSection:
   title: Häufig gestellte Fragen
   description: Sie haben Fragen zu unseren Produkten und Dienstleistungen?<br>Hier finden Sie die Antworten.
   questions:
-    - question: Wie geht es jetzt los?
-      answer: Nachdem wir uns in einem [kostenlosen Erstgespräch](/termin) kennengelernt haben, reden wir über Ihre Anforderungen und Wünsche für die Zukunft. Nachdem wir ein Verständnis für Ihre Anforderungen bekommen haben, machen wir uns Gedanken, **wie wir Sie am besten unterstützen** können. Anschließend stellen wir Ihnen unsere Ideen und Lösungen für Ihr Unternehmen vor. Wenn Sie mit unseren Lösungen einverstanden sind, können wir mit der Umsetzung beginnen.
+    - question: Wie kann die Zusammenarbeit starten?
+      answer: In einem [kostenlosen Erstgespräch](/termin) können wir uns kennenlernen und über Ihre Anforderungen und Wünsche sprechen. Anschließend machen wir uns Gedanken, **wie wir Sie am besten unterstützen** können. Wenn Sie mit unseren Lösungen einverstanden sind, können wir mit der Umsetzung beginnen. In enger Zusammenarbeit digitalisieren wir Schritt für Schritt Ihr Unternehmen.
     - question: Sind wir der richtige IT-Dienstleister für Sie?
-      answer: Wir haben uns **auf KMU spezialisiert** und kennen die Anforderungen und Probleme von Unternehmen, welche sich gerade in der Digitalisierung befinden. Als Ihr IT-Dienstleister wollen wir mehr als nur eine externe IT-Abteilung sein. Wir wollen Ihr Partner sein, der Sie bei der Digitalisierung Ihres Unternehmens unterstützt und Sie durch unser Know-How weiter bringt. Wir sind erst zufrieden, wenn Sie es sind.
+      answer: Wir haben uns **auf KMU spezialisiert** und kennen die Anforderungen und Probleme von Unternehmen, welche sich gerade in der Digitalisierung befinden. Als IT-Dienstleister wollen wir mehr als nur eine externe IT-Abteilung sein. Wir wollen Ihr Partner sein, der Sie bei der Digitalisierung Ihres Unternehmens unterstützt und Sie durch unser Know-How weiterbringt.
     - question: Was macht HanovaTech als IT-Dienstleister aus?
-      answer: Als junges und trotzdem erfahrenes Team haben wir uns **auf die Digitalisierung von KMU spezialisiert**. Durch unsere Fachkenntnisse in den unterschiedlichsten Bereich können wir Sie vollumfänglich als IT-Dienstleister unterstützen. So bilden wir nicht nur klassische IT-Beratung und Support ab, sondern können Ihnen auch bei Themen wie **Informationssicherheit oder der individuellen Softwareentwicklung** zur Seite stehen.
+      answer: Wir sind ein junges und trotzdem erfahrenes Team. Neben klassischen IT-Dienstleistungen wie IT-Beratung und Support, bieten wir auch Dienstleistungen wie die individuelle Softwareentwicklung und Informationssicherheitsschulungen an. So können wir Sie vollumfänglich als IT-Dienstleister bei der Digitalisierung Ihres Unternehmens unterstützen.
+
 partnersSection:
   title: Gemeinsam mehr erreichen
   description: Um Ihnen die besten Lösungen bieten zu können, arbeiten wir mit anderen IT Dienstleistern partnerschaftlich zusammen.

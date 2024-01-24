@@ -1,6 +1,7 @@
 ---
 title: Über uns
 description: Unser Team besteht aus jungen Allroundern, die Ihnen bei der Digitalisierung Ihres Unternehmens zur Seite stehen. Erfahren Sie mehr über unser Team und unsere Geschichte.
+
 teamSection:
   title: Das Team 
   description: Wir sind ein dynamisches und junges Team, welches Ihnen bei der Digitalisierung Ihres Unternehmens mit tatendrang zur Seite steht.
