@@ -1,5 +1,5 @@
 ---
-title: AGB
+title: Unsere AGBs
 ---
 
 # Allgemeine Geschäftsbedingungen
