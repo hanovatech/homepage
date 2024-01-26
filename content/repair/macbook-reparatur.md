@@ -52,7 +52,7 @@ Unsere Kostenaufstellung ist detailliert und leicht verständlich. Bei uns könn
 Bei uns erhalten Sie zu den professionellen MacBook-Reparaturen eine 6-monatige Garantie auf alle durchgeführten Reparaturen. Wir stehen hinter unseren Reparatur-Service und vertrauen unserer bewerteten Qualtität.
 
 ## Hohe Kapazität durch verlässliche Partnerschaften
-Durch unsere vertrauenswürdige Partnerschaft mit [Hanorepair](https://www.hanorepair.de/) sind wir in der Lage, Apple-Geräte (iPad und iPhone) schnell und qualitativ hochwertig zu reparieren. Diese Zusammenarbeit ermöglicht es uns, auf bewährte Ressourcen und Fachkenntnisse zuzugreifen, um eine effiziente und zuverlässige Reparatur Ihrer Apple-Produkte zu gewährleisten. Mit einem starken Fokus auf Qualitätsservice profitieren unsere Kunden von einer schnellen Wiederherstellung ihrer Geräte, sodass sie ihre iPad oder iPhone in kürzester Zeit wieder uneingeschränkt nutzen können.
+Durch unsere vertrauenswürdige Partnerschaft mit <a href="https://www.hanorepair.de/" target="_blank">Hanorepair</a> sind wir in der Lage, Apple-Geräte (iPad und iPhone) schnell und qualitativ hochwertig zu reparieren. Diese Zusammenarbeit ermöglicht es uns, auf bewährte Ressourcen und Fachkenntnisse zuzugreifen, um eine effiziente und zuverlässige Reparatur Ihrer Apple-Produkte zu gewährleisten. Mit einem starken Fokus auf Qualitätsservice profitieren unsere Kunden von einer schnellen Wiederherstellung ihrer Geräte, sodass sie ihre iPad oder iPhone in kürzester Zeit wieder uneingeschränkt nutzen können.
 
 ## FAQ: Mac-Reparatur Hannover
 
