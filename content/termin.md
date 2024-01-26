@@ -1,6 +1,6 @@
 ---
 layout: termin
-title: Jetzt ein kostenloses Erstgespräch mit HanovaTech vereinbaren!
+title: Jetzt ein kostenloses Erstgespräch mit uns vereinbaren!
 description: Wir freuen uns darauf mehr über Sie und Ihr Unternehmen zu erfahren und stehen Ihnen für alle Fragen zur Verfügung. Gemeinsam finden wir passende Lösungen für Ihre individuellen Anforderungen.
 ---
 
@@ -11,5 +11,5 @@ description: Wir freuen uns darauf mehr über Sie und Ihr Unternehmen zu erfahre
 Buchen Sie einen Termin oder rufen Sie uns an unter [0511&nbsp;5151&nbsp;2490](tel:+4951151512490).
 
 <div class="not-prose"><a href="https://calendly.com/hanovatech/b2b-it-beratung" target="_blank" class="rounded-md bg-blue-600 px-3.5 py-2.5 text-sm font-semibold text-white tracking-wide uppercase shadow-sm hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600 duration-200">
-  Jetzt Erstgespräch vereinbaren
+  Jetzt Termin buchen
 </a></div>
