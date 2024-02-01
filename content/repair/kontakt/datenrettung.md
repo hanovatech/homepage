@@ -46,19 +46,19 @@ Beschreibung Textarea
       <div>
         <label for="firstname" class="block text-sm font-semibold leading-6 text-gray-900">Vorname</label>
         <div class="mt-2.5">
-          <input type="text" name="first-name" id="first-name" required autocomplete="given-name" class="block w-full rounded-md border-0 py-2 px-3.5 text-sm leading-6 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-blue-600">
+          <input type="text" name="firstname" id="firstname" required autocomplete="given-name" class="block w-full rounded-md border-0 py-2 px-3.5 text-sm leading-6 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-blue-600">
         </div>
       </div>
       <div>
         <label for="lastname" class="block text-sm font-semibold leading-6 text-gray-900">Nachname</label>
         <div class="mt-2.5">
-          <input type="text" name="last-name" id="last-name" required autocomplete="family-name" class="block w-full rounded-md border-0 py-2 px-3.5 text-sm leading-6 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-blue-600">
+          <input type="text" name="lastname" id="lastname" required autocomplete="family-name" oninput="this.form.element['subject'].value = 'Datenrettung - ' + this.value" class="block w-full rounded-md border-0 py-2 px-3.5 text-sm leading-6 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-blue-600">
         </div>
       </div>
       <div class="sm:col-span-2">
         <label for="company" class="block text-sm font-semibold leading-6 text-gray-900">Unternehmen</label>
         <div class="mt-2.5">
-          <input type="text" name="company" id="company" autocomplete="organization" class="block w-full rounded-md border-0 py-2 px-3.5 text-sm leading-6 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-blue-600">
+          <input type="text" name="company" id="company" autocomplete="organization" oninput="this.form.element['subject'].value = 'Datenrettung - ' + this.value" class="block w-full rounded-md border-0 py-2 px-3.5 text-sm leading-6 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-blue-600">
         </div>
       </div>
       <div class="sm:col-span-2">
