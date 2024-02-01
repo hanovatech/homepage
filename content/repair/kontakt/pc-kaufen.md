@@ -128,13 +128,13 @@ Wir werden uns schnellstmöglich bei Ihnen melden, um mit Ihnen einen Termin zu 
       <div>
         <label for="lastname" class="block text-sm font-semibold leading-6 text-gray-900">Nachname</label>
         <div class="mt-2.5">
-          <input type="text" name="lastname" id="lastname" required autocomplete="family-name" oninput="this.form.element[1].value = 'Kaufberatung - ' + this.value" class="block w-full rounded-md border-0 py-2 px-3.5 text-sm leading-6 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-blue-600">
+          <input type="text" name="lastname" id="lastname" required autocomplete="family-name" oninput="this.form.elements[1].value = 'Kaufberatung - ' + this.value" class="block w-full rounded-md border-0 py-2 px-3.5 text-sm leading-6 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-blue-600">
         </div>
       </div>
       <div class="sm:col-span-2">
         <label for="company" class="block text-sm font-semibold leading-6 text-gray-900">Unternehmen</label>
         <div class="mt-2.5">
-          <input type="text" name="company" id="company" autocomplete="organization" oninput="this.form.element[1].value = 'Kaufberatung - ' + this.value" class="block w-full rounded-md border-0 py-2 px-3.5 text-sm leading-6 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-blue-600">
+          <input type="text" name="company" id="company" autocomplete="organization" oninput="this.form.elements[1].value = 'Kaufberatung - ' + this.value" class="block w-full rounded-md border-0 py-2 px-3.5 text-sm leading-6 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-blue-600">
         </div>
       </div>
       <div class="sm:col-span-2">
