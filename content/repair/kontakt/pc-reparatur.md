@@ -10,7 +10,7 @@ Wir werden uns schnellstmöglich bei Ihnen melden, um mit Ihnen einen Termin zu 
 
 <div class="not-prose max-w-2xl mx-auto mt-16 bg-gray-50 p-3 sm:p-6 border rounded-lg shadow-lg">
   <form name="repair-pc-reparatur" method="POST" action="/repair/kontakt/success/" netlify>
-    <input type="hidden" name="subject" value="PC-Reparatur - %{submissionId}" />
+    <input type="hidden" name="subject" id="subject" value="get dynamically set by js" />
     <div class="grid grid-cols-1 gap-y-6 gap-x-8 sm:grid-cols-2">
       <h2 class="sm:col-span-2 text-2xl text-gray-900 font-bold mb-0">Angaben zum Problem</h2>
       <div class="sm:col-span-2">
@@ -115,13 +115,13 @@ Wir werden uns schnellstmöglich bei Ihnen melden, um mit Ihnen einen Termin zu 
       <div>
         <label for="lastname" class="block text-sm font-semibold leading-6 text-gray-900">Nachname</label>
         <div class="mt-2.5">
-          <input type="text" name="lastname" id="lastname" required autocomplete="family-name" oninput="this.form.element['subject'].value = 'PC-Reparatur - ' + this.value" class="block w-full rounded-md border-0 py-2 px-3.5 text-sm leading-6 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-blue-600">
+          <input type="text" name="lastname" id="lastname" required autocomplete="family-name" oninput="this.form.element[1].value = 'PC-Reparatur - ' + this.value" class="block w-full rounded-md border-0 py-2 px-3.5 text-sm leading-6 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-blue-600">
         </div>
       </div>
       <div class="sm:col-span-2">
         <label for="company" class="block text-sm font-semibold leading-6 text-gray-900">Unternehmen</label>
         <div class="mt-2.5">
-          <input type="text" name="company" id="company" autocomplete="organization" oninput="this.form.element['subject'].value = 'PC-Reparatur - ' + this.value" class="block w-full rounded-md border-0 py-2 px-3.5 text-sm leading-6 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-blue-600">
+          <input type="text" name="company" id="company" autocomplete="organization" oninput="this.form.element[1].value = 'PC-Reparatur - ' + this.value" class="block w-full rounded-md border-0 py-2 px-3.5 text-sm leading-6 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-blue-600">
         </div>
       </div>
       <div class="sm:col-span-2">
