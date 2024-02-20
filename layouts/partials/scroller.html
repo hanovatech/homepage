@@ -1,4 +1,4 @@
-<a href="tel:{{ .Site.Params.phone }}" class="sm:hidden fixed bottom-[2em] right-[2em]">
+<a href="tel:{{ .Site.Data.default.phone }}" class="sm:hidden fixed bottom-[2em] right-[2em]">
   <p class="sr-only">Rufen Sie uns an</p>
   <div class="p-4 bg-gray-50 border rounded-full shadow-md">
     <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-500 fill-green-500 stroke-2">
@@ -13,7 +13,7 @@
   <p class="text-lg font-semibold">Kostenloses Erstgespräch</p>
     <a href="/termin" class="block mt-2 mb-4 mx-4 rounded-md bg-white px-3.5 py-2.5 text-sm text-center font-semibold text-blue-600 shadow-sm hover:bg-blue-50 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white duration-200">Jetzt Termin vereinbaren</a>
     <p class="text-sm text-gray-100">oder rufen Sie uns an unter</p>
-    <a href="tel:+4951151512490" class="font-normal">0511 5151 2490</a>
+    <a href="{{ .Site.Data.default.phone_href }}" class="font-normal">{{ .Site.Data.default.phone }}</a>
   </div>
 </div>
 {{ end }}

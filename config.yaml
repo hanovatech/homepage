@@ -3,9 +3,10 @@ languageCode: "de-DE"
 title: HanovaTech
 
 params:
-  slogan: Digitale Lösungen für Ihr Unternehmen
-  description: Der Dienstleister für IT-Consulting, Managed Services, Software Solutions und Cybersecurity in Hannover. Ihr Partner für die Digitalisierung Ihres Unternehmens!
-  phone: "+4951151512490"
+  facebook_pixel_id: 445883344440518
+  google_tag_key: G-FLN8S6BVPV
+  google_maps_key: AIzaSyBdanO51ibHQTi0fFcyug3upt2I3SqCVVI
+  google_maps_query: HanovaTech
 
 disableKinds:
   - taxonomy

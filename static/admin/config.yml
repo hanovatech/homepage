@@ -309,11 +309,12 @@ collections:
                   - { label: "Icon", name: "icon", widget: "string" }
                   - { label: "Description", name: "description", widget: "string" }
 
-      ############### Google Settings ################
-      - name: google
-        label: Google
-        file: /data/google.yaml
+      ############### Default Values ################
+      - name: defaults
+        label: Defaults
+        file: /data/default.yaml
         fields:
-          - { label: "Google Tag", name: "google_tag_key", widget: "string" }
-          - { label: "Google Maps Key", name: "google_maps_key", widget: "string" }
-          - { label: "Google Maps Query", name: "google_maps_query", widget: "string" }
+          - { label: "Email", name: "email", widget: "string" }
+          - { label: "Phone", name: "phone", widget: "string" }
+          - { label: "Phone href", name: "phone_href", widget: "string" }
+          - { label: "Meta Description", name: "description", widget: "string" }

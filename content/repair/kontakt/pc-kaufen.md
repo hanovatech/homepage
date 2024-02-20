@@ -6,7 +6,7 @@ title: PC-Kaufberatung Formular
 
 **Sie benötigen Hilfe bei der Wahl eines neuen PCs?** Dann nehmen Sie mit uns über das folgende Formular Kontakt auf.
 
-Wir werden uns schnellstmöglich bei Ihnen melden, um mit Ihnen einen Termin zu vereinbaren. Alternativ können Sie uns auch telefonisch unter [0511-51561190](tel:051151561190) zu unseren Öffnungszeiten erreichen.
+Wir werden uns schnellstmöglich bei Ihnen melden, um mit Ihnen einen Termin zu vereinbaren. Alternativ können Sie uns auch telefonisch unter [0511&nbsp;5151nbsp;2490](tel:+4951151512490) zu unseren Öffnungszeiten erreichen.
 
 <div class="not-prose max-w-2xl mx-auto mt-16 bg-gray-50 p-3 sm:p-6 border rounded-lg shadow-lg">
   <form name="repair-pc-kaufen" method="POST" action="/repair/kontakt/success/" netlify>

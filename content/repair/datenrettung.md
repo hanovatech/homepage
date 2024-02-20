@@ -31,7 +31,7 @@ Ihr Vorteil: Die Software-Datenrettung kostet maximal 300 Euro (je 2TB).
 Bei allen Problemen mit gelöschten Daten auf Festplatten oder anderen Datenträgern führt nur eine professionelle Lösung zum Ziel. Diese besteht in einer umfassenden und professionellen Bearbeitung im Reinraumlabor. Nur in dieser Arbeitsumgebung, bei gefilterter Luft, ist die Wiederherstellung verloren gegangener Daten möglich.
 
 Wir unterstützen Sie bei der Datenrettung von Festplatten.
-Hierfür nehmen Sie hier direkt Kontakt zu uns auf: [0511-51561190](tel:051151561190).
+Hierfür nehmen Sie hier direkt Kontakt zu uns auf: [0511&nbsp;5151nbsp;2490](tel:+4951151512490).
 
 Sie können auch einen [kostenlosen Beratungstermin hier vereinbaren](https://calendly.com/hanovatech/30min).
 

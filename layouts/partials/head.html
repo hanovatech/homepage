@@ -1,4 +1,3 @@
-
 <title>{{ .Title }}</title>
 
 <!-- Meta Tags Start -->
@@ -19,10 +18,10 @@
 <meta property="og:image:height" content="630" />
 <meta property="og:image:type" content="image/jpeg" />
 <meta property="og:url" content="{{ .Permalink }}">
-<meta property="og:site_name" content="{{ .Site.Title }} | {{ .Site.Params.slogan }}">
+<meta property="og:site_name" content="{{ .Site.Title }}">
 
 <meta name="twitter:title" content="{{ .Title }}" />
-<meta name="twitter:description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.description }}{{ end }}" />
+<meta name="twitter:description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Data.default.description }}{{ end }}" />
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:image" content="{{ .Site.BaseURL }}/images/ogimage.jpeg" />
 <meta name="twitter:image:alt" content="HanovaTech Logo" />
@@ -60,3 +59,34 @@
 
 <!-- Plausible Analytics -->
 <script defer data-domain="hanovatech.de" src="https://plausible.hanova.tech/js/script.js"></script>
+
+{{ if .Site.Params.google_tag_key }}
+<!-- Google Tag Manager -->
+<script type="text/plain" data-cookie-consent="tracking" async src="https://www.googletagmanager.com/gtag/js?id={{ .Site.Params.google_tag_key }}"></script>
+<script type="text/plain" data-cookie-consent="tracking">
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments)};
+  gtag('set', 'linker', {"domains":["hanovatech.de"]} );
+  gtag('js', new Date());
+  gtag('config', '{{ .Site.Params.google_tag_key }}', {"anonymize_ip":true});
+</script>
+<!-- End Google Tag Manager -->
+{{ end }}
+
+{{ if .Site.Params.facebook_pixel_id }}
+<!-- Meta Pixel Code Start -->
+<script type="text/plain" data-cookie-consent="tracking">
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '{{ .Site.Params.facebook_pixel_id }}');
+  fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id={{ .Site.Params.facebook_pixel_id }}&ev=PageView&noscript=1" /></noscript>
+<!-- Meta Pixel Code End -->
+{{ end }}
