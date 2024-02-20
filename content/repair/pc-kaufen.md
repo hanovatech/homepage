@@ -24,11 +24,7 @@ Sie möchten einen Rechner, der genau auf Ihre Anforderungen und Wünsche ausger
 
 Von der Vorauswahl der passenden Komponenten bis zum Zusammenbauen vergehen häufig nur wenige Werktage, vorausgesetzt, alle benötigten Teile sind schnell verfügbar.
 
-<<<<<<< HEAD
 Wissen Sie schon genau, was für einen Rechner Sie möchten? Dann fordern Sie direkt ein Angebot an: [0511&nbsp;5151&nbsp;2490](tel:+4951151512490)
-=======
-Wissen Sie schon genau, was für einen Rechner Sie möchten? Dann fordern Sie direkt ein Angebot an: [0511–51512490](tel:+4951151512490)
->>>>>>> 1198d23907206506db0195e16f8fdae3b4201af6
 
 ## Die Vorteile eines Maßgeschneiderten Computer
 - Sie nutzen nur die Komponenten und Hardware, die Sie wirklich benötigen.
@@ -59,11 +55,7 @@ Profitieren Sie beim PC-Kauf in Hannover in vollem Umfang von unserer Expertise,
 - Sie erhalten dauerhaft 10 Prozent Rabatt auf alle IT-Dienstleistungen bei Hanovatech (ausgenommen Hardware).
 
 ## Was dürfen wir für Sie tun?
-<<<<<<< HEAD
 Wissen Sie schon genau, was für einen Rechner Sie möchten? Dann fordern Sie hier direkt ein Angebot an: [0511&nbsp;5151&nbsp;2490](tel:+4951151512490)
-=======
-Wissen Sie schon genau, was für einen Rechner Sie möchten? Dann fordern Sie hier direkt ein Angebot an: [0511–51512490](tel:+4951151512490)
->>>>>>> 1198d23907206506db0195e16f8fdae3b4201af6
 
 Jetzt individuellen PC in Hannover kaufen – natürlich bei HanovaTech, Ihren Spezialisten rund um PC-Reparatur, IT-Beratung und Datenrettung.
 

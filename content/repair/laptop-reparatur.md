@@ -14,11 +14,7 @@ Eine Laptop Reparatur lohnt sich immer dann, wenn die Kosten fürs Reparieren de
 
 Je genauer Sie uns Ihr Problem mit Ihrem Gerät beschreiben, desto präziser können wir Ihnen vorhersagen, was es kosten wird, wenn wir Notebook oder Laptop reparieren.
 
-<<<<<<< HEAD
 Nehmen Sie hier direkt Kontakt mit uns auf, um einen Termin für die Reparatur zu vereinbaren: [0511&nbsp;5151nbsp;2490](tel:+4951151512490)
-=======
-Nehmen Sie hier direkt Kontakt mit uns auf, um einen Termin für die Reparatur zu vereinbaren: [0511-51512490](tel:051151512490)
->>>>>>> 1198d23907206506db0195e16f8fdae3b4201af6
 
 Sie können auch einen [kostenlosen Beratungstermin hier vereinbaren](https://calendly.com/hanovatech/30min).
 
@@ -42,11 +38,7 @@ Wir haben viele Jahre Erfahrung in der Reparatur von Notebooks oder Laptops alle
 - Reparatur von Leitbahnen
 - Beheben von Wasserschäden
 
-<<<<<<< HEAD
 Benötigen Sie Hilfe bei einem Laptop-Problem? Dann rufen Sie uns gleich an: [0511&nbsp;5151nbsp;2490](tel:+4951151512490)!
-=======
-Benötigen Sie Hilfe bei einem Laptop-Problem? Dann rufen Sie uns gleich an: [0511-51512490](tel:051151512490)!
->>>>>>> 1198d23907206506db0195e16f8fdae3b4201af6
 
 ## Welche Notebooks können bei HanovaTech in Hannover repariert werden?
 Wir können die Notebook-Modelle folgender Hersteller für Sie reparieren oder wieder instandsetzen:
@@ -75,11 +67,7 @@ Wenn Sie Ihr Microsoft Surface reparieren lassen wollen, können wir folgende Ar
 - Displaytausch
 - Datensicherung und Datenrettung
 
-<<<<<<< HEAD
 Bei 2-in-1-Geräten übernehmen wir Softwarereparaturen sowie den Austausch von Akkus und Displays. Alle Arbeiten sind abhängig vom Baujahr und dem Modell. Stellen Sie hier gleich Ihre Anfrage: [0511&nbsp;5151nbsp;2490](tel:+4951151512490)!
-=======
-Bei 2-in-1-Geräten übernehmen wir Softwarereparaturen sowie den Austausch von Akkus und Displays. Alle Arbeiten sind abhängig vom Baujahr und dem Modell. Stellen Sie hier gleich Ihre Anfrage: [0511-51512490](tel:051151512490)!
->>>>>>> 1198d23907206506db0195e16f8fdae3b4201af6
 
 ## Es muss nicht immer eine Reparatur sein: Wartung und Aufrüstung Ihres Notebooks oder Laptops
 Auf Wunsch optimieren wir Ihren gebrauchten Laptop, damit Sie auch neuere Anwendungen damit nutzen können. Folgendes können wir für Sie durchführen:
@@ -98,10 +86,6 @@ Auf Wunsch optimieren wir Ihren gebrauchten Laptop, damit Sie auch neuere Anwend
 - kompetente Beratung
 - Abholung des defekten Geräts in Hannover
 
-<<<<<<< HEAD
 Wir freuen uns auf Ihren Reparaturauftrag für Ihr Notebook oder Ihren Laptop: [0511&nbsp;5151nbsp;2490](tel:+4951151512490)!
-=======
-Wir freuen uns auf Ihren Reparaturauftrag für Ihr Notebook oder Ihren Laptop: [0511-51512490](tel:051151512490)!
->>>>>>> 1198d23907206506db0195e16f8fdae3b4201af6
 
 {{<callToAction-repair formLabel="Laptop-Reparatur Formular" formUrl="/repair/kontakt/laptop-reparatur" >}}

@@ -1,10 +1,6 @@
 ---
 title: PC Reparatur Hannover - Schnelle Hilfe bei Problemen ✅
-<<<<<<< HEAD
 description: "Professionelle PC Reparatur in Hannover. ➔ PC oder Laptop reparieren lassen ✓ Wir helfen: vor Ort oder bei uns ✆ Jetzt anrufen: 0511-51512490!"
-=======
-description: "Professionelle PC Reparatur in Hannover. ➔ PC oder Laptop reparieren lassen ✓ Wir helfen: vor Ort oder bei uns ✆ Jetzt anrufen: 0511/51512490!"
->>>>>>> 1198d23907206506db0195e16f8fdae3b4201af6
 image: /content/repair/pc-reparatur.jpg
 ---
 
@@ -21,11 +17,7 @@ Wir kümmern uns so schnell wie möglich um die Reparatur Ihres defekten Rechner
 
 Wir kommen auf Wunsch auch zu Ihnen und beheben Probleme schnell vor Ort. Alternativ bieten wir auch eine Fernwartung an. Denn viele Fehler in der EDV lassen sich bereits remote beheben. Selbstverständlich können Sie Ihren PC oder Ihr Notebook auch bei uns im Büro in der Südstadt in Hannover vorbeibringen.
 
-<<<<<<< HEAD
 Nehmen Sie hier direkt Kontakt mit uns auf, um einen Termin für die Reparatur zu vereinbaren: [0511&nbsp;5151nbsp;2490](tel:+4951151512490) Oder hier eine Reparaturanfrage stellen.
-=======
-Nehmen Sie hier direkt Kontakt mit uns auf, um einen Termin für die Reparatur zu vereinbaren: [0511-51512490](tel:051151512490) Oder hier eine Reparaturanfrage stellen.
->>>>>>> 1198d23907206506db0195e16f8fdae3b4201af6
 
 Sie können auch einen [kostenlosen Beratungstermin hier vereinbaren](https://calendly.com/hanovatech/30min).
 
@@ -34,11 +26,7 @@ Ihr Notebook macht Probleme? Dann finden Sie [hier](/repair/laptop-reparatur) al
 ## In drei Schritten zur Problemlösung
 **Die Zusammenarbeit mit HanovaTech ist einfach:**
 
-<<<<<<< HEAD
 Sie rufen uns an und schildern uns Ihre PC Probleme: [0511&nbsp;5151nbsp;2490](tel:+4951151512490) oder Sie senden uns Ihre Anfrage per Mail an service@hanovatech.de.
-=======
-Sie rufen uns an und schildern uns Ihre PC Probleme: [0511-51512490](tel:051151512490) oder Sie senden uns Ihre Anfrage per Mail an service@hanovatech.de.
->>>>>>> 1198d23907206506db0195e16f8fdae3b4201af6
 
 Unser Team kann das Problem anhand Ihrer Schilderung schon im Vorfeld eingrenzen. Nach einem Besuch vor Ort oder einer Reparatur in unserer Werkstatt ist das Problem behoben. Wir finden immer eine Lösung! **Professionelle Hilfe garantiert!**
  
@@ -62,11 +50,7 @@ HanovaTech arbeitet transparent und fair. Deshalb erhalten Sie selbstverständli
 
 **Wie viel kostet die PC- oder Laptop-Reparatur?**
 
-<<<<<<< HEAD
 Wie viel es kostet, Ihren PC zu reparieren, können wir erst sagen, nachdem wir das Gerät gesehen haben bzw. nachdem Sie uns Ihr Problem genau geschildert haben. Rufen Sie uns dazu einfach an: [0511&nbsp;5151nbsp;2490](tel:+4951151512490)
-=======
-Wie viel es kostet, Ihren PC zu reparieren, können wir erst sagen, nachdem wir das Gerät gesehen haben bzw. nachdem Sie uns Ihr Problem genau geschildert haben. Rufen Sie uns dazu einfach an: [0511-51512490](tel:051151512490)
->>>>>>> 1198d23907206506db0195e16f8fdae3b4201af6
 
 **Muss ich den defekten Rechner bei Ihnen im Büro in Hannover vorbeibringen?**
 
@@ -85,11 +69,7 @@ Wir bieten unsere Leistungen für ganz Hannover an, kommen also auch zu Ihrem Un
 - Reparatur oder Austausch von defekter Hardware
 - Einrichtung oder Update von Windows
 
-<<<<<<< HEAD
 Computer in Hannover reparieren lassen – professioneller Service, faire Preisen, schnelle und nachhaltige Lösung mit HanovaTech. Reparaturen zum fairen Preis. Jetzt zum Telefon greifen oder WhatsApp schreiben: [0511&nbsp;5151nbsp;2490](tel:+4951151512490)
-=======
-Computer in Hannover reparieren lassen – professioneller Service, faire Preisen, schnelle und nachhaltige Lösung mit HanovaTech. Reparaturen zum fairen Preis. Jetzt zum Telefon greifen oder WhatsApp schreiben: [0511-51512490](tel:051151512490)
->>>>>>> 1198d23907206506db0195e16f8fdae3b4201af6
 
 Sie möchten Ihre IT-Infrastruktur erneuern oder optimieren? Dann sind Sie bei HanovaTech ebenfalls richtig. Wir sind Ihre professionelle IT-Beratung in Hannover. Gerne beraten wir Sie auch bei der Anschaffung neuer Software oder Computer. Kontaktieren Sie uns schnell und unkompliziert per Mail oder Telefon, wenn Sie mehr über Ihre Möglichkeiten mit Hanovatech erfahren wollen.
 
