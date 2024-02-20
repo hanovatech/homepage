@@ -45,7 +45,7 @@
                       </a>
                       {{ end }}
                       <p class="prose prose-invert mt-2">
-                        <strong>Dringend?</strong> Rufen Sie uns an <a href="{{ .Site.Data.default.phone_href }}">{{ .Site.Data.default.phone }}</a>
+                        <strong>Dringend?</strong> Rufen Sie uns an <a href="{{ .Site.Data.default.phone_href }}">{{ .Site.Data.default.phone | safeHTML }}</a>
                       </p>
                     </div>
                 </div>
