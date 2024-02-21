@@ -8,6 +8,10 @@ params:
   google_maps_key: AIzaSyBdanO51ibHQTi0fFcyug3upt2I3SqCVVI
   google_maps_query: HanovaTech
 
+permalinks:
+  page:
+    landing: /:filename/
+
 disableKinds:
   - taxonomy
   - term
