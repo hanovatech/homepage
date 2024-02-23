@@ -6,11 +6,7 @@ title: Laptop-Reparatur Formular
 
 **Sie haben Probleme mit Ihrem Laptop oder Notebook?** Dann nehmen Sie mit uns über das folgende Formular Kontakt auf.
 
-<<<<<<< HEAD
-Wir werden uns schnellstmöglich bei Ihnen melden, um mit Ihnen einen Termin zu vereinbaren. Alternativ können Sie uns auch telefonisch unter [0511&nbsp;5151nbsp;2490](tel:+4951151512490) zu unseren Öffnungszeiten erreichen.
-=======
 Wir werden uns schnellstmöglich bei Ihnen melden, um mit Ihnen einen Termin zu vereinbaren. Alternativ können Sie uns auch telefonisch unter [0511-51512490](tel:051151512490) zu unseren Öffnungszeiten erreichen.
->>>>>>> 1198d23907206506db0195e16f8fdae3b4201af6
 
 <div class="not-prose max-w-2xl mx-auto mt-16 bg-gray-50 p-3 sm:p-6 border rounded-lg shadow-lg">
   <form name="repair-laptop-reparatur" method="POST" action="/repair/kontakt/success/" netlify>

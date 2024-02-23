@@ -6,11 +6,7 @@ title: Datenrettung Formular
 
 **Sie haben wichtige Daten verloren?** Dann nehmen Sie mit uns über das folgende Formular Kontakt auf.
 
-<<<<<<< HEAD
-Wir werden uns schnellstmöglich bei Ihnen melden, um mit Ihnen einen Termin zu vereinbaren. Alternativ können Sie uns auch telefonisch unter [0511&nbsp;5151nbsp;2490](tel:+4951151512490) zu unseren Öffnungszeiten erreichen.
-=======
 Wir werden uns schnellstmöglich bei Ihnen melden, um mit Ihnen einen Termin zu vereinbaren. Alternativ können Sie uns auch telefonisch unter [0511-51512490](tel:051151512490) zu unseren Öffnungszeiten erreichen.
->>>>>>> 1198d23907206506db0195e16f8fdae3b4201af6
 
 Art des Datenträgers Select
 Menge an Daten Text
