@@ -7,10 +7,15 @@ course:
   icon: 💻
   description_short: Ein eintägiger Kurs, der Ihnen die Grundlagen des Bash-, Powershell- und Python-Scriptings näher bringt.
   description_long: Dieser Kurs bietet eine Einführung in das Bash-, Powershell- und Python-Scripting. Sie lernen grundlegende Konzepte wie Variablen, Bedingungen, Schleifen und Dateiverarbeitung in allen drei Sprachen kennen. Der Kurs vermittelt Ihnen die Fähigkeiten, effiziente Skripte zur Automatisierung von Aufgaben zu erstellen.
-  level: Einsteiger
-  duration: 3 Tage
+  level:
+    rank: Einsteiger
+    text: Für Einsteiger geeignet
+  duration:
+    total: 3
+    unit: Tage
+    text: in 3 Tagen
   price: 2400€
-  key_topics:
+  topics_key:
     - Bash-, Powershell- und Python-Syntax
     - Variablen und Datentypen
     - Bedingungen und Schleifen

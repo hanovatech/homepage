@@ -1,31 +1,42 @@
 ---
-title: Linux Basics 01
+title: Linux Basics Schulung für Einsteiger | HanovaTech
 description: 
 weight: 1
 
 course:
-  name: Linux Basics 01
+  name: Linux Basics
   icon: 🐧
-  description_short: Grundlagen von Linux und der Kommandozeile
-  description_long: "Ideal **für alle nicht IT-ler**, die regelmäßig mit Linux und der Kommandozeile arbeiten müssen.
+  description_short: Linux und Kommandozeile für Einsteiger
+  description_long: "
+  Wir zeigen Ihnen, wie Sie die Kommandozeile effektiv nutzen und wie Sie Dateien und Prozesse einfach selbstständig verwalten.
   
   
-  Wir zeigen Ihnen, wie Sie die Kommandozeile effektiv nutzen und wie Sie Dateien und Prozesse einfach selbstständig verwalten."
-  level: Einsteiger
-  duration: 2 Tage
+  Ideal **für alle nicht IT-ler** die regelmäßig mit Linux und der Kommandozeile arbeiten müssen."
+  hero_image:
+    src: /content/schulungen/linux-terminal.gif
+    alt: Linux Terminal
+  level:
+    rank: Einsteiger
+    text: Für Einsteiger geeignet
+  duration:
+    total: 3
+    unit: Tage
+    text: in 3 Tagen
   price: 1.200 €
 
   roadmap:
-    target_audience: Mitarbeiter ohne Linux Kenntnisse, welche im Alltag regelmäßig mit Linux und Bash konfrontiert sind.
-    goals: Ziel ist, dass jeder Teilnehmer am Ende der Schulung die Grundlagen von Linux und der Bash kennt und versteht.
-    benefits: Selbstständig IT-Probleme lösen und technische Herausforderungen meistern
+    heading: Lernen Sie den Umgang mit Linux und der Kommandozeile
+    description: Sie sind mit Linux und der Kommandozeile konfrontiert und haben keine Ahnung, wie Sie eigentlich funktioniert? Wir zeigen Ihnen, wie Sie die Kommandozeile effektiv nutzen.
+    target_audience: Ideal für alle nicht IT-ler die regelmäßig mit Linux konfrontiert sind oder Kommandozeilen generell verstehen möchten.
+    goals: Unser Ziel ist es, dass jeder Teilnehmer die Grundlagen von Linux und der Bash kennt und versteht und selbstständig damit arbeiten kann.
+    benefits: Arbeiten Sie selbstbewusster mit der Kommandozeile und seien Sie in der Lage, kleinere Probleme selbstständig zu beheben.
 
-  key_topics:
+  topics_key:
     - Was ist Linux?
     - Die Kommandozeile
     - Dateiverwaltung
     - Skripts & Prozesse
-  all_topics:
+  topics_all:
     - title: Was ist ein Betriebssystem?
       content: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
     - title: Linux im Alltag
@@ -57,5 +68,3 @@ course:
     - title: Scripting
       content:
 ---
-
-Hallo Linux

@@ -102,6 +102,25 @@
 </script>
 <!-- Header End -->
 
+<script>
+  var acc = document.getElementsByClassName("accordion")
+  for (let i = 0; i < acc.length; i++) {
+    acc[i].addEventListener("click", function() {
+      this.classList.toggle("active")
+      var panel = this.nextElementSibling
+      if (panel.style.display === "block") {
+        panel.style.display = "none"
+        acc[i].querySelector(".accordionClosed").style.display = "block"
+        acc[i].querySelector(".accordionOpen").style.display = "none"
+      } else {
+        panel.style.display = "block"
+        acc[i].querySelector(".accordionClosed").style.display = "none"
+        acc[i].querySelector(".accordionOpen").style.display = "block"
+      }
+    })
+  }
+</script>
+
 <!-- Netlify Identity Widget Start -->
 <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 <script>

@@ -3,7 +3,7 @@ title: Kompakte IT-Schulungen für Ihre Mitarbeiter | HanovaTech
 description: ✅ Wir sind Ihr moderner IT-Dienstleister aus Hannover. Wir bieten Ihnen verschiedene Dienstleistungen und Produkte für die Digitalisierung Ihres Unternehmens. Erfahren Sie mehr über uns und unsere Leistungen!
 
 heroSection:
-  title: IT-Schulungen für Ihre Mitarbeiter
+  heading: IT-Schulungen für Ihre Mitarbeiter
   description: Wir vermitteln IT-Verständnis für nicht technische Mitarbeiter in technischen Unternehmen
   buttons:
     primary:

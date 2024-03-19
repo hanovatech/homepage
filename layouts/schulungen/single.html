@@ -1,97 +1,101 @@
 {{ define "main" }}
 {{ with .Params.course }}
-<div class="mt-16 sm:mt-24">
-  <div class="mx-auto max-w-7xl">
-    <div class="lg:grid lg:grid-cols-12 lg:gap-8">
-      <div class="px-6 sm:text-center md:mx-auto md:max-w-2xl lg:col-span-7 lg:flex lg:items-center lg:text-left">
-        <div>
-          <a href="#" class="mb-6 inline-flex space-x-6">
-            <span class="rounded-full bg-indigo-600/10 px-3 py-1 text-sm font-semibold leading-6 text-indigo-600 ring-1 ring-inset ring-indigo-600/10">
-              Für {{ .level }} geeignet
-            </span>
-            <span class="inline-flex items-center space-x-2 text-sm font-medium leading-6 text-gray-600">
-              <span>in {{ .duration }}</span>
-              <svg class="h-5 w-5 text-gray-400" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-                <path fill-rule="evenodd" d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z" clip-rule="evenodd" />
-              </svg>
-            </span>
-          </a>
-          
-          <h1 class="text-4xl font-bold !leading-tight tracking-tight sm:text-5xl md:text-6xl">{{ .name }}</h1>
-          <p class="mt-1 text-md font-light">{{ .description_short }}</p>
-          <div class="mt-6 prose">{{ .description_long | markdownify }}</div>
-          <a href="#content" class="mt-6 block text-sm font-semibold leading-6 text-blue-600">Zu den Kursinhalten <span aria-hidden="true">→</span></a>
-
+<section id="hero">
+  <div class="bg-white">
+    <div class="relative isolate overflow-hidden bg-gradient-to-b from-blue-100/20">
+      <div class="mx-auto max-w-7xl pb-24 pt-10 sm:pb-32 lg:grid lg:grid-cols-2 lg:gap-x-8 lg:px-8 lg:py-40">
+        <div class="px-6 lg:px-0 lg:pt-4">
+          <div class="mx-auto max-w-2xl">
+            <div class="max-w-lg">
+              <div class="mt-24 sm:mt-32 lg:mt-16">
+                <a href="#" class="mb-6 inline-flex space-x-6">
+                  <span class="rounded-full bg-blue-600/10 px-3 py-1 text-sm font-semibold leading-6 text-blue-600 ring-1 ring-inset ring-blue-600/10">
+                    {{ .level.text }}
+                  </span>
+                  <span class="inline-flex items-center space-x-2 text-sm font-medium leading-6 text-gray-600">
+                    <span>{{ .duration.text }}</span>
+                    <svg class="h-5 w-5 text-gray-400" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                      <path fill-rule="evenodd" d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z" clip-rule="evenodd" />
+                    </svg>
+                  </span>
+                </a>
+              </div>
+              <h1 class="text-4xl font-bold !leading-tight tracking-tight sm:text-5xl md:text-6xl">{{ .name }}</h1>
+              <p class="mt-1 text-md font-light">{{ .description_short }}</p>
+              <div class="mt-6 prose">{{ .description_long | markdownify }}</div>
+              <div class="mt-10 flex items-center gap-x-6">
+                <a href="/schulungen/kontakt" class="rounded-md bg-blue-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600">Zum Anfrageformular</a>
+                <a href="#content" class="text-sm font-semibold leading-6 text-gray-900">Schulungsinhalte <span aria-hidden="true">→</span></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="mt-20 sm:mt-24 md:mx-auto md:max-w-2xl lg:mx-0 lg:mt-0 lg:w-screen">
+          <div class="absolute inset-y-0 right-1/2 -z-10 -mr-10 w-[200%] skew-x-[-30deg] bg-white shadow-xl shadow-blue-600/10 ring-1 ring-blue-50 md:-mr-20 lg:-mr-36" aria-hidden="true"></div>
+          <div class="shadow-lg md:rounded-3xl">
+            <div class="bg-blue-500 [clip-path:inset(0)] md:[clip-path:inset(0_round_theme(borderRadius.3xl))]">
+              <div class="absolute -inset-y-px left-1/2 -z-10 ml-10 w-[200%] skew-x-[-30deg] bg-blue-100 opacity-20 ring-1 ring-inset ring-white md:ml-20 lg:ml-36" aria-hidden="true"></div>
+              <div class="relative px-6 pt-8 sm:pt-16 md:pl-16 md:pr-0">
+                <img src="{{ .hero_image.src }}" alt="{{ .hero_image.alt }}" class="w-full rounded-lg" />
+                <div class="pointer-events-none absolute inset-0 ring-1 ring-inset ring-black/10 md:rounded-3xl" aria-hidden="true"></div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-      <div class="mt-16 sm:mt-24 lg:col-span-5 lg:mt-0">
-        <div class="bg-gray-100 sm:mx-auto sm:w-full sm:max-w-md sm:overflow-hidden sm:rounded-lg sm:shadow">
-          <div class="py-6 px-8">
-            <h2 class="text-2xl text-gray-800 font-bold mb-4">Sie haben Interesse?</h2>
-            <div class="flex flex-col gap-4">
-              <form name="schulung" method="POST" action="/kontakt/success/" netlify>
-                <input type="hidden" name="course" value="{{ .name }}">
-                <div class="grid grid-cols-1 gap-3 sm:grid-cols-2">
-                  <div>
-                    <label for="firstname" class="block text-sm font-semibold leading-6 text-gray-900">Vorname</label>
-                    <div class="mt-1">
-                      <input type="text" name="first-name" id="first-name" required autocomplete="given-name" class="block w-full rounded-md border-0 py-2 px-3.5 text-sm leading-6 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-blue-600">
-                    </div>
-                  </div>
-                  <div>
-                    <label for="lastname" class="block text-sm font-semibold leading-6 text-gray-900">Nachname</label>
-                    <div class="mt-1">
-                      <input type="text" name="last-name" id="last-name" required autocomplete="family-name" class="block w-full rounded-md border-0 py-2 px-3.5 text-sm leading-6 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-blue-600">
-                    </div>
-                  </div>
-                  <div class="sm:col-span-2">
-                    <label for="company" class="block text-sm font-semibold leading-6 text-gray-900">Unternehmen</label>
-                    <div class="mt-1">
-                      <input type="text" name="company" id="company" autocomplete="organization" class="block w-full rounded-md border-0 py-2 px-3.5 text-sm leading-6 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-blue-600">
-                    </div>
-                  </div>
-                  <div class="sm:col-span-">
-                    <label for="email" class="block text-sm font-semibold leading-6 text-gray-900">Email</label>
-                    <div class="mt-1">
-                      <input type="email" name="email" id="email" required autocomplete="email" class="block w-full rounded-md border-0 py-2 px-3.5 text-sm leading-6 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-blue-600">
-                    </div>
-                  </div>
-                  <div class="sm:col-span-">
-                    <label for="phone-number" class="block text-sm font-semibold leading-6 text-gray-900">Telefon</label>
-                    <div class="relative mt-1">
-                      <input type="tel" name="phone-number" id="phone-number" autocomplete="tel" class="block w-full rounded-md border-0 py-2 px-3.5 text-sm leading-6 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-blue-600">
-                    </div>
-                  </div>
-                  <div class="sm:col-span-2">
-                    <label for="message" class="block text-sm font-semibold leading-6 text-gray-900">Nachricht</label>
-                    <div class="mt-1">
-                      <textarea name="message" id="message" required rows="4" class="block w-full rounded-md border-0 py-2 px-3.5 text-sm leading-6 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-blue-600"></textarea>
-                    </div>
-                  </div>
-                  <div class="flex gap-x-4 sm:col-span-2">
-                    <div class="flex h-6 items-center">
-                      <input type="checkbox" name="privacy" class="rounded-md" required />
-                    </div>
-                    <label class="text-sm leading-6 text-gray-600" id="switch-1-label">
-                      Ich akzeptiere die 
-                      <a href="/datenschutz" class="font-semibold text-blue-600">Datenschutzerklärung</a>
-                    </label>
-                  </div>
-                  <div data-netlify-recaptcha="true"></div>
-                </div>
-                <button type="submit" class="block w-full rounded-md bg-blue-600 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600 duration-200">
-                  Let's talk
-                </button>
-              </form>
-            </div>
-        </div>
+      <div class="absolute inset-x-0 bottom-0 -z-10 h-24 bg-gradient-to-t from-white sm:h-32"></div>
+    </div>
+  </div>
+</section>
+
+<section id="roadmap">
+  <div class="bg-white py-24 sm:pb-32">
+    <div class="mx-auto max-w-7xl px-6 lg:px-8">
+      <div class="mx-auto max-w-2xl lg:mx-0">
+        <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">{{ .roadmap.heading }}</h2>
+        <p class="mt-6 text-lg leading-8 text-gray-600">{{ .roadmap.description }}</p>
+      </div>
+      <div class="mx-auto mt-16 max-w-2xl lg:max-w-none">
+        <dl class="grid max-w-xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-3">
+          <div class="flex flex-col">
+            <dt class="text-base font-semibold leading-7 text-gray-900">
+              <div class="mb-6 flex h-12 w-12 text-2xl items-center justify-center rounded-lg bg-blue-400">
+                🧑‍💻
+              </div>
+              Für wen ist die Schulung?
+            </dt>
+            <dd class="mt-1 flex flex-auto flex-col text-base leading-7 text-gray-600">
+              <p class="flex-auto">{{ .roadmap.target_audience }}</p>
+            </dd>
+          </div>
+          <div class="flex flex-col">
+            <dt class="text-base font-semibold leading-7 text-gray-900">
+              <div class="mb-6 flex h-12 w-12 text-2xl items-center justify-center rounded-lg bg-blue-400">
+                🎯
+              </div>
+              Was ist das Ziel der Schulung?
+            </dt>
+            <dd class="mt-1 flex flex-auto flex-col text-base leading-7 text-gray-600">
+              <p class="flex-auto">{{ .roadmap.goals }}</p>
+            </dd>
+          </div>
+          <div class="flex flex-col">
+            <dt class="text-base font-semibold leading-7 text-gray-900">
+              <div class="mb-6 flex h-12 w-12 text-2xl items-center justify-center rounded-lg bg-blue-400">
+                ✅
+              </div>
+              Was sind die Vorteile?
+            </dt>
+            <dd class="mt-1 flex flex-auto flex-col text-base leading-7 text-gray-600">
+              <p class="flex-auto">{{ .roadmap.benefits }}</p>
+            </dd>
+          </div>
+        </dl>
       </div>
     </div>
   </div>
-</div>
 
-<div class="mt-16 sm:mt-24">
-  <div class="mx-auto max-w-6xl">
+  {{/*  <div class="mx-auto max-w-6xl">
     <div class="mt-10 px-4 grid grid-cols-1 md:grid-cols-3 gap-8">
       <div>
         <span class="px-6 py-2 mb-4 block bg-gradient-to-br from-blue-100 to-neutral-200 rounded-md text-xl text-center font-semibold">🧑‍💻 Für wen?</span>
@@ -111,7 +115,41 @@
     <div class="flex flex-col gap-4 p-6 bg-gray-100 rounded-lg border">
       <div class="p-4 bg-white rounded-md">qwe</div>
     </div>
-  </div>
-</div>
+  </div>  */}}
+</section>
+
+<section id="content">
+  <div class="bg-white">
+    <div class="mx-auto max-w-7xl px-6 py-24 sm:py-32 lg:px-8">
+      <div class="mx-auto max-w-4xl divide-y divide-gray-900/10">
+        <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Unsere Schulungsinhalte</h2>
+        <dl class="mt-10 space-y-6 divide-y divide-gray-900/10">
+          {{ range $index, $topic := .topics_all }}
+            <div class="pt-6">
+              <dt class="accordion">
+                <button type="button" class="flex w-full items-start justify-between text-left text-gray-900" aria-controls="faq-0" aria-expanded="false">
+                  <span class="text-base font-semibold leading-7">{{ $topic.title }}</span>
+                  <span class="ml-6 flex h-7 items-center">
+                    <svg class='accordionClosed h-6 w-6 {{ cond (gt $index 0) "" "hidden" }}' fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v12m6-6H6" />
+                    </svg>
+                    <svg class='accordionOpen h-6 w-6 {{ cond (gt $index 0) "hidden" "" }}' fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M18 12H6" />
+                    </svg>
+                  </span>
+                </button>
+              </dt>
+              <dd class='panel mt-2 pr-12 {{ cond (gt $index 0) "hidden" "" }}'>
+                <div class="text-base leading-7 text-gray-600">
+                  {{ $topic.content | markdownify }}
+                </div>
+              </dd>
+            </div>
+          {{ end }}
+        </dl>
+      </div>
+    </div>
+  </div>  
+</section>
 {{ end }}
 {{ end }}

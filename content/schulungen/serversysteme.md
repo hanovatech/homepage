@@ -7,10 +7,15 @@ course:
   icon: 🖥️
   description_short: Ein eintägiger Kurs, der Ihnen die Grundlagen von Servern näher bringt.
   description_long: Dieser Kurs bietet eine Einführung in die Welt der Server. Sie lernen, was ein Server ist und wie er im Kontext des Client-Server-Modells funktioniert. Außerdem werden die Grundlagen des OSI-Referenzmodells behandelt sowie die Bedeutung von Ports und Protokollen für die Kommunikation zwischen Servern und Clients erläutert. Der Kurs bietet auch einen Überblick über gängige Serverarten wie Webserver, DNS, DHCP und Proxy-Server.
-  level: Einsteiger
-  duration: 1.5 Tag
+  level:
+    rank: Einsteiger
+    text: Für Einsteiger geeignet
+  duration:
+    total: 1,5
+    unit: Tage
+    text: in 1,5 Tagen
   price: 1200 €
-  key_topics:
+  topics_key:
     - Server und Cloud Grundlagen 
     - Funktionsweise gängige Serverarten
     - Filesharing Cloud-Dienste
