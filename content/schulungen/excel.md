@@ -5,8 +5,8 @@ description: Ein Einführungskurs, der die grundlegenden Funktionen und Fähigke
 course:
   name: Excel Grundlagen Kurs
   icon: 📊
-  short_description: Ein eintägiger Kurs, der Ihnen die Grundlagen von Microsoft Excel näher bringt.
-  long_description: Dieser Kurs bietet eine umfassende Einführung in Microsoft Excel. Sie lernen die grundlegenden Funktionen und Werkzeuge kennen, um Tabellen zu erstellen, zu formatieren und zu bearbeiten. Der Kurs deckt Themen wie Zellformatierung, Formeln und Funktionen, Sortieren und Filtern von Daten sowie die Erstellung einfacher Diagramme ab.
+  description_short: Ein eintägiger Kurs, der Ihnen die Grundlagen von Microsoft Excel näher bringt.
+  description_long: Dieser Kurs bietet eine umfassende Einführung in Microsoft Excel. Sie lernen die grundlegenden Funktionen und Werkzeuge kennen, um Tabellen zu erstellen, zu formatieren und zu bearbeiten. Der Kurs deckt Themen wie Zellformatierung, Formeln und Funktionen, Sortieren und Filtern von Daten sowie die Erstellung einfacher Diagramme ab.
   level: Einsteiger
   duration: 1 Tag
   price: 800€

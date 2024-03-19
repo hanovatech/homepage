@@ -1,15 +1,117 @@
 {{ define "main" }}
-  {{ if .Params.image }}
-    <div class="px-4 sm:px-6 lg:px-8">
-      <div class="mx-auto md:max-w-4xl xl:max-w-5xl py-4 sm:pt-8">
-        <img src="{{ .Params.image }}" alt="{{ .Title }}" class="w-full h-32 sm:h-64 xl:h-80 object-cover bg-gray-100 rounded-lg shadow-lg" />
+{{ with .Params.course }}
+<div class="mt-16 sm:mt-24">
+  <div class="mx-auto max-w-7xl">
+    <div class="lg:grid lg:grid-cols-12 lg:gap-8">
+      <div class="px-6 sm:text-center md:mx-auto md:max-w-2xl lg:col-span-7 lg:flex lg:items-center lg:text-left">
+        <div>
+          <a href="#" class="mb-6 inline-flex space-x-6">
+            <span class="rounded-full bg-indigo-600/10 px-3 py-1 text-sm font-semibold leading-6 text-indigo-600 ring-1 ring-inset ring-indigo-600/10">
+              Für {{ .level }} geeignet
+            </span>
+            <span class="inline-flex items-center space-x-2 text-sm font-medium leading-6 text-gray-600">
+              <span>in {{ .duration }}</span>
+              <svg class="h-5 w-5 text-gray-400" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                <path fill-rule="evenodd" d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z" clip-rule="evenodd" />
+              </svg>
+            </span>
+          </a>
+          
+          <h1 class="text-4xl font-bold !leading-tight tracking-tight sm:text-5xl md:text-6xl">{{ .name }}</h1>
+          <p class="mt-1 text-md font-light">{{ .description_short }}</p>
+          <div class="mt-6 prose">{{ .description_long | markdownify }}</div>
+          <a href="#content" class="mt-6 block text-sm font-semibold leading-6 text-blue-600">Zu den Kursinhalten <span aria-hidden="true">→</span></a>
+
+        </div>
+      </div>
+      <div class="mt-16 sm:mt-24 lg:col-span-5 lg:mt-0">
+        <div class="bg-gray-100 sm:mx-auto sm:w-full sm:max-w-md sm:overflow-hidden sm:rounded-lg sm:shadow">
+          <div class="py-6 px-8">
+            <h2 class="text-2xl text-gray-800 font-bold mb-4">Sie haben Interesse?</h2>
+            <div class="flex flex-col gap-4">
+              <form name="schulung" method="POST" action="/kontakt/success/" netlify>
+                <input type="hidden" name="course" value="{{ .name }}">
+                <div class="grid grid-cols-1 gap-3 sm:grid-cols-2">
+                  <div>
+                    <label for="firstname" class="block text-sm font-semibold leading-6 text-gray-900">Vorname</label>
+                    <div class="mt-1">
+                      <input type="text" name="first-name" id="first-name" required autocomplete="given-name" class="block w-full rounded-md border-0 py-2 px-3.5 text-sm leading-6 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-blue-600">
+                    </div>
+                  </div>
+                  <div>
+                    <label for="lastname" class="block text-sm font-semibold leading-6 text-gray-900">Nachname</label>
+                    <div class="mt-1">
+                      <input type="text" name="last-name" id="last-name" required autocomplete="family-name" class="block w-full rounded-md border-0 py-2 px-3.5 text-sm leading-6 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-blue-600">
+                    </div>
+                  </div>
+                  <div class="sm:col-span-2">
+                    <label for="company" class="block text-sm font-semibold leading-6 text-gray-900">Unternehmen</label>
+                    <div class="mt-1">
+                      <input type="text" name="company" id="company" autocomplete="organization" class="block w-full rounded-md border-0 py-2 px-3.5 text-sm leading-6 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-blue-600">
+                    </div>
+                  </div>
+                  <div class="sm:col-span-">
+                    <label for="email" class="block text-sm font-semibold leading-6 text-gray-900">Email</label>
+                    <div class="mt-1">
+                      <input type="email" name="email" id="email" required autocomplete="email" class="block w-full rounded-md border-0 py-2 px-3.5 text-sm leading-6 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-blue-600">
+                    </div>
+                  </div>
+                  <div class="sm:col-span-">
+                    <label for="phone-number" class="block text-sm font-semibold leading-6 text-gray-900">Telefon</label>
+                    <div class="relative mt-1">
+                      <input type="tel" name="phone-number" id="phone-number" autocomplete="tel" class="block w-full rounded-md border-0 py-2 px-3.5 text-sm leading-6 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-blue-600">
+                    </div>
+                  </div>
+                  <div class="sm:col-span-2">
+                    <label for="message" class="block text-sm font-semibold leading-6 text-gray-900">Nachricht</label>
+                    <div class="mt-1">
+                      <textarea name="message" id="message" required rows="4" class="block w-full rounded-md border-0 py-2 px-3.5 text-sm leading-6 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-blue-600"></textarea>
+                    </div>
+                  </div>
+                  <div class="flex gap-x-4 sm:col-span-2">
+                    <div class="flex h-6 items-center">
+                      <input type="checkbox" name="privacy" class="rounded-md" required />
+                    </div>
+                    <label class="text-sm leading-6 text-gray-600" id="switch-1-label">
+                      Ich akzeptiere die 
+                      <a href="/datenschutz" class="font-semibold text-blue-600">Datenschutzerklärung</a>
+                    </label>
+                  </div>
+                  <div data-netlify-recaptcha="true"></div>
+                </div>
+                <button type="submit" class="block w-full rounded-md bg-blue-600 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600 duration-200">
+                  Let's talk
+                </button>
+              </form>
+            </div>
+        </div>
       </div>
     </div>
-  {{ end }}
+  </div>
+</div>
 
-  <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-8 sm:py-16">
-    <div class="prose md:prose-lg max-w-4xl mx-auto">
-      {{ .Content }}
+<div class="mt-16 sm:mt-24">
+  <div class="mx-auto max-w-6xl">
+    <div class="mt-10 px-4 grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div>
+        <span class="px-6 py-2 mb-4 block bg-gradient-to-br from-blue-100 to-neutral-200 rounded-md text-xl text-center font-semibold">🧑‍💻 Für wen?</span>
+        <p class="text- px-1">{{ .roadmap.target_audience | markdownify }}</p>
+      </div>
+      <div>
+        <span class="px-6 py-2 mb-4 block bg-gradient-to-br from-blue-100 to-neutral-200 rounded-md text-xl text-center font-semibold">🎯 Ziele</span>
+        <p class="text-sm px-1">{{ .roadmap.goals | markdownify }}</p>
+      </div>
+      <div>
+        <span class="px-6 py-2 mb-4 block bg-gradient-to-br from-blue-100 to-neutral-200 rounded-md text-xl text-center font-semibold">✨ Vorteile</span>
+        <p class="text-sm px-1">{{ .roadmap.benefits | markdownify }}</p>
+      </div>
+    </div>
+
+    <h2>Kursinhalte</h2>
+    <div class="flex flex-col gap-4 p-6 bg-gray-100 rounded-lg border">
+      <div class="p-4 bg-white rounded-md">qwe</div>
     </div>
   </div>
+</div>
+{{ end }}
 {{ end }}

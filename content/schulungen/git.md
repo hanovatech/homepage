@@ -5,8 +5,8 @@ description: Ein Einsteigerkurs, der die Grundlagen von Git, einem verteilten Ve
 course:
   name: Git Grundlagen Kurs
   icon: 🐙
-  short_description: Ein eintägiger Kurs, der Ihnen die Grundlagen von Git näher bringt.
-  long_description: Dieser Kurs bietet eine umfassende Einführung in Git, ein beliebtes verteiltes Versionskontrollsystem. Sie lernen die grundlegenden Konzepte von Git kennen, einschließlich Repositorys, Commits, Branches und Merging. Der Kurs deckt auch Themen wie die Einrichtung eines Git-Repositorys, das Hinzufügen und Verwalten von Dateien sowie die Zusammenarbeit mit anderen Entwicklern ab.
+  description_short: Ein eintägiger Kurs, der Ihnen die Grundlagen von Git näher bringt.
+  description_long: Dieser Kurs bietet eine umfassende Einführung in Git, ein beliebtes verteiltes Versionskontrollsystem. Sie lernen die grundlegenden Konzepte von Git kennen, einschließlich Repositorys, Commits, Branches und Merging. Der Kurs deckt auch Themen wie die Einrichtung eines Git-Repositorys, das Hinzufügen und Verwalten von Dateien sowie die Zusammenarbeit mit anderen Entwicklern ab.
   level: Einsteiger
   duration: 1 Tag
   price: 800€
