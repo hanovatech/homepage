@@ -25,7 +25,7 @@ course:
     - Texteditoren
     - Dateiverwaltung (Kopieren, Verschieben, Löschen usw.)
     - Hard- und Softlinks (kurz)
-    - Ordnerstruktur (kurz)
+    - Ordnerstruktur (FHS)
     - Berechtigungen
     - Paketverwaltung
     - Systemctl & Prozesse
