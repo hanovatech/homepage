@@ -126,11 +126,12 @@
 
 
 {{ else }}
+  {{ $navigation := cond (hasPrefix .RelPermalink "/schulungen/") .Site.Data.navigation.schulungen .Site.Data.navigation.main }}  
   <header class="z-10 w-full bg-white bg-white/90 backdrop-blur transition-shadow duration-300">
     <nav class="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
       <div class="flex lg:flex-1">
         <div class="opacity-100 hidden"></div>
-        <a id="header-icon" href="/" class="-m-1.5 p-1.5 opacity-0 duration-700">
+        <a id="header-icon" href="{{ $navigation.homepage }}" class="-m-1.5 p-1.5 opacity-0 duration-700">
           <span class="sr-only">HanovaTech</span>
           <img class="h-10 w-auto hidden lg:block" src="/images/logo_color.svg" alt="HanovaTech Logo">
           <img class="w-48 lg:hidden" src="/images/hanovatech_logo_color.svg" alt="HanovaTech Logo">
@@ -144,9 +145,14 @@
           </svg>
         </button>
       </div>
-      <div class="hidden lg:flex lg:gap-x-12">
-        {{ range .Site.Data.navigation.main }}
-          {{ if .childs }}
+      <div class="hidden lg:flex lg:gap-x-12">      
+        {{ range $navigation.links }}
+          {{/*  {{ if isset . "section" }}
+            {{ $section := where $.Site.RegularPages "Section" .section}}
+            {{ range $section }}
+              
+            {{ end }}  */}}
+          {{ if or (.childs) (.section) }}
             <div class="relative">
               <button type="button" class="header-flyout-button flex items-center gap-x-1 text-sm font-semibold tracking-wide leading-6 text-gray-900 uppercase" aria-expanded="false">
                 {{ .name }}
@@ -182,8 +188,14 @@
                 </div>
               {{ else }}
                 <div class="header-flyout-menu opacity-0 invisible absolute -left-8 top-full z-10 mt-3 w-56 rounded-xl bg-white p-2 shadow-lg ring-1 ring-gray-900/5">
-                  {{ range .childs }}
-                    <a href="{{ .url }}" class="block rounded-lg px-3 py-2 text-sm font-semibold leading-6 text-gray-900 hover:bg-gray-50">{{ .name }}</a>
+                  {{ if .section }}
+                    {{ range where $.Site.RegularPages "Section" .section }}
+                      <a href="{{ .RelPermalink }}" class="block rounded-lg px-3 py-2 text-sm font-semibold leading-6 text-gray-900 hover:bg-gray-50">{{ .Title }}</a>
+                    {{ end }}
+                  {{ else }}
+                    {{ range .childs }}
+                      <a href="{{ .url }}" class="block rounded-lg px-3 py-2 text-sm font-semibold leading-6 text-gray-900 hover:bg-gray-50">{{ .name }}</a>
+                    {{ end }}
                   {{ end }}
                 </div>
               {{ end }}
@@ -194,8 +206,8 @@
         {{ end }}
       </div>
       <div class="hidden lg:flex lg:flex-1 lg:justify-end">
-        <a href="/kontakt" class="rounded-md bg-blue-600 px-3.5 py-2.5 text-sm font-semibold text-white tracking-wide uppercase shadow-sm hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600 duration-200">
-          Kontakt
+        <a href="{{ $navigation.button.url }}" class="rounded-md bg-blue-600 px-3.5 py-2.5 text-sm font-semibold text-white tracking-wide uppercase shadow-sm hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600 duration-200">
+          {{ $navigation.button.label }} <span aria-hidden="true">&rarr;</span>
         </a>
       </div>
     </nav>
@@ -204,7 +216,7 @@
       <div class="fixed inset-0 z-10 backdrop-blur-sm"></div>
       <div focus="true" class="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white bg-white/90 backdrop-blur px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
         <div class="flex items-center justify-between">
-          <a href="/" class="-m-1.5 p-1.5">
+          <a href="{{ $navigation.homepage }}" class="-m-1.5 p-1.5">
             <span class="sr-only">HanovaTech</span>
             <img class="w-48" src="/images/hanovatech_logo_color.svg" alt="HanovaTech">
           </a>
@@ -218,7 +230,7 @@
         <div class="mt-6 flow-root">
           <div class="-my-6 divide-y divide-gray-500/10">
             <div class="space-y-2 py-6">
-              {{ range .Site.Data.navigation.main }}
+              {{ range $navigation.links }}
                 {{ if .childs }}
                   <div class="-mx-3">
                     <button type="button" class="header-submenu-button flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base font-semibold leading-7 hover:bg-gray-50" aria-controls="disclosure-1" aria-expanded="false">
@@ -242,8 +254,8 @@
               {{ end }}
             </div>
             <div class="py-6">
-              <a href="/kontakt" class="-mx-3 block bg-blue-600 rounded-lg py-2.5 px-3 text-center text-white font-semibold leading-7 text-gray-900 hover:bg-blue-700 duration-200">
-                Kontakt <span aria-hidden="true">&rarr;</span>
+              <a href="{{ $navigation.button.url }}" class="-mx-3 block bg-blue-600 rounded-lg py-2.5 px-3 text-center text-white font-semibold leading-7 text-gray-900 hover:bg-blue-700 duration-200">
+                {{ $navigation.button.label }} <span aria-hidden="true">&rarr;</span>
               </a>
             </div>
           </div>

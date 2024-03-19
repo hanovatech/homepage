@@ -7,7 +7,7 @@
   </div>
 </a>
 
-{{ if not (hasPrefix .RelPermalink "/repair/") }}
+{{ if and (not (hasPrefix .RelPermalink "/repair/")) (not (hasPrefix .RelPermalink "/schulungen/")) }}
 <div class="hidden lg:block fixed -right-[19rem] top-[40vh] hover:right-0 duration-200">
   <div class="w-80 px-3 py-4 bg-blue-600 text-white text-center rounded-l-lg drop-shadow-md animate-pulse hover:animate-none">
   <p class="text-lg font-semibold">Kostenloses Erstgespräch</p>
