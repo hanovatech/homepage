@@ -127,7 +127,7 @@
 
 {{ else }}
   {{ $navigation := cond (hasPrefix .RelPermalink "/schulungen/") .Site.Data.navigation.schulungen .Site.Data.navigation.main }}  
-  <header class="z-10 w-full bg-white bg-white/90 backdrop-blur transition-shadow duration-300">
+  <header class="z-10 w-full bg-white bg-white/80 backdrop-blur transition-shadow duration-300">
     <nav class="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
       <div class="flex lg:flex-1">
         <div class="opacity-100 hidden"></div>
@@ -213,7 +213,7 @@
     </nav>
 
     <div id="header-mobile-menu" class="hidden lg:hidden" role="dialog" aria-modal="true">
-      <div class="fixed inset-0 z-10 backdrop-blur-sm"></div>
+      <div class="fixed inset-0 z-10 bg-white bg-white/80 backdrop-blur"></div>
       <div focus="true" class="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white bg-white/90 backdrop-blur px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
         <div class="flex items-center justify-between">
           <a href="{{ $navigation.homepage }}" class="-m-1.5 p-1.5">
