@@ -4,9 +4,9 @@ description: Ein Einsteigerkurs, der die Grundlagen von Git, einem verteilten Ve
 
 course:
   name: Git Basics
+  slogan: Ein eintägiger Kurs, der Ihnen die Grundlagen von Git näher bringt.
   emoji: 🐙
-  description_short: Ein eintägiger Kurs, der Ihnen die Grundlagen von Git näher bringt.
-  description_long: Dieser Kurs bietet eine umfassende Einführung in Git, ein beliebtes verteiltes Versionskontrollsystem. Sie lernen die grundlegenden Konzepte von Git kennen, einschließlich Repositorys, Commits, Branches und Merging. Der Kurs deckt auch Themen wie die Einrichtung eines Git-Repositorys, das Hinzufügen und Verwalten von Dateien sowie die Zusammenarbeit mit anderen Entwicklern ab.
+  description: Dieser Kurs bietet eine umfassende Einführung in Git, ein beliebtes verteiltes Versionskontrollsystem. Sie lernen die grundlegenden Konzepte von Git kennen, einschließlich Repositorys, Commits, Branches und Merging. Der Kurs deckt auch Themen wie die Einrichtung eines Git-Repositorys, das Hinzufügen und Verwalten von Dateien sowie die Zusammenarbeit mit anderen Entwicklern ab.
   level:
     rank: Einsteiger
     text: Für Einsteiger geeignet
@@ -23,19 +23,20 @@ course:
     goals: Unser Ziel ist es, dass jeder Teilnehmer die Grundlagen von Linux und der Bash kennt und versteht und selbstständig damit arbeiten kann.
     benefits: Arbeiten Sie selbstbewusster mit der Kommandozeile und seien Sie in der Lage, kleinere Probleme selbstständig zu beheben.
 
-  topics_key:
-    - Einführung in Git
-    - Repositorys und Commits
-    - Branches und Merging
-    - Einrichtung und Konfiguration
-    - Dateiverwaltung
-  topics_all:
+  content:
+    bulletpoints:
+      - Einführung in Git
+      - Repositorys und Commits
+      - Branches und Merging
+      - Einrichtung und Konfiguration
+      - Dateiverwaltung
+    details:
     - title: Git-Grundlagen
-      content:
+      description:
     - title: Versionskontrolle
-      content:
+      description:
     - title: Repository-Verwaltung
-      content:
+      description:
     - title: Zusammenarbeit
-      content:
+      description:
 ---

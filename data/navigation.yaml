@@ -143,5 +143,7 @@ schulungen:
           url: /schulungen/serversysteme
         - name: Git Basics
           url: /schulungen/git
-    - name: Über uns
-      url: /ueber-uns
+    - name: Für Arbeitgeber
+      url: /schulungen/arbeitgeber
+    - name: Die Dozenten
+      url: /schulungen/dozenten
