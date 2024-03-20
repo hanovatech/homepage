@@ -8,7 +8,7 @@
           <div class="mx-auto max-w-2xl">
             <div class="max-w-lg">
               <div class="mt-24 sm:mt-32 lg:mt-16">
-                <a href="#" class="mb-6 inline-flex space-x-6">
+                <div class="mb-6 inline-flex space-x-6">
                   <span class="rounded-full bg-blue-600/10 px-3 py-1 text-sm font-semibold leading-6 text-blue-600 ring-1 ring-inset ring-blue-600/10">
                     {{ .level.text }}
                   </span>
@@ -18,7 +18,7 @@
                       <path fill-rule="evenodd" d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z" clip-rule="evenodd" />
                     </svg>
                   </span>
-                </a>
+                </div>
               </div>
               <h1 class="text-4xl font-bold !leading-tight tracking-tight sm:text-5xl md:text-6xl">{{ .name }}</h1>
               <p class="mt-1 text-md font-light">{{ .description_short }}</p>
@@ -100,28 +100,6 @@
       </div>
     </div>
   </div>
-
-  {{/*  <div class="mx-auto max-w-6xl">
-    <div class="mt-10 px-4 grid grid-cols-1 md:grid-cols-3 gap-8">
-      <div>
-        <span class="px-6 py-2 mb-4 block bg-gradient-to-br from-blue-100 to-neutral-200 rounded-md text-xl text-center font-semibold">🧑‍💻 Für wen?</span>
-        <p class="text- px-1">{{ .roadmap.target_audience | markdownify }}</p>
-      </div>
-      <div>
-        <span class="px-6 py-2 mb-4 block bg-gradient-to-br from-blue-100 to-neutral-200 rounded-md text-xl text-center font-semibold">🎯 Ziele</span>
-        <p class="text-sm px-1">{{ .roadmap.goals | markdownify }}</p>
-      </div>
-      <div>
-        <span class="px-6 py-2 mb-4 block bg-gradient-to-br from-blue-100 to-neutral-200 rounded-md text-xl text-center font-semibold">✨ Vorteile</span>
-        <p class="text-sm px-1">{{ .roadmap.benefits | markdownify }}</p>
-      </div>
-    </div>
-
-    <h2>Kursinhalte</h2>
-    <div class="flex flex-col gap-4 p-6 bg-gray-100 rounded-lg border">
-      <div class="p-4 bg-white rounded-md">qwe</div>
-    </div>
-  </div>  */}}
 </section>
 
 <section id="content">
@@ -130,11 +108,11 @@
       <div class="mx-auto max-w-4xl divide-y divide-gray-900/10">
         <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Unsere Schulungsinhalte</h2>
         <dl class="mt-10 space-y-6 divide-y divide-gray-900/10">
-          {{ range $index, $topic := .topics_all }}
+          {{ range $index, $details := .content.details }}
             <div class="pt-6">
               <dt class="accordion">
                 <button type="button" class="flex w-full items-start justify-between text-left text-gray-900" aria-controls="faq-0" aria-expanded="false">
-                  <span class="text-base font-semibold leading-7">{{ $topic.title }}</span>
+                  <span class="text-base font-semibold leading-7">{{ $details.title }}</span>
                   <span class="ml-6 flex h-7 items-center">
                     <svg class='accordionClosed h-6 w-6 {{ cond (gt $index 0) "" "hidden" }}' fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
                       <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v12m6-6H6" />
@@ -147,7 +125,7 @@
               </dt>
               <dd class='panel mt-2 pr-12 {{ cond (gt $index 0) "hidden" "" }}'>
                 <div class="text-base leading-7 text-gray-600">
-                  {{ $topic.content | markdownify }}
+                  {{ $details.description | markdownify }}
                 </div>
               </dd>
             </div>

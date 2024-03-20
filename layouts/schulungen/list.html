@@ -86,7 +86,7 @@
                     <p class="mt-2 text-md font-light">{{ .level.text }} · {{ .duration.text }}</p>
                     <p class="mt-5 text-base leading-7 text-gray-600">{{ .description_short | safeHTML }}</p>
                     <ul class="mt-5 text-sm leading-7 text-gray-600">
-                      {{ range .topics_key }}
+                      {{ range .content.bulletpoints }}
                         <li>{{ . }}</li>
                       {{ end }}
                     </ul>
