@@ -4,7 +4,7 @@ description: ✅ Wir sind Ihr moderner IT-Dienstleister aus Hannover. Wir bieten
 
 heroSection:
   heading: IT-Schulungen für Ihre Mitarbeiter
-  description: Wir vermitteln IT-Verständnis für nicht technische Mitarbeiter in technischen Unternehmen
+  description: Wir vermitteln IT-Verständnis für nicht technische Mitarbeiter in technischen Unternehmen und helfen Ihnen, selbstständig und bewusster zu arbeiten.
   buttons:
     primary:
       label: Schreiben Sie uns
@@ -32,15 +32,15 @@ heroSection:
 courseSection:
   title: Unsere Schulungen
   heading: Selbstständig IT-Probleme lösen
-  description: Mit unseren modularen Kompakt-Schulungen, vermitteln wir Ihnen das nötige Wissen, um technische Herausforderungen selbstständig zu meistern.
+  description: Mit unseren modularen Schulungen, vermitteln wir Ihnen das nötige Wissen, um technische Herausforderungen selbstständig zu meistern.
 
 teamSection:
   heading: Unser Dozenzenteam
   description: Unsere Dozenten verfügen über langjährige Erfahrung in der IT-Branche und sind Experten auf ihrem Gebiet.
   members:
-    - name: "Henry Akmann"
-      position: "Dozent"
-      description: "Unser Experte für Linux und Open Source"
+    - name: Henry Akmann
+      position: Dozent
+      description: Als Dozent unterrichtet er seit 2018 verschiedene IT-relevante Themen von Linux/Unix über Serversysteme bis zur Cloud.
       image: "/content/team/henry.jpg"
       email: h.akmann@hanovatech.de
       linkedin: https://www.linkedin.com/in/hakmann/
