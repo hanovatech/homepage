@@ -5,7 +5,7 @@ weight: 1
 
 course:
   name: Linux Basics
-  icon: 🐧
+  emoji: 🐧
   description_short: Linux und Kommandozeile für Einsteiger
   description_long: "
   Wir zeigen Ihnen, wie Sie die Kommandozeile effektiv nutzen und wie Sie Dateien und Prozesse einfach selbstständig verwalten.
