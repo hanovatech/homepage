@@ -136,7 +136,12 @@ schulungen:
     url: /schulungen/kontakt
   links:
     - name: Schulungen
-      section: schulungen
-      key: course.name
+      childs:
+        - name: Linux Basics
+          url: /schulungen/linux
+        - name: Server & Cloud Basics
+          url: /schulungen/serversysteme
+        - name: Git Basics
+          url: /schulungen/git
     - name: Über uns
       url: /ueber-uns

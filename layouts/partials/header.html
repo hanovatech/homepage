@@ -147,7 +147,7 @@
       </div>
       <div class="hidden lg:flex lg:gap-x-12">      
         {{ range $navigation.links }}
-          {{ if or (.childs) (.section) }}
+          {{ if .childs }}
             <div class="relative">
               <button type="button" class="header-flyout-button flex items-center gap-x-1 text-sm font-semibold tracking-wide leading-6 text-gray-900 uppercase" aria-expanded="false">
                 {{ .name }}
@@ -183,15 +183,7 @@
                 </div>
               {{ else }}
                 <div class="header-flyout-menu opacity-0 invisible absolute -left-8 top-full z-10 mt-3 w-56 rounded-xl bg-white p-2 shadow-lg ring-1 ring-gray-900/5">
-                  {{ if .section }}
-                    {{ range where $.Site.RegularPages "Section" .section }}
-                      <a href="{{ .RelPermalink }}" class="block rounded-lg px-3 py-2 text-sm font-semibold leading-6 text-gray-900 hover:bg-gray-50">{{ .Params.course.name }}</a>
-                    {{ end }}
-                  {{ else }}
-                    {{ range .childs }}
-                      <a href="{{ .url }}" class="block rounded-lg px-3 py-2 text-sm font-semibold leading-6 text-gray-900 hover:bg-gray-50">{{ .name }}</a>
-                    {{ end }}
-                  {{ end }}
+                  <a href="{{ .url }}" class="block rounded-lg px-3 py-2 text-sm font-semibold leading-6 text-gray-900 hover:bg-gray-50">{{ .name }}</a>
                 </div>
               {{ end }}
             </div>
@@ -226,7 +218,7 @@
           <div class="-my-6 divide-y divide-gray-500/10">
             <div class="space-y-2 py-6">
               {{ range $navigation.links }}
-                {{ if or .childs .section }}
+                {{ if .childs }}
                   <div class="-mx-3">
                     <button type="button" class="header-submenu-button flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base font-semibold leading-7 hover:bg-gray-50" aria-controls="disclosure-1" aria-expanded="false">
                       {{ .name }}
@@ -244,15 +236,7 @@
                     </div>
                   </div>
                 {{ else }}
-                {{ if .section }}
-                  {{ range where $.Site.RegularPages "Section" .section }}
-                    <a href="{{ .RelPermalink }}" class="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">{{ .Params.course.name }}</a>
-                  {{ end }}
-                {{ else }}
-                  {{ range .childs }}
-                    <a href="{{ .url }}" class="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">{{ .name }}</a>
-                  {{ end }}
-                {{ end }}
+                  <a href="{{ .url }}" class="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">{{ .name }}</a>
                 {{ end }}
               {{ end }}
             </div>

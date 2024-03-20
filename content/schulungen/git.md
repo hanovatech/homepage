@@ -16,7 +16,7 @@ course:
     text: in einem Tag
   price: 800€
 
-    roadmap:
+  roadmap:
     heading: Lernen Sie den Umgang mit Linux und der Kommandozeile
     description: Sie sind mit Linux und der Kommandozeile konfrontiert und haben keine Ahnung, wie Sie eigentlich funktioniert? Wir zeigen Ihnen, wie Sie die Kommandozeile effektiv nutzen.
     target_audience: Ideal für alle nicht IT-ler die regelmäßig mit Linux konfrontiert sind oder Kommandozeilen generell verstehen möchten.
