@@ -15,6 +15,14 @@ course:
     unit: Tag
     text: in einem Tag
   price: 800€
+
+  roadmap:
+    heading: Lernen Sie den Umgang mit Excel Tabellen
+    description: Sie sind mit Excel Tabellen konfrontiert und haben keine Ahnung, wie Sie eigentlich funktioniert? Wir zeigen Ihnen, wie Sie Excel effektiv nutzen.
+    target_audience: Ideal für alle Personen die regelmäßig mit Excel konfrontiert sind und diese bearbeiten sollten.
+    goals: Unser Ziel ist es, dass jeder Teilnehmer die Grundlagen von Excel versteht und selbstständig damit arbeiten kann.
+    benefits: Erstellen Sie Excel Tabellen und Diagramme und seien Sie in der Lage, kleinere Probleme selbstständig zu beheben.
+
   topics_key:
     - Einführung in Excel
     - Tabellen erstellen und formatieren
