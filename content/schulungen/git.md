@@ -15,15 +15,27 @@ course:
     unit: Tag
     text: in einem Tag
   price: 800€
+
+    roadmap:
+    heading: Lernen Sie den Umgang mit Linux und der Kommandozeile
+    description: Sie sind mit Linux und der Kommandozeile konfrontiert und haben keine Ahnung, wie Sie eigentlich funktioniert? Wir zeigen Ihnen, wie Sie die Kommandozeile effektiv nutzen.
+    target_audience: Ideal für alle nicht IT-ler die regelmäßig mit Linux konfrontiert sind oder Kommandozeilen generell verstehen möchten.
+    goals: Unser Ziel ist es, dass jeder Teilnehmer die Grundlagen von Linux und der Bash kennt und versteht und selbstständig damit arbeiten kann.
+    benefits: Arbeiten Sie selbstbewusster mit der Kommandozeile und seien Sie in der Lage, kleinere Probleme selbstständig zu beheben.
+
   topics_key:
     - Einführung in Git
     - Repositorys und Commits
     - Branches und Merging
     - Einrichtung und Konfiguration
     - Dateiverwaltung
-  all_topics:
-    - Git-Grundlagen
-    - Versionskontrolle
-    - Repository-Verwaltung
-    - Zusammenarbeit
+  topics_all:
+    - title: Git-Grundlagen
+      content:
+    - title: Versionskontrolle
+      content:
+    - title: Repository-Verwaltung
+      content:
+    - title: Zusammenarbeit
+      content:
 ---

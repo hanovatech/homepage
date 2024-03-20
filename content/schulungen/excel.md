@@ -22,8 +22,12 @@ course:
     - Daten sortieren und filtern
     - Diagramme erstellen
   all_topics:
-    - Excel-Grundlagen
-    - Tabellenformatierung
-    - Datenverarbeitung
-    - Diagrammerstellung
+    - title: Excel-Grundlagen
+      content: In diesem Teil des Kurses werden die grundlegenden Funktionen von Excel behandelt. Sie lernen die Navigation in Excel, die Verwaltung von Arbeitsmappen und Tabellen sowie die grundlegenden Funktionen zur Datenbearbeitung kennen. Außerdem werden Sie die Erstellung einfacher Formeln kennenlernen, um Berechnungen in Excel durchzuführen.
+    - title: Tabellenformatierung
+      content: Hier erfahren Sie, wie Sie Daten in Excel formatieren können, um sie übersichtlicher und ansprechender zu gestalten. Sie lernen, wie Sie Schriftarten, Farben und Zellformatierungen anpassen, bedingte Formatierungen anwenden und Daten in Tabellen optisch ansprechend darstellen können.
+    - title: Datenverarbeitung
+      content: Dieser Abschnitt des Kurses konzentriert sich darauf, wie Sie Daten in Excel verarbeiten und analysieren können. Sie werden Techniken wie das Sortieren und Filtern von Daten, das Erstellen und Anwenden von Pivot-Tabellen sowie die Verwendung von Funktionen wie SUMME, MITTELWERT und ANZAHL kennenlernen. Diese Fähigkeiten ermöglichen es Ihnen, Daten effektiv zu organisieren und zu analysieren.
+    - title: Diagrammerstellung
+      content: In diesem Teil des Kurses lernen Sie, wie Sie aussagekräftige Diagramme in Excel erstellen können, um Ihre Daten visuell darzustellen. Sie erfahren, wie Sie den passenden Diagrammtyp auswählen, Diagrammelemente anpassen und Diagramme formatieren können, um sie für Präsentationen und Berichte zu optimieren. Die Diagrammerstellung ermöglicht es Ihnen, komplexe Daten auf einen Blick zu visualisieren und Trends oder Muster leichter zu erkennen.
 ---
