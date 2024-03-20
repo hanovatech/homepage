@@ -57,5 +57,3 @@ course:
     - title: Scripting
       content:
 ---
-
-Hallo Linux
