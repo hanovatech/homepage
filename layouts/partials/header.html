@@ -166,9 +166,7 @@
                     {{ range .childs }}
                       <div class="group relative flex items-center gap-x-6 rounded-lg p-4 text-sm leading-6 hover:bg-gray-50">
                         <div class="flex h-11 w-11 flex-none items-center justify-center rounded-lg bg-gray-50 group-hover:bg-white">
-                          <svg class="w-6 h-6 text-gray-600 group-hover:text-blue-600" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
-                            {{ .icon | safeHTML }}
-                          </svg>
+                          {{ .icon | safeHTML }}
                         </div>
                         <div class="flex-auto">
                           <a href="{{ .url }}" class="block font-semibold text-gray-900">
@@ -183,7 +181,9 @@
                 </div>
               {{ else }}
                 <div class="header-flyout-menu opacity-0 invisible absolute -left-8 top-full z-10 mt-3 w-56 rounded-xl bg-white p-2 shadow-lg ring-1 ring-gray-900/5">
-                  <a href="{{ .url }}" class="block rounded-lg px-3 py-2 text-sm font-semibold leading-6 text-gray-900 hover:bg-gray-50">{{ .name }}</a>
+                  {{ range .childs }}
+                    <a href="{{ .url }}" class="block rounded-lg px-3 py-2 text-sm font-semibold leading-6 text-gray-900 hover:bg-gray-50">{{ .name }}</a>
+                  {{ end }}
                 </div>
               {{ end }}
             </div>
@@ -228,7 +228,7 @@
                     </button>
                     <div class="hidden mt-2 space-y-2">
                       {{ if isset . "url" }}
-                        <a href="{{ .url }}" class="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-gray-900 hover:bg-gray-50">Übersicht</a>
+                        <a href="{{ .url }}" class="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-gray-900 hover:bg-gray-50">{{ if isset . "label" }}{{ .label }}{{ else }}Übersicht{{ end }}</a>
                       {{ end }}
                       {{ range .childs }}
                         <a href="{{ .url }}" class="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-gray-900 hover:bg-gray-50">{{ .name }}</a>

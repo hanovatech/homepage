@@ -1,6 +1,7 @@
 ---
 title: Git Schulung für Einsteiger | HanovaTech
 description: Ein Einsteigerkurs, der die Grundlagen von Git, einem verteilten Versionskontrollsystem, vermittelt.
+weight: 3
 
 course:
   name: Git Basics
