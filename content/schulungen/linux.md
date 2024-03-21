@@ -42,15 +42,18 @@ course:
       - Skripts & Prozesse
     details:
       - title: Einführung in Linux
-        description: "1. Was ist ein Betriebssystem?
+        description: "*Was ist ein Betriebssystem?* - Um Linux verstehen zu können, wollen wir erst einmal die Frage klären, was überhaupt genau ein Betriebssystem ist.
 
-        2. Open-Source und Linux
 
-        3. Linux im Alltag
+        *Open-Source und Linux* - Aus de....
 
-        4. Distributionen
+        
+        *Linux im Alltag* - ...
 
-        5. VM Installation"
+        
+        *Distributionen* - ...
+
+        *VM Installation* - ..."
       - title: Bedienung der Kommandozeile
         description: "1. Erste Schritte in der Kommandozeile
         

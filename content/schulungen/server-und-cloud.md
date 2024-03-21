@@ -1,6 +1,7 @@
 ---
 title: Server & Cloud Schulung für Einsteiger | HanovaTech
 description: Ein umfassender Kurs, der die Grundlagen von Servern und deren Funktionsweise vermittelt.
+weight: 2
 
 course:
   name: Server & Cloud Basics
