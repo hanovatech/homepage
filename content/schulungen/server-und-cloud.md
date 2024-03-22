@@ -12,10 +12,10 @@ course:
     rank: Einsteiger
     text: Für Einsteiger geeignet
   duration:
-    total: 1,5
+    total: 2
     unit: Tage
-    text: in 1,5 Tagen
-  price: 1200 €
+    text: in 2 Tagen
+  price: 1600 €
   
   roadmap:
     heading: Lernen Sie wie Server funktionieren 
@@ -25,6 +25,8 @@ course:
     benefits: Arbeiten Sie selbstbewusster mit IT-Admins und Softwareentwicklern zusammen, um Projekte besser zu steuern oder dabei mehr Leistung zu erbringen.
 
   content:
+    heading: Unsere Schulungsinhalte
+    description: In den 2 Tagen Server Kurs vermitteln wir von grundlagen Server bishin zu Firewall und Cloud Dienste was Sie wissen müssen.
     bulletpoints:
       - Server und Cloud Grundlagen 
       - Funktionsweise gängige Serverarten

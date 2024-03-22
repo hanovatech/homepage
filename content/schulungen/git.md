@@ -25,6 +25,8 @@ course:
     benefits: Arbeiten Sie selbstbewusster mit der Kommandozeile und seien Sie in der Lage, kleinere Probleme selbstständig zu beheben.
 
   content:
+    heading: Unsere Schulungsinhalte
+    description: In einem Tag Git Kurs vermitteln wir von grundlagen Git bishin zu Repository-Verwaltung und Projektarbeit was Sie wissen müssen.
     bulletpoints:
       - Einführung in Git
       - Repositorys und Commits
