@@ -35,11 +35,11 @@ course:
       - Dateiverwaltung
     details:
     - title: Git-Grundlagen
-      description:
+      description: In diesem Abschnitt werden die grundlegenden Konzepte und Funktionen von Git vorgestellt. Sie werden lernen, was Git ist, wie es funktioniert und warum es ein so wichtiges Werkzeug für die Softwareentwicklung ist. Wir werden uns mit Befehlen wie git init, git add, git commit und git push vertraut machen und verstehen, wie sie verwendet werden, um Änderungen zu verfolgen und zu verwalten.
     - title: Versionskontrolle
-      description:
+      description: Hier werden wir tiefer in die Konzepte der Versionskontrolle eintauchen. Sie werden verstehen, warum die Verfolgung von Änderungen in einem Projekt wichtig ist und wie Git dabei hilft, den Überblick über diese Änderungen zu behalten. Wir werden uns mit Branching, Merging und Konfliktlösung beschäftigen, um effektiv mit verschiedenen Entwicklungslinien umzugehen.
     - title: Repository-Verwaltung
-      description:
+      description: Dieser Abschnitt konzentriert sich auf die Verwaltung von Git-Repositories. Sie werden lernen, wie sie neue Repositories erstellen, bestehende Repositories klonen und entfernte Repositories hinzufügen können. Wir werden uns auch mit Themen wie Forking, Cloning, und Pull Requests auseinandersetzen, um effektiv mit anderen Entwicklern zusammenzuarbeiten und Codebeiträge zu verwalten.
     - title: Zusammenarbeit
-      description:
+      description: In diesem letzten Teil des Kurses werden wir uns darauf konzentrieren, wie Git die Zusammenarbeit in einem Entwicklerteam erleichtert. Wir werden uns mit Strategien für effektives Teamwork befassen, wie das Arbeiten mit Feature-Branches, Code-Reviews und Continuous Integration. Die Teilnehmer werden lernen, wie sie Konflikte bei der Zusammenarbeit lösen und wie sie Git effizient nutzen können, um die Produktivität und Qualität ihrer Projekte zu steigern.
 ---

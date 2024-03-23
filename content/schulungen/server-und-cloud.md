@@ -5,7 +5,7 @@ weight: 2
 
 course:
   name: Server & Cloud Basics
-  slogan: Ein eintägiger Kurs, der Ihnen die Grundlagen von Servern näher bringt.
+  slogan: Zweitägiger Kurs, der Ihnen die Grundlagen von Servern näher bringt.
   emoji: ☁️
   description: Dieser Kurs bietet eine Einführung in die Welt der Server. Sie lernen, was ein Server ist und wie er im Kontext des Client-Server-Modells funktioniert. Außerdem werden die Grundlagen des OSI-Referenzmodells behandelt sowie die Bedeutung von Ports und Protokollen für die Kommunikation zwischen Servern und Clients erläutert. Der Kurs bietet auch einen Überblick über gängige Serverarten wie Webserver, DNS, DHCP und Proxy-Server.
   level:
