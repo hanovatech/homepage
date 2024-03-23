@@ -18,11 +18,11 @@ course:
   price: 800€
 
   roadmap:
-    heading: Lernen Sie den Umgang mit Linux und der Kommandozeile
-    description: Sie sind mit Linux und der Kommandozeile konfrontiert und haben keine Ahnung, wie Sie eigentlich funktioniert? Wir zeigen Ihnen, wie Sie die Kommandozeile effektiv nutzen.
-    target_audience: Ideal für alle nicht IT-ler die regelmäßig mit Linux konfrontiert sind oder Kommandozeilen generell verstehen möchten.
-    goals: Unser Ziel ist es, dass jeder Teilnehmer die Grundlagen von Linux und der Bash kennt und versteht und selbstständig damit arbeiten kann.
-    benefits: Arbeiten Sie selbstbewusster mit der Kommandozeile und seien Sie in der Lage, kleinere Probleme selbstständig zu beheben.
+    heading: Lernen Sie den Umgang mit Git und der Versionskontrolle
+    description: Sie stehen vor der Herausforderung, Git und die Befehlszeile zu nutzen, ohne genau zu wissen, wie sie funktionieren? Wir zeigen Ihnen, wie Sie Git und die Versionskontrolle effektiv einsetzen können.
+    target_audience: Ideal für Projektmanager, Designer und alle anderen Fachleute, die in Projektteams in technischen Unternehmen arbeiten und von Versionskontrolle sowie Zusammenarbeit profitieren möchten.
+    goals: Unser Ziel ist es, dass jeder Teilnehmer die grundlegenden Konzepte von Git versteht und sicher in der Anwendung ist, um effektiv mit Versionskontrolle, Repository-Verwaltung und Zusammenarbeit in Projekten umgehen zu können.
+    benefits: Erlangen Sie ein tieferes Verständnis für die Funktionsweise von Git und erhöhen Sie Ihre Effizienz bei der Versionskontrolle und der Zusammenarbeit in Projektteams.
 
   content:
     heading: Unsere Schulungsinhalte
