@@ -1,0 +1,77 @@
+<div id="counters-wrapper" class="bg-white py-24 sm:py-32">
+  <div class="mx-auto max-w-7xl px-6 lg:px-8">
+    <div class="mx-auto max-w-2xl lg:max-w-none">
+      {{ if or (isset . "heading") (isset . "description") }}
+        <div class="mb-16 text-center">
+          {{ if isset . "heading" }}<h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">{{ .heading }}</h2>{{ end }}
+          {{ if isset . "description" }}<p class="mt-4 text-lg leading-8 text-gray-600">{{ .description }}</p>{{ end }}
+        </div>
+      {{ end }}
+      <dl class="mt-16 grid grid-cols-1 gap-0.5 overflow-hidden rounded-2xl text-center sm:grid-cols-2 lg:grid-cols-{{ len .counters }}">
+        {{ range .counters }}
+          <div class="flex flex-col bg-gray-400/5 p-8">
+            <dt class="text-sm font-semibold leading-6 text-gray-600">{{ .label }}</dt>
+            <dd class="counter-item-value order-first text-3xl font-semibold tracking-tight text-gray-900">{{ .value }}</dd>
+          </div>
+        {{ end }}
+      </dl>
+    </div>
+  </div>
+</div>
+
+<script>
+  function countUp(element) {
+    const specialCharacter = element.textContent.includes("%") ? "%" : element.textContent.includes("+") ? "+" : ""
+    const value = Number((element.textContent).replace(specialCharacter, ""))
+    const start = Math.floor(value * 0.8) // Start at 80% of the value
+    const totalIncrements = value - start
+    const incrementInterval = Math.floor((1000) / totalIncrements) // Calculate interval dynamically
+    let current = start
+
+    const timer = setInterval(() => {
+      current += 1;
+      switch (specialCharacter) {
+        case "%":
+          element.textContent = current + "%"
+          break
+        case "+":
+          element.textContent = current
+          break
+        default:
+          element.textContent = current
+          break
+      }
+
+      if (current >= value) {
+        if (specialCharacter === "+") {
+          element.innerHTML = String("+".concat(value))
+          console.log("+".concat(value))
+        }
+        clearInterval(timer)
+      }
+    }, incrementInterval)
+  }
+
+  function startCountingWhenVisible() {
+    const options = {
+      threshold: 0.5 // Trigger when 50% of the target is visible
+    }
+
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          const counterItems = document.querySelectorAll('.counter-item-value')
+          counterItems.forEach(counterItem => {
+            countUp(counterItem)
+          })
+          observer.unobserve(entry.target) // Stop observing once the section is visible
+        }
+      })
+    }, options)
+
+    observer.observe(document.getElementById('counters-wrapper'))
+  }
+
+  // Call the function when the document is loaded
+  document.addEventListener('DOMContentLoaded', startCountingWhenVisible)
+</script>
