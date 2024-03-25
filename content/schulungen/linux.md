@@ -4,7 +4,7 @@ description:
 weight: 1
 
 course:
-  name: Linux Essentials
+  name: Linux Basics
   slogan: Linux und Kommandozeile für Einsteiger
   emoji: 🐧
   description: "
