@@ -35,5 +35,3 @@ Die Paperless-ngx Software gewährleistet höhe Datensicherheit und entspricht s
 Passen Sie die Struktur des Archivs an Ihre individuellen Bedürfnisse an und behalten Sie die volle Kontrolle über Ihre digitalen Dokumente.
 
 Erfahren Sie die Vorteile von Paperless-ngx und optimieren Sie Ihre digitale Dokumentenverwaltung. Starten Sie noch heute und vereinfachen Sie Ihren Alltag mit unserer intuitiven Software, die auch für Suchmaschinen optimiert ist.
-
-[Jetzt beginnen] [Kontaktieren Sie uns für eine Demoversion] [Weitere Informationen zur digitalen Dokumentenverwaltung erfahren]
