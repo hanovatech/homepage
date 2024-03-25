@@ -63,7 +63,7 @@
   </section>
 
   <section id="courses">
-    <div class="relative py-24 sm:py-32 lg:py-40">
+    <div class="relative py-18 sm:py-24">
       <div class="mx-auto max-w-md px-6 text-center sm:max-w-3xl lg:max-w-7xl lg:px-8">
         {{ with .Params.courseSection }}
         <h2 class="text-lg font-semibold text-blue-600">{{ .title }}</h2>
@@ -109,7 +109,10 @@
         {{ with .Params.teamSection }}
         <div class="max-w-2xl xl:col-span-2">
           <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">{{ .heading }}</h2>
-          <p class="mt-6 text-lg leading-8 text-gray-600">{{ .description | safeHTML }}</p>
+          <p class="mt-6 text-lg leading-8 text-gray-600">{{ .description | markdownify }}</p>
+          <a href="#contact" class="inline-block mt-6 rounded-md bg-blue-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600 duration-200">
+            Zum Kontaktformular
+          </a>
         </div>
         <ul role="list" class="-mt-12 space-y-12 divide-y divide-gray-200 xl:col-span-3">
           {{ range .members }}
@@ -118,7 +121,7 @@
             <div class="max-w-xl flex-auto">
               <h3 class="text-lg font-semibold leading-8 tracking-tight text-gray-900">{{ .name }}</h3>
               <p class="text-base leading-7 text-gray-600">{{ .position }}</p>
-              <p class="mt-6 text-base leading-7 text-gray-600">{{ .description }}</p>
+              <p class="mt-2 text-sm leading-7 text-gray-600">{{ .description | markdownify }}</p>
               <ul role="list" class="mt-6 flex gap-x-2">
                 <li>
                   <a href="mailto:{{ .email }}" class="text-gray-400 hover:text-gray-500">
@@ -146,11 +149,100 @@
     </div>
   </section>
 
+  <section id="contact">
+    <div class="relative isolate bg-white px-6 py-24 lg:px-8">
+      <div class="mx-auto max-w-xl lg:max-w-5xl">
+        <h2 class="text-4xl font-bold tracking-tight text-gray-900">Interesse an unseren Schulungen?</h2>
+        <p class="mt-2 text-lg leading-8 text-gray-600">Schreiben Sie uns eine Nachricht oder rufen Sie uns unter der <a href="tel:051151512490" class="underline decoration-2 decoration-blue-600 underline-offset-5">0511&nbsp;515124&nbsp;90</a> an.</p>
+        <div class="mt-12 flex flex-col gap-16 sm:gap-y-20 lg:flex-row">
+          <form name="schulungen-contact" action="/kontakt/success" method="POST" netlify class="lg:flex-auto p-4 sm:p-6 bg-gray-50 border rounded-md shadow-lg">
+            <div class="grid grid-cols-1 gap-x-4 gap-y-6 sm:grid-cols-2">
+              <div>
+                <label for="firstname" class="block text-sm font-semibold leading-6 text-gray-900">Vorname</label>
+                <div class="mt-2.5">
+                  <input type="text" name="firstname" id="firstname" required autocomplete="given-name" class="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-blue-600 sm:text-sm sm:leading-6">
+                </div>
+              </div>
+              <div>
+                <label for="lastname" class="block text-sm font-semibold leading-6 text-gray-900">Nachname</label>
+                <div class="mt-2.5">
+                  <input type="text" name="lastname" id="lastname" required autocomplete="family-name" class="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-blue-600 sm:text-sm sm:leading-6">
+                </div>
+              </div>
+              <div>
+                <label for="email" class="block text-sm font-semibold leading-6 text-gray-900">Email</label>
+                <div class="mt-2.5">
+                  <input type="text" name="email" id="email" required class="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-blue-600 sm:text-sm sm:leading-6">
+                </div>
+              </div>
+              <div>
+                <label for="phone" class="block text-sm font-semibold leading-6 text-gray-900">Telefon</label>
+                <div class="mt-2.5">
+                  <input type="text" name="phone" id="phone" class="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-blue-600 sm:text-sm sm:leading-6">
+                </div>
+              </div>
+              <div class="sm:col-span-2">
+                <label for="company" class="block text-sm font-semibold leading-6 text-gray-900">Unternehmen</label>
+                <div class="mt-2.5">
+                  <input id="company" name="company" type="text" class="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-blue-600 sm:text-sm sm:leading-6">
+                </div>
+              </div>
+              <div>
+                <label for="student-count" class="block text-sm font-semibold leading-6 text-gray-900">Anzahl Teilnehmer</label>
+                <div class="mt-2.5">
+                  <input type="number" name="student-count" id="student-count" value="" required class="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-blue-600 sm:text-sm sm:leading-6">
+                </div>
+              </div>
+              <div>
+                <label for="course-format" class="block text-sm font-semibold leading-6 text-gray-900">Kursformat</label>
+                <select id="course-format" name="course-format" class="mt-2.5 block w-full rounded-md border-0 px-3.5 py-2 pr-10 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 focus:ring-2 focus:ring-blue-600 sm:text-sm sm:leading-6">
+                  <option selected>Bitte wählen...</option>
+                  <option>Vor Ort im Unternehmen</option>
+                  <option>Externe Schulungsräume</option>
+                  <option>Online-Format</option>
+                </select>
+              </div>
+  
+              <div class="sm:col-span-2">
+                <label for="message" class="block text-sm font-semibold leading-6 text-gray-900">Nachricht</label>
+                <div class="mt-2.5">
+                  <textarea id="message" name="message" rows="4" class="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-blue-600 sm:text-sm sm:leading-6"></textarea>
+                </div>
+              </div>
+            </div>
+            <div class="mt-6">
+              <button type="submit" class="block w-full rounded-md bg-blue-600 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600">Abschicken</button>
+            </div>
+            <p class="mt-4 text-sm leading-6 text-gray-500">Durch abschicken des Formulars akzeptiere ich die <a href="/datenschutz" class="font-semibold text-blue-600">Datenschutzerklärung</a>.</p>
+          </form>
+          <div class="lg:mt-6 lg:w-80 lg:flex-none">
+            <img class="h-12 w-auto" src="https://tailwindui.com/img/logos/workcation-logo-blue-600.svg" alt="">
+            <figure class="mt-10">
+              <blockquote class="text-md font-semibold leading-8 text-gray-900">
+                <p>
+                  Haben Sie Fragen zu unseren Kursen?<br/>
+                  Wir beantworten gerne Ihre Fragen! Schreiben Sie uns einfach eine Nachricht oder rufen Sie durch.
+                </p>
+              </blockquote>
+              <figcaption class="mt-10 flex items-center gap-x-6">
+                <img src="/content/team/henry.jpg" alt="Henry Akmann" class="h-20 w-20 object-cover object-center flex-none rounded-full bg-gray-50">
+                <div>
+                  <div class="text-base font-semibold text-gray-900">Henry Akmann</div>
+                  <div class="text-sm leading-6 text-gray-600">HanovaTech Trainer</div>
+                </div>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <section id="testimonials">
-    <div class="bg-white px-6 py-24 sm:py-32 lg:px-8">
-      <figure class="mx-auto max-w-2xl">
+    <div class="bg-white px-6 py-18 sm:py-24 lg:px-8">
+      <figure class="mx-auto max-w-3xl">
         <p class="sr-only">5 out of 5 stars</p>
-        <div class="flex gap-x-1 text-indigo-600">
+        <div class="flex gap-x-1 text-blue-600">
           <svg class="h-5 w-5 flex-none" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
             <path fill-rule="evenodd" d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z" clip-rule="evenodd" />
           </svg>
@@ -167,14 +259,18 @@
             <path fill-rule="evenodd" d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z" clip-rule="evenodd" />
           </svg>
         </div>
-        <blockquote class="mt-10 text-xl font-semibold leading-8 tracking-tight text-gray-900 sm:text-2xl sm:leading-9">
-          <p>“Qui dolor enim consectetur do et non ex amet culpa sint in ea non dolore. Enim minim magna anim id minim eu cillum sunt dolore aliquip. Amet elit laborum culpa irure incididunt adipisicing culpa amet officia exercitation. Eu non aute velit id velit Lorem elit anim pariatur.”</p>
+        <blockquote class="mt-6 text-xl font-semibold leading-8 tracking-tight text-gray-900 sm:text-xl sm:leading-9">
+          <p>
+            “Die Dozenten schaffen es, wichtige Grundlagen zu vermitteln, ohne dabei zu komplex zu werden.
+            Gerade als nicht-IT-ler konnte ich gut folgen. Die vermittelten Inhalte schaffen eine solide Basis, die mir im Vertrieb dabei helfen Kundenfragen besser beantworten zu können.<br/>
+            Vielen Dank!”
+          </p>
         </blockquote>
         <figcaption class="mt-10 flex items-center gap-x-6">
-          <img class="h-12 w-12 rounded-full bg-gray-50" src="https://images.unsplash.com/photo-1550525811-e5869dd03032?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=1024&h=1024&q=80" alt="">
+          <img class="h-16 w-16 object-contain rounded-full bg-gray-50" src="/content/schulungen/testimonials/felixb.jpg" alt="Felix Bühler">
           <div class="text-sm leading-6">
-            <div class="font-semibold text-gray-900">Judith Black</div>
-            <div class="mt-0.5 text-gray-600">CEO of Workcation</div>
+            <div class="font-semibold text-gray-900">Felix Bühler</div>
+            <div class="mt-0.5 text-gray-600">Vertriebsleiter bei VOGT.IT Consulting & Services</div>
           </div>
         </figcaption>
       </figure>

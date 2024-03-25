@@ -4,11 +4,11 @@ description: ✅ Wir sind Ihr moderner IT-Dienstleister aus Hannover. Wir bieten
 
 heroSection:
   heading: IT-Schulungen für Ihre Mitarbeiter
-  description: Wir vermitteln IT-Verständnis für nicht technische Mitarbeiter in technischen Unternehmen und helfen Ihnen, selbstständig und bewusster zu arbeiten.
+  description: Wir vermitteln IT-Verständnis für nicht technische Mitarbeiter in technischen Unternehmen und helfen Ihnen dabei, selbstständiger zu arbeiten.
   buttons:
     primary:
       label: Schreiben Sie uns
-      href: /schulungen/kontakt
+      href: "#contact"
     secondary:
       label: Zu unseren Kursen
       href: "#courses"
@@ -35,18 +35,20 @@ courseSection:
   description: Mit unseren modularen Schulungen, vermitteln wir Ihnen das nötige Wissen, um technische Herausforderungen selbstständig zu meistern.
 
 teamSection:
-  heading: Unser Dozenzenteam
-  description: Unsere Dozenten verfügen über langjährige Erfahrung in der IT-Branche und sind Experten auf ihrem Gebiet.
+  heading: Unser Team
+  description: "Unser junges Trainerteam verfügt über **langjährige Erfahrung** im Schulen von Einsteigern und IT-Administratoren.
+  
+  Wir freuen uns darauf, Sie auf Ihrem Lernweg zu begleiten und Ihnen dabei zu helfen, Ihre Ziele in der IT zu erreichen."
   members:
     - name: Henry Akmann
-      position: Dozent
-      description: Als Dozent unterrichtet er seit 2018 verschiedene IT-relevante Themen von Linux/Unix über Serversysteme bis zur Cloud.
+      position: Trainer
+      description: Seit 2018 bin ich als Dozent für IT-Grundlagen mit Fokus auf Scripting, Netzwerke und Cloud tätig. In dieser Zeit habe ich sowohl fachfremde Einsteiger als auch erfahrene Administratoren, in verschiedensten Themen geschult. Durch moderne Unterrichtsmaterialien und Systeme vermittle ich, für jeden verständlich, die komplexen Zusammenhänge der IT.
       image: "/content/team/henry.jpg"
       email: h.akmann@hanovatech.de
       linkedin: https://www.linkedin.com/in/hakmann/
     - name: Hashem Mahmoud
-      position: Dozent
-      description: Unser super Dozent
+      position: Trainer
+      description: Als IT-Trainer für die Themen Linux und Serversysteme habe ich seit 2020 verschiedenste Gruppen von Lernenden, von Einsteigern bis zu erfahrenen Administratoren, erfolgreich weitergebildet.<br/>Durch meinen praxisorientierten Unterrichtsstil und meine ständig aktualisierten Unterrichtsinhalte vermittle ich komplexe Konzepte greifbar und einfach verständlich.
       image: "/content/team/hashem.jpg"
       email: h.mahmoud@hanovatech.de
       linkedin: https://www.linkedin.com/in/hashem-mahmoud/

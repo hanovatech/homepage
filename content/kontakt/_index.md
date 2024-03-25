@@ -3,12 +3,12 @@ title: Schreiben Sie uns eine Nachricht | HanovaTech Kontakt
 address: Spielhagenstraße 25<br>30171 Hannover
 phone: +49 511 5151 2490
 email: info@hanovatech.de
-openingHours: Mo. bis Fr. 10-18 Uhr
+openingHours: Mo. bis Fr. 9-18 Uhr
 ---
 
 # Schreiben Sie uns!
 
-**Sie wollen Ihr Unternehmen digitalisieren? Wir helfen Ihnen dabei!**
+**Sie haben Interesse an unseren Dienstleistungen?**
 
-Schreiben Sie uns über das unten stehende Kontaktformular eine Nachricht und wir werden uns schnellstmöglich bei Ihnen melden.
+Lassen Sie uns über das unten stehende Kontaktformular eine Nachricht zukommen und wir werden uns schnellstmöglich bei Ihnen melden.
 

@@ -31,8 +31,8 @@ course:
       - Server und Cloud Grundlagen 
       - Funktionsweise gängige Serverarten
       - Firewall Grundlagen
-      - Einrichtung und verwaltung File Server
       - UTM-Firewall Demo
+      - Einrichtung und verwaltung File Server
     details:
     - title: Was ist ein Server?
       description: Teilnehmer werden verstehen, was einen Server ausmacht und wie er sich von einem herkömmlichen Computer unterscheidet. Wir werden verschiedene Serverrollen und ihre Bedeutung in einem Netzwerk diskutieren.

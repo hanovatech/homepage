@@ -39,6 +39,7 @@ course:
       - Die Kommandozeile
       - Dateiverwaltung
       - Berechtigungen
+      - Systemverwaltung
       - Skripts & Prozesse
     details:
       - title: Einführung in Linux
