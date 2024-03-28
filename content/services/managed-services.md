@@ -13,7 +13,7 @@ Die IT-Infrastruktur bildet in vielen modernen Unternehmen **die Basis für den 
 
 Durch unsere Managed Services bieten wir Ihnen die Überwachung, Wartung und den dauerhaften Betrieb Ihrer IT-Infrastruktur. Egal ob Endgeräte (PCs und Laptops), Serversysteme oder Netzwerkgeräte, **wir behalten Ihre Systeme im Auge**, um potenzielle Probleme frühzeitig zu erkennen und Sie vor Ausfällen zu schützen.
 
-<!-- {{<bundles>}} -->
+[Zu unseren Paketen](/pakete)
 
 ## Unsere Dienstleistungen
 Wir bieten Managed Services **für Unternehmen jeder Größe und in jeder Branche** an. Egal ob Handwerkbetrieb oder Einzelhandelskette, wir haben die passende Lösung für Sie parat.
