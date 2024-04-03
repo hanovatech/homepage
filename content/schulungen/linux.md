@@ -7,11 +7,10 @@ course:
   name: Linux Basics
   slogan: Linux und Kommandozeile für Einsteiger
   emoji: 🐧
-  description: "
-  Wir zeigen Ihnen, wie Sie die Kommandozeile effektiv nutzen und wie Sie Dateien und Prozesse einfach selbstständig verwalten.
+  description: "Wir zeigen Ihnen, wie Sie die Kommandozeile effektiv nutzen und wie Sie Dateien und Prozesse einfach selbstständig verwalten.
   
   
-  Ideal **für alle Personen** die regelmäßig mit Linux und der Kommandozeile arbeiten müssen oder an sämtlichen Projekten beteiligt sind."
+  Ideal für alle Personen die regelmäßig **mit Linux und der Kommandozeile arbeiten** müssen oder an sämtlichen Projekten beteiligt sind."
   hero_image:
     src: /content/schulungen/linux-terminal.gif
     alt: Linux Terminal
@@ -25,8 +24,8 @@ course:
   price: 1.200 €
 
   roadmap:
-    heading: Lernen Sie den Umgang mit Linux und der Kommandozeile
-    description: Sie sind mit Linux und der Kommandozeile konfrontiert aber wissen nicht, wie Sie eigentlich funktioniert? Wir zeigen Ihnen, wie Sie die Kommandozeile effektiv nutzen.
+    heading: Lernen Sie den Umgang mit Linux<br> und der Kommandozeile
+    description: Sie sind mit der Linux Kommandozeile konfrontiert aber wissen nicht, wie sie eigentlich funktioniert? Wir zeigen Ihnen, wie Sie die Kommandozeile effektiv nutzen.
     target_audience: Ideal für alle Personen die regelmäßig mit Linux konfrontiert sind oder Kommandozeilen generell verstehen möchten.
     goals: Unser Ziel ist es, dass jeder Teilnehmer die Grundlagen von Linux und der Bash kennt und versteht und selbstständig damit arbeiten kann.
     benefits: Arbeiten Sie selbstbewusster mit der Kommandozeile und seien Sie in der Lage, kleinere Probleme selbstständig zu beheben.
@@ -37,8 +36,6 @@ course:
     bulletpoints:
       - Was ist Linux?
       - Die Kommandozeile
-      - Dateiverwaltung
-      - Berechtigungen
       - Systemverwaltung
       - Skripts & Prozesse
     details:

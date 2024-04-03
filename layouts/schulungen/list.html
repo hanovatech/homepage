@@ -73,9 +73,10 @@
         <div class="mt-20">
           <div class="grid grid-cols-1 gap-12 sm:grid-cols-2 lg:grid-cols-3">
             {{ range sort .Pages "Params.weight" }}
-            {{ with .Params.course }}
+            {{ if .Params.course }}
               <div class="pt-6">
-                <div class="flow-root rounded-lg bg-gray-50 shadow-lg border-2 border-blue-500 px-6 pb-8">
+                <a href="{{ .Page.Permalink }}" class="px-6 pb-8 flow-root rounded-lg bg-gray-50 shadow-lg border-2 hover:border-blue-500 hover:scale-105 duration-200">
+                  {{ with .Params.course }}
                   <div class="-mt-6">
                     <div>
                       <span class="inline-flex items-center justify-center rounded-xl bg-blue-500 p-4 shadow-lg text-4xl">
@@ -91,7 +92,8 @@
                       {{ end }}
                     </ul>
                   </div>
-                </div>
+                  {{ end }}
+                </a>
               </div>
             {{ end }}
             {{ end }}
@@ -101,7 +103,7 @@
     </div>
   </section>
 
-  <section id="locations"></section>
+  {{ partial "testimonial.html" . }}
 
   <section id="team">
     <div class="bg-white py-24 md:py-32">
@@ -235,45 +237,6 @@
           </div>
         </div>
       </div>
-    </div>
-  </section>
-
-  <section id="testimonials">
-    <div class="bg-white px-6 py-18 sm:py-24 lg:px-8">
-      <figure class="mx-auto max-w-3xl">
-        <p class="sr-only">5 out of 5 stars</p>
-        <div class="flex gap-x-1 text-blue-600">
-          <svg class="h-5 w-5 flex-none" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-            <path fill-rule="evenodd" d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z" clip-rule="evenodd" />
-          </svg>
-          <svg class="h-5 w-5 flex-none" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-            <path fill-rule="evenodd" d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z" clip-rule="evenodd" />
-          </svg>
-          <svg class="h-5 w-5 flex-none" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-            <path fill-rule="evenodd" d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z" clip-rule="evenodd" />
-          </svg>
-          <svg class="h-5 w-5 flex-none" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-            <path fill-rule="evenodd" d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z" clip-rule="evenodd" />
-          </svg>
-          <svg class="h-5 w-5 flex-none" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-            <path fill-rule="evenodd" d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z" clip-rule="evenodd" />
-          </svg>
-        </div>
-        <blockquote class="mt-6 text-xl font-semibold leading-8 tracking-tight text-gray-900 sm:text-xl sm:leading-9">
-          <p>
-            “Die Dozenten schaffen es, wichtige Grundlagen zu vermitteln, ohne dabei zu komplex zu werden.
-            Gerade als nicht-IT-ler konnte ich gut folgen. Die vermittelten Inhalte schaffen eine solide Basis, die mir im Vertrieb dabei helfen Kundenfragen besser beantworten zu können.<br/>
-            Vielen Dank!”
-          </p>
-        </blockquote>
-        <figcaption class="mt-10 flex items-center gap-x-6">
-          <img class="h-16 w-16 object-contain rounded-full bg-gray-50" src="/content/schulungen/testimonials/felixb.jpg" alt="Felix Bühler">
-          <div class="text-sm leading-6">
-            <div class="font-semibold text-gray-900">Felix Bühler</div>
-            <div class="mt-0.5 text-gray-600">Vertriebsleiter bei VOGT.IT Consulting & Services</div>
-          </div>
-        </figcaption>
-      </figure>
     </div>
   </section>
 {{ end }}

@@ -39,6 +39,10 @@ html {
   border: none !important;
 }
 
+section {
+  scroll-margin-top: 32px;
+}
+
 #TableOfContents {
   ul > li {
     color: #6b7280;

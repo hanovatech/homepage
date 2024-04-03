@@ -5,9 +5,15 @@ weight: 3
 
 course:
   name: Git Basics
-  slogan: Ein eintägiger Kurs, der Ihnen die Grundlagen von Git näher bringt.
+  slogan: Git Grundlagen für Einsteiger
   emoji: 🐙
-  description: Dieser Kurs bietet eine umfassende Einführung in Git, ein beliebtes verteiltes Versionskontrollsystem. Sie lernen die grundlegenden Konzepte von Git kennen, einschließlich Repositorys, Commits, Branches und Merging. Der Kurs deckt auch Themen wie die Einrichtung eines Git-Repositorys, das Hinzufügen und Verwalten von Dateien sowie die Zusammenarbeit mit anderen Entwicklern ab.
+  description: "Wir zeigen Ihnen, wie Sie Git und die Versionskontrolle effektiv einsetzen können, um Ihre Projekte zu verwalten und mit Ihren Kollegen zusammenzuarbeiten.
+  
+  
+  Ideal **für Projektmanager, Designer und alle**, die in technischen Unternehmen arbeiten und im Arbeitsalltag regelmäßig mit Git konfrontiert sind."
+  hero_image:
+    src: /content/schulungen/git-branches.jpg
+    alt: Git Branches
   level:
     rank: Einsteiger
     text: Für Einsteiger geeignet
@@ -18,21 +24,20 @@ course:
   price: 800€
 
   roadmap:
-    heading: Lernen Sie den Umgang mit Git und der Versionskontrolle
-    description: Sie stehen vor der Herausforderung, Git und die Befehlszeile zu nutzen, ohne genau zu wissen, wie sie funktionieren? Wir zeigen Ihnen, wie Sie Git und die Versionskontrolle effektiv einsetzen können.
-    target_audience: Ideal für Projektmanager, Designer und alle anderen Fachleute, die in Projektteams in technischen Unternehmen arbeiten und von Versionskontrolle sowie Zusammenarbeit profitieren möchten.
-    goals: Unser Ziel ist es, dass jeder Teilnehmer die grundlegenden Konzepte von Git versteht und sicher in der Anwendung ist, um effektiv mit Versionskontrolle, Repository-Verwaltung und Zusammenarbeit in Projekten umgehen zu können.
-    benefits: Erlangen Sie ein tieferes Verständnis für die Funktionsweise von Git und erhöhen Sie Ihre Effizienz bei der Versionskontrolle und der Zusammenarbeit in Projektteams.
+    heading: Lernen Sie den Umgang mit Git
+    description: Sie sind bei der Arbeit mit Git konfrontiert und verstehen nicht genau wie das Tool funktioniert? Wir zeigen Ihnen die Grundlagen zur Nutzung von Git!
+    target_audience: Ideal für alle, die im Arbeitsalltag mit Systemen wie Github konfrontiert sind und nicht genau wissen, wie das System funktioniert.
+    goals: Unser Ziel ist es, dass jeder Teilnehmer Git als Versionskontrollsystem versteht und effektiv in der täglichen Arbeit einsetzen kann.
+    benefits: Durch das Wissen sollen Sie sich sicherer im Umgang mit Git fühlen und effektiver mit Ihren Kollegen zusammenarbeiten können.
 
   content:
     heading: Unsere Schulungsinhalte
     description: In einem Tag Git Kurs vermitteln wir von grundlagen Git bishin zu Repository-Verwaltung und Projektarbeit was Sie wissen müssen.
     bulletpoints:
       - Einführung in Git
+      - Funktionsweise
       - Repositorys und Commits
       - Branches und Merging
-      - Einrichtung und Konfiguration
-      - Dateiverwaltung
     details:
     - title: Git-Grundlagen
       description: In diesem Abschnitt werden die grundlegenden Konzepte und Funktionen von Git vorgestellt. Sie werden lernen, was Git ist, wie es funktioniert und warum es ein so wichtiges Werkzeug für die Softwareentwicklung ist. Wir werden uns mit Befehlen wie git init, git add, git commit und git push vertraut machen und verstehen, wie sie verwendet werden, um Änderungen zu verfolgen und zu verwalten.
