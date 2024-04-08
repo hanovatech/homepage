@@ -57,13 +57,17 @@ Wir können die Notebook-Modelle folgender Hersteller für Sie reparieren oder w
 - **Toshiba** (z. B. Satellite Pro Serie, Satellite Serie, Portege Serie, Qosmio Serie, etc.)
 
 ## Apple MacBooks in Hannover reparieren lassen – HanovaTech hilft weiter
-Wir können auch Ihr Apple MacBook reparieren. Allerdings können wir diesen Service nur für Geräte anbieten, die maximal sechs Jahre alt sind.
+Wir können auch Ihr Apple MacBook und iMac reparieren. Allerdings können wir diesen Service nur für Geräte anbieten, die maximal sieben Jahre alt sind.
 
-Dann sind Softwarereparaturen ebenso möglich wie der Displaytausch für Apple Notebooks, der Austausch von Akkus, der Austausch von Festplatten sowie die Erweiterung des Arbeitsspeichers (RAM).
+Dann sind Softwarereparaturen ebenso möglich wie der Displaytausch für Apple Notebooks, der Austausch von Akkus, der Austausch von Festplatten sowie die Erweiterung des Arbeitsspeichers (RAM). Zusätzlich führen wir professionelle Hardware-Reparaturen für alle MacBook-Modelle durch.
+
+[Klicken Sie hier um zur Seite der MacBook-Reparatur zu wechseln](/repair/macbook-reparatur)
 
 ## Wir reparieren auch Microsoft Surface Notebooks
 Wenn Sie Ihr Microsoft Surface reparieren lassen wollen, können wir folgende Arbeiten übernehmen:
 
+- Hardware-Reparaturen z. B. Wasserschaden
+- Software-Reparaturen z. B. neue Einrichtung
 - Displaytausch
 - Datensicherung und Datenrettung
 
