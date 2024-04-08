@@ -1,6 +1,7 @@
 ---
 layout: pakete
 title: Managed Service
+banner: "**Für kurze Zeit** - 2 Wochen kostenloser IT-Support für Neukunden"
 address: Spielhagenstraße 25<br>30171 Hannover
 phone: +49 511 5151 2490
 email: info@hanovatech.de
