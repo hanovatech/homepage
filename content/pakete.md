@@ -6,8 +6,8 @@ address: Spielhagenstraße 25<br>30171 Hannover
 phone: +49 511 5151 2490
 email: info@hanovatech.de
 openingHours: Mo. bis Fr. 9-18 Uhr
-heading: Pakete für jedes Unternehmen
-description: Vertrauen Sie auf die Rundum-Sorglos-Pakete unserer IT-Spezialisten für die Betreuung Ihrer IT-Systeme.
+heading: IT-Service, die Ihr Unternehmen entlastet
+description: Konzentrieren Sie sich auf Ihr Kerngeschäft, während wir uns um Ihre IT-Systeme kümmern.
 first_bundle:
   name: Essential
   description: Geeignet für Freelancer und kleine Teams mit bis zu 20 Mitarbeitern.
