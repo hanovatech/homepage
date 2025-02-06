@@ -50,6 +50,7 @@ title: Kontaktformular
       </ul>
       <div class="col-span-2 mt-16 md:mt-0">
         <form name="repair-contact" data-netlify="true" method="POST" action="/repair/kontakt/success">
+          <input type="hidden" name="subject" id="subject" value="Repair - Kontaktformular" />
           <h2 class="md:hidden text-2xl text-gray-900 font-bold mb-6">Kontakformular</h2>
           <div class="grid grid-cols-1 gap-y-6 gap-x-8 sm:grid-cols-2">
             <div>
