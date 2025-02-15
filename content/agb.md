@@ -161,7 +161,7 @@ Verbraucherstreitbeilegungsgesetz HanovaTech ist nicht verpflichtet oder bereit 
 
 ### 11. Vermögensschadenhaftpflichtversicherung
 
-HanovaTech unterhält eine Vermögensschadenhaftpflichtversicherung mit einer Deckungssumme in Höhe von 300.000,- €, sowie eine Betriebs-, Produkt- und Umwelthaftpflichtversicherung mit einer Versicherungssumme in Höhe von 3.000.000,- €. Sollte der Kunde im Einzelfall zur Absicherung eine Erhöhung der Versicherungssummen wünschen, ist dies nach vorheriger Vereinbarung im Einzelfall möglich.
+HanovaTech unterhält eine Vermögensschadenhaftpflichtversicherung mit einer Deckungssumme in Höhe von 50.000,- €, sowie eine Betriebshaftpflichtversicherung für Personen- und Sachschäden (inkl. Mietsachschäden) mit einer Versicherungssumme in Höhe von 3.000.000,- €. Sollte der Kunde im Einzelfall zur Absicherung eine Erhöhung der Versicherungssummen wünschen, ist dies nach vorheriger Vereinbarung im Einzelfall möglich.
 
 ### 12. Hinweis nach Batteriegesetz
 
