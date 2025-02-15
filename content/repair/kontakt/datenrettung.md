@@ -85,6 +85,8 @@ Beschreibung Textarea
         </div>
         <label class="text-sm leading-6 text-gray-600" id="switch-1-label">
           Ich akzeptiere die 
+          <a href="/agb" class="font-semibold text-blue-600">AGB</a>
+          und die
           <a href="/datenschutz" class="font-semibold text-blue-600">Datenschutzerklärung</a>
         </label>
       </div>
