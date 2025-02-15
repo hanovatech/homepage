@@ -89,7 +89,7 @@ Da wir Batterien und Akkus bzw. solche Geräte verkaufen, die Batterien und Akku
 
 ### 1. Geltungsbereich
 
-1.1 Die folgenden Allgemeinen Geschäftsbedingungen (AGB) gelten für alle Verträge über die Durchführung von Reparatur- und Montagedienstleistungen zwischen dem Kunden und HanovaTech, Hashem Mahmoud, Spielhagenstraße 25, 30171 Hannover (im Folgenden: HanovaTech). Für den Verkauf von Waren durch HanovaTech geltend die Allgemeinen Geschäftsbedingungen für den Verkauf von Waren. Maßgeblich ist die jeweils zum Zeitpunkt des Vertragsschlusses gültige Fassung dieser AGB.
+1.1 Die folgenden Allgemeinen Geschäftsbedingungen (AGB) gelten für alle Verträge über die Durchführung von Reparatur- und Montagedienstleistungen zwischen dem Kunden und HanovaTech GmbH, Spielhagenstraße 25, 30171 Hannover (im Folgenden: HanovaTech). Für den Verkauf von Waren durch HanovaTech geltend die Allgemeinen Geschäftsbedingungen für den Verkauf von Waren. Maßgeblich ist die jeweils zum Zeitpunkt des Vertragsschlusses gültige Fassung dieser AGB.
 
 1.2 Kunden im Sinne dieser AGB können sowohl Verbraucher als auch Unternehmer sein.
 
