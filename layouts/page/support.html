@@ -1,0 +1,80 @@
+{{ define "main" }}
+
+<div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-8 sm:py-16">
+  <div class="prose md:prose-lg max-w-4xl mx-auto">
+    {{ .Content }}
+  </div>
+</div>
+
+<section data-aos="fade-up" class="mx-auto max-w-2xl my-8 px-4 sm:px-6 lg:px-8 pb-12 lg:pb-20">
+  <div class="bg-gray-50 p-3 sm:p-6 border rounded-md sm:rounded-lg sm:shadow-lg">
+    <form name="support-ticket" method="POST" action="/support-success/" data-netlify-recaptcha="true" netlify>
+      <input type="hidden" name="subject" id="subject" value="" />
+      <h2 class="sr-only">IT-Support Formular</h2>
+      <div class="grid grid-cols-1 gap-y-6 gap-x-8 sm:grid-cols-2">
+        <div class="sm:col-span-1">
+          <label for="email" class="block text-sm font-semibold leading-6 text-gray-900">Email*</label>
+          <div class="mt-2.5">
+            <input type="email" name="email" id="email" required autocomplete="email" class="block w-full rounded-md border-0 py-2 px-3.5 text-sm leading-6 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-blue-600">
+          </div>
+        </div>
+        <div class="sm:col-span-1">
+          <label for="phone-number" class="block text-sm font-semibold leading-6 text-gray-900">Telefon</label>
+          <div class="relative mt-2.5">
+            <input type="tel" name="phone-number" id="phone-number" autocomplete="tel" class="block w-full rounded-md border-0 py-2 px-3.5 text-sm leading-6 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-blue-600">
+          </div>
+        </div>
+        <div class="sm:col-span-1">
+          <label for="short-description" class="block text-sm font-semibold leading-6 text-gray-900">Kurzbeschreibung*</label>
+          <div class="relative mt-2.5">
+            <input
+              name="short-description"
+              id="short-description"
+              oninput="this.form.elements[1].value = this.value"
+              required
+              class="block w-full rounded-md border-0 py-2 px-3.5 text-sm leading-6 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-blue-600">
+          </div>
+        </div>
+        <div class="sm:col-span-1">
+          <label for="priority" class="block text-sm font-semibold leading-6 text-gray-900">Priorität</label>
+          <div class="mt-2.5">
+            <select name="priority" id="priority" required class="block w-full rounded-md border-0 py-2 px-3.5 text-sm leading-6 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-blue-600">
+              <option value="Hoch">Notfall</option>
+              <option value="Hoch">Hoch</option>
+              <option value="Normal" selected>Normal</option>
+              <option value="Hoch">Niedrig</option>
+            </select>
+          </div>
+        </div>
+        <div class="sm:col-span-2">
+          <label for="message" class="block text-sm font-semibold leading-6 text-gray-900">Nachricht*</label>
+          <div class="mt-2.5">
+            <textarea
+              name="message"
+              id="message"
+              rows="6"
+              placeholder="Beschreiben Sie Ihr Anliegen so genau wie möglich."
+              required
+              class="block w-full rounded-md border-0 py-2 px-3.5 text-sm leading-6 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-blue-600"></textarea>
+          </div>
+        </div>
+        <div class="flex gap-x-4 sm:col-span-2">
+          <div class="flex h-6 items-center">
+            <input type="checkbox" name="privacy" class="rounded-md" required />
+          </div>
+          <label class="text-sm leading-6 text-gray-600" id="switch-1-label">
+            Ich akzeptiere die 
+            <a href="/datenschutz" class="font-semibold text-blue-600">Datenschutzerklärung</a>
+          </label>
+        </div>
+      </div>
+      <div class="mt-8 mb-4">
+        <button type="submit" class="block w-full rounded-md bg-blue-600 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600 duration-200">
+          Ticket erstellen
+        </button>
+      </div>
+    </form>
+  </div>
+</section>
+
+{{ end }}
