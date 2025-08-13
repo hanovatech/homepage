@@ -1,19 +1,19 @@
 {{ define "main" }}
 
-<div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-8 sm:py-16">
+<div class="mx-auto max-w-2xl px-4 sm:px-6 lg:px-8 py-8 sm:pt-16">
   <div class="prose md:prose-lg max-w-4xl mx-auto">
     {{ .Content }}
   </div>
 </div>
 
-<section data-aos="fade-up" class="mx-auto max-w-2xl my-8 px-4 sm:px-6 lg:px-8 pb-12 lg:pb-20">
-  <div class="bg-gray-50 p-3 sm:p-6 border rounded-md sm:rounded-lg sm:shadow-lg">
+<section data-aos="fade-up" class="mx-auto max-w-2xl sm:px-6 lg:px-8 pb-12 lg:pb-20">
+  <div class="bg-gray-50 p-3 sm:p-6 border sm:rounded-lg sm:shadow-lg">
     <form name="support-ticket" method="POST" action="/support-success/" netlify>
       <input type="hidden" name="subject" id="subject" value="" />
       <h2 class="sr-only">IT-Support Formular</h2>
       <div class="grid grid-cols-1 gap-y-6 gap-x-8 sm:grid-cols-2">
         <div class="sm:col-span-1">
-          <label for="email" class="block text-sm font-semibold leading-6 text-gray-900">Email*</label>
+          <label for="email" class="block text-sm font-semibold leading-6 text-gray-900">Ihre Email-Adresse*</label>
           <div class="mt-2.5">
             <input type="email" name="email" id="email" required autocomplete="email" class="block w-full rounded-md border-0 py-2 px-3.5 text-sm leading-6 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-blue-600">
           </div>
